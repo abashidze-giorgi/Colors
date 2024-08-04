@@ -270,7 +270,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDTitlesButtonObjects2.length ;i < len;++i
 }
 
 
-};gdjs.LoadingCode.userFunc0xb72410 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xce77c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -349,15 +349,14 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xb72410(runtimeScene);
+gdjs.LoadingCode.userFunc0xce77c8(runtimeScene);
 
 }
 
 
 };gdjs.LoadingCode.asyncCallback17639492 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-{gdjs.evtTools.debuggerTools.log("Total score: " + runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), "info", "");
-}{gdjs.evtTools.debuggerTools.log("Responce total score get: " + runtimeScene.getScene().getVariables().getFromIndex(1).getAsString(), "info", "");
+{runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }gdjs.LoadingCode.localVariables.length = 0;
 }
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
