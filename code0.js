@@ -270,7 +270,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDTitlesButtonObjects2.length ;i < len;++i
 }
 
 
-};gdjs.LoadingCode.userFunc0xf90628 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xcef780 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -288,6 +288,7 @@ function setUserParameteres() {
 
         account_params.getChild("TgID").setNumber(user.id);
         account_params.getChild("Username").setString(user.username);
+        account_params.getChild("Loaded").setBoolean(true);
     } else {
         console.error("Telegram WebApp is not available");
         const tg_address = runtimeScene.getGame().getVariables().get("https://t.me/gfavazBot").getAsString();
@@ -348,7 +349,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xf90628(runtimeScene);
+gdjs.LoadingCode.userFunc0xcef780(runtimeScene);
 
 }
 
@@ -468,6 +469,25 @@ if (isConditionTrue_0) {
 { //Subevents
 gdjs.LoadingCode.eventsList2(runtimeScene);} //End of subevents
 }
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Loaded"), true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10676892);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.firebaseTools.database.getField("leaderboard/" + runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
+}{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), "info", "");
+}}
 
 }
 
