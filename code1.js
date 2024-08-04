@@ -338,7 +338,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.MenuCode.GDTotalScoreObjects1);
 {for(var i = 0, len = gdjs.MenuCode.GDTotalScoreObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDTotalScoreObjects1[i].getBehavior("Text").setText("Score:" + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").getAsString());
+    gdjs.MenuCode.GDTotalScoreObjects1[i].getBehavior("Text").setText("Score: " + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").getAsString());
 }
 }}
 
