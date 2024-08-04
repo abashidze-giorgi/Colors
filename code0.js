@@ -270,7 +270,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDTitlesButtonObjects2.length ;i < len;++i
 }
 
 
-};gdjs.LoadingCode.userFunc0xc24f90 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xd9efb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -349,7 +349,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xc24f90(runtimeScene);
+gdjs.LoadingCode.userFunc0xd9efb0(runtimeScene);
 
 }
 
@@ -485,8 +485,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.database.getField("leaderboard/" + runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
+{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
 }{gdjs.evtTools.debuggerTools.log("Total score: " + runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), "info", "");
+}{gdjs.evtTools.debuggerTools.log("Responce total score get: " + runtimeScene.getScene().getVariables().getFromIndex(1).getAsString(), "info", "");
 }}
 
 }
