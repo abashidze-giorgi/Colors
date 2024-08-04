@@ -123,7 +123,7 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDGameCanvasObjects1Objects = Hashtable.newFrom({"GameCanvas": gdjs.ColorSelectSceneCode.GDGameCanvasObjects1});
-gdjs.ColorSelectSceneCode.userFunc0xe41328 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.userFunc0xb9cc58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -145,7 +145,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0xe41328(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0xb9cc58(runtimeScene);
 
 }
 

@@ -270,7 +270,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDTitlesButtonObjects2.length ;i < len;++i
 }
 
 
-};gdjs.LoadingCode.userFunc0xce77c8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xb9cc58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -291,7 +291,7 @@ function setUserParameteres() {
         account_params.getChild("Loaded").setBoolean(true);
     } else {
         console.error("Telegram WebApp is not available");
-        const tg_address = runtimeScene.getGame().getVariables().get("https://t.me/gfavazBot").getAsString();
+        const tg_address = runtimeScene.getGame().getVariables().get("https://t.me/gfavazBot/ColorCode").getAsString();
         window.location.href = tg_address;
     }
 }
@@ -349,7 +349,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xce77c8(runtimeScene);
+gdjs.LoadingCode.userFunc0xb9cc58(runtimeScene);
 
 }
 
