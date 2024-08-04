@@ -2704,7 +2704,7 @@ gdjs.GamePlayCode.eventsList33(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x102f190 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xb2cfc8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const AdController = window.Adsgram.init({
   blockId: "1513",
@@ -2731,7 +2731,7 @@ gdjs.GamePlayCode.eventsList35 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x102f190(runtimeScene);
+gdjs.GamePlayCode.userFunc0xb2cfc8(runtimeScene);
 
 }
 
@@ -3173,7 +3173,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0xd52a18 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xcd9a88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -3241,7 +3241,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xd52a18(runtimeScene);
+gdjs.GamePlayCode.userFunc0xcd9a88(runtimeScene);
 
 }
 
@@ -3319,7 +3319,7 @@ gdjs.GamePlayCode.eventsList48(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0xd54ce8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xeb4a18 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -4163,7 +4163,7 @@ gdjs.GamePlayCode.eventsList62(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0xd54ce8(runtimeScene);
+gdjs.GamePlayCode.userFunc0xeb4a18(runtimeScene);
 
 }
 
@@ -4992,7 +4992,7 @@ gdjs.GamePlayCode.eventsList74(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0xd24a78 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xcd97f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -5021,7 +5021,7 @@ gdjs.GamePlayCode.eventsList76 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xd24a78(runtimeScene);
+gdjs.GamePlayCode.userFunc0xcd97f0(runtimeScene);
 
 }
 
