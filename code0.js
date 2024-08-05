@@ -155,12 +155,13 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.storage.readNumberFromJSONFile("Storage", "Sound", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(20));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Storage", "Music", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(19));
 }{gdjs.evtTools.storage.unloadJSONFile("Storage");
+}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(30);
 }}
 
 }
 
 
-};gdjs.LoadingCode.userFunc0x87ba90 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0x92ee70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -232,7 +233,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x87ba90(runtimeScene);
+gdjs.LoadingCode.userFunc0x92ee70(runtimeScene);
 
 }
 
