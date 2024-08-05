@@ -66,48 +66,6 @@ gdjs.LoadingCode.GDRedExplosionObjects3= [];
 gdjs.LoadingCode.GDBasicExplosionEnergySparksObjects1= [];
 gdjs.LoadingCode.GDBasicExplosionEnergySparksObjects2= [];
 gdjs.LoadingCode.GDBasicExplosionEnergySparksObjects3= [];
-gdjs.LoadingCode.GDBasicExplosionSmoothObjects1= [];
-gdjs.LoadingCode.GDBasicExplosionSmoothObjects2= [];
-gdjs.LoadingCode.GDBasicExplosionSmoothObjects3= [];
-gdjs.LoadingCode.GDBasicExplosionEnergyObjects1= [];
-gdjs.LoadingCode.GDBasicExplosionEnergyObjects2= [];
-gdjs.LoadingCode.GDBasicExplosionEnergyObjects3= [];
-gdjs.LoadingCode.GDLightningTextureObjects1= [];
-gdjs.LoadingCode.GDLightningTextureObjects2= [];
-gdjs.LoadingCode.GDLightningTextureObjects3= [];
-gdjs.LoadingCode.GDMagicObjects1= [];
-gdjs.LoadingCode.GDMagicObjects2= [];
-gdjs.LoadingCode.GDMagicObjects3= [];
-gdjs.LoadingCode.GDMagic2Objects1= [];
-gdjs.LoadingCode.GDMagic2Objects2= [];
-gdjs.LoadingCode.GDMagic2Objects3= [];
-gdjs.LoadingCode.GDStarSparksObjects1= [];
-gdjs.LoadingCode.GDStarSparksObjects2= [];
-gdjs.LoadingCode.GDStarSparksObjects3= [];
-gdjs.LoadingCode.GDBlueExplosionObjects1= [];
-gdjs.LoadingCode.GDBlueExplosionObjects2= [];
-gdjs.LoadingCode.GDBlueExplosionObjects3= [];
-gdjs.LoadingCode.GDBasicFlameObjects1= [];
-gdjs.LoadingCode.GDBasicFlameObjects2= [];
-gdjs.LoadingCode.GDBasicFlameObjects3= [];
-gdjs.LoadingCode.GDBasicSparksObjects1= [];
-gdjs.LoadingCode.GDBasicSparksObjects2= [];
-gdjs.LoadingCode.GDBasicSparksObjects3= [];
-gdjs.LoadingCode.GDPixiDustObjects1= [];
-gdjs.LoadingCode.GDPixiDustObjects2= [];
-gdjs.LoadingCode.GDPixiDustObjects3= [];
-gdjs.LoadingCode.GDRainObjects1= [];
-gdjs.LoadingCode.GDRainObjects2= [];
-gdjs.LoadingCode.GDRainObjects3= [];
-gdjs.LoadingCode.GDFreezingObjects1= [];
-gdjs.LoadingCode.GDFreezingObjects2= [];
-gdjs.LoadingCode.GDFreezingObjects3= [];
-gdjs.LoadingCode.GDFireSpinObjects1= [];
-gdjs.LoadingCode.GDFireSpinObjects2= [];
-gdjs.LoadingCode.GDFireSpinObjects3= [];
-gdjs.LoadingCode.GDNebulaObjects1= [];
-gdjs.LoadingCode.GDNebulaObjects2= [];
-gdjs.LoadingCode.GDNebulaObjects3= [];
 gdjs.LoadingCode.GDFoundament_9595fxsObjects1= [];
 gdjs.LoadingCode.GDFoundament_9595fxsObjects2= [];
 gdjs.LoadingCode.GDFoundament_9595fxsObjects3= [];
@@ -202,40 +160,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0xdea440 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-var script = document.createElement('script');
-script.src = 'https://telegram.org/js/telegram-web-app.js';
-
-var ads_script = document.createElement('script');
-ads_script.src = 'https://sad.adsgram.ai/js/sad.min.js';
-
-function setUserParameteres() {
-    var account_params = runtimeScene.getGame().getVariables().get("Account");
-
-    // Проверка наличия объекта Telegram WebApp API
-    if (window.Telegram.WebApp.initData) {
-        const initData = window.Telegram.WebApp.initDataUnsafe;
-        const user = initData.user;
-
-        account_params.getChild("TgID").setNumber(user.id);
-        account_params.getChild("Username").setString(user.username);
-        account_params.getChild("Loaded").setBoolean(true);
-    } else {
-        console.error("Telegram WebApp is not available");
-        const tg_address = runtimeScene.getGame().getVariables().get("TgBotAddress").getAsString();
-        window.location.href = tg_address;
-    }
-}
-
-script.onload = function() {
-    setUserParameteres();
-};
-
-document.head.appendChild(script);
-document.head.appendChild(ads_script);
-};
-gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -257,24 +182,6 @@ let isConditionTrue_0 = false;
 {
 
 
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-gdjs.LoadingCode.userFunc0xdea440(runtimeScene);
 
 }
 
@@ -590,48 +497,6 @@ gdjs.LoadingCode.GDRedExplosionObjects3.length = 0;
 gdjs.LoadingCode.GDBasicExplosionEnergySparksObjects1.length = 0;
 gdjs.LoadingCode.GDBasicExplosionEnergySparksObjects2.length = 0;
 gdjs.LoadingCode.GDBasicExplosionEnergySparksObjects3.length = 0;
-gdjs.LoadingCode.GDBasicExplosionSmoothObjects1.length = 0;
-gdjs.LoadingCode.GDBasicExplosionSmoothObjects2.length = 0;
-gdjs.LoadingCode.GDBasicExplosionSmoothObjects3.length = 0;
-gdjs.LoadingCode.GDBasicExplosionEnergyObjects1.length = 0;
-gdjs.LoadingCode.GDBasicExplosionEnergyObjects2.length = 0;
-gdjs.LoadingCode.GDBasicExplosionEnergyObjects3.length = 0;
-gdjs.LoadingCode.GDLightningTextureObjects1.length = 0;
-gdjs.LoadingCode.GDLightningTextureObjects2.length = 0;
-gdjs.LoadingCode.GDLightningTextureObjects3.length = 0;
-gdjs.LoadingCode.GDMagicObjects1.length = 0;
-gdjs.LoadingCode.GDMagicObjects2.length = 0;
-gdjs.LoadingCode.GDMagicObjects3.length = 0;
-gdjs.LoadingCode.GDMagic2Objects1.length = 0;
-gdjs.LoadingCode.GDMagic2Objects2.length = 0;
-gdjs.LoadingCode.GDMagic2Objects3.length = 0;
-gdjs.LoadingCode.GDStarSparksObjects1.length = 0;
-gdjs.LoadingCode.GDStarSparksObjects2.length = 0;
-gdjs.LoadingCode.GDStarSparksObjects3.length = 0;
-gdjs.LoadingCode.GDBlueExplosionObjects1.length = 0;
-gdjs.LoadingCode.GDBlueExplosionObjects2.length = 0;
-gdjs.LoadingCode.GDBlueExplosionObjects3.length = 0;
-gdjs.LoadingCode.GDBasicFlameObjects1.length = 0;
-gdjs.LoadingCode.GDBasicFlameObjects2.length = 0;
-gdjs.LoadingCode.GDBasicFlameObjects3.length = 0;
-gdjs.LoadingCode.GDBasicSparksObjects1.length = 0;
-gdjs.LoadingCode.GDBasicSparksObjects2.length = 0;
-gdjs.LoadingCode.GDBasicSparksObjects3.length = 0;
-gdjs.LoadingCode.GDPixiDustObjects1.length = 0;
-gdjs.LoadingCode.GDPixiDustObjects2.length = 0;
-gdjs.LoadingCode.GDPixiDustObjects3.length = 0;
-gdjs.LoadingCode.GDRainObjects1.length = 0;
-gdjs.LoadingCode.GDRainObjects2.length = 0;
-gdjs.LoadingCode.GDRainObjects3.length = 0;
-gdjs.LoadingCode.GDFreezingObjects1.length = 0;
-gdjs.LoadingCode.GDFreezingObjects2.length = 0;
-gdjs.LoadingCode.GDFreezingObjects3.length = 0;
-gdjs.LoadingCode.GDFireSpinObjects1.length = 0;
-gdjs.LoadingCode.GDFireSpinObjects2.length = 0;
-gdjs.LoadingCode.GDFireSpinObjects3.length = 0;
-gdjs.LoadingCode.GDNebulaObjects1.length = 0;
-gdjs.LoadingCode.GDNebulaObjects2.length = 0;
-gdjs.LoadingCode.GDNebulaObjects3.length = 0;
 gdjs.LoadingCode.GDFoundament_9595fxsObjects1.length = 0;
 gdjs.LoadingCode.GDFoundament_9595fxsObjects2.length = 0;
 gdjs.LoadingCode.GDFoundament_9595fxsObjects3.length = 0;

@@ -36,34 +36,6 @@ gdjs.ColorSelectSceneCode.GDRedExplosionObjects1= [];
 gdjs.ColorSelectSceneCode.GDRedExplosionObjects2= [];
 gdjs.ColorSelectSceneCode.GDBasicExplosionEnergySparksObjects1= [];
 gdjs.ColorSelectSceneCode.GDBasicExplosionEnergySparksObjects2= [];
-gdjs.ColorSelectSceneCode.GDBasicExplosionSmoothObjects1= [];
-gdjs.ColorSelectSceneCode.GDBasicExplosionSmoothObjects2= [];
-gdjs.ColorSelectSceneCode.GDBasicExplosionEnergyObjects1= [];
-gdjs.ColorSelectSceneCode.GDBasicExplosionEnergyObjects2= [];
-gdjs.ColorSelectSceneCode.GDLightningTextureObjects1= [];
-gdjs.ColorSelectSceneCode.GDLightningTextureObjects2= [];
-gdjs.ColorSelectSceneCode.GDMagicObjects1= [];
-gdjs.ColorSelectSceneCode.GDMagicObjects2= [];
-gdjs.ColorSelectSceneCode.GDMagic2Objects1= [];
-gdjs.ColorSelectSceneCode.GDMagic2Objects2= [];
-gdjs.ColorSelectSceneCode.GDStarSparksObjects1= [];
-gdjs.ColorSelectSceneCode.GDStarSparksObjects2= [];
-gdjs.ColorSelectSceneCode.GDBlueExplosionObjects1= [];
-gdjs.ColorSelectSceneCode.GDBlueExplosionObjects2= [];
-gdjs.ColorSelectSceneCode.GDBasicFlameObjects1= [];
-gdjs.ColorSelectSceneCode.GDBasicFlameObjects2= [];
-gdjs.ColorSelectSceneCode.GDBasicSparksObjects1= [];
-gdjs.ColorSelectSceneCode.GDBasicSparksObjects2= [];
-gdjs.ColorSelectSceneCode.GDPixiDustObjects1= [];
-gdjs.ColorSelectSceneCode.GDPixiDustObjects2= [];
-gdjs.ColorSelectSceneCode.GDRainObjects1= [];
-gdjs.ColorSelectSceneCode.GDRainObjects2= [];
-gdjs.ColorSelectSceneCode.GDFreezingObjects1= [];
-gdjs.ColorSelectSceneCode.GDFreezingObjects2= [];
-gdjs.ColorSelectSceneCode.GDFireSpinObjects1= [];
-gdjs.ColorSelectSceneCode.GDFireSpinObjects2= [];
-gdjs.ColorSelectSceneCode.GDNebulaObjects1= [];
-gdjs.ColorSelectSceneCode.GDNebulaObjects2= [];
 gdjs.ColorSelectSceneCode.GDFoundament_9595fxsObjects1= [];
 gdjs.ColorSelectSceneCode.GDFoundament_9595fxsObjects2= [];
 gdjs.ColorSelectSceneCode.GDCheckButtonObjects1= [];
@@ -122,7 +94,7 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
-gdjs.ColorSelectSceneCode.userFunc0xda90d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.userFunc0xd503b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -144,7 +116,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0xda90d8(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0xd503b8(runtimeScene);
 
 }
 
@@ -290,34 +262,6 @@ gdjs.ColorSelectSceneCode.GDRedExplosionObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDRedExplosionObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDBasicExplosionEnergySparksObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDBasicExplosionEnergySparksObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicExplosionSmoothObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicExplosionSmoothObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicExplosionEnergyObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicExplosionEnergyObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDLightningTextureObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDLightningTextureObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDMagicObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDMagicObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDMagic2Objects1.length = 0;
-gdjs.ColorSelectSceneCode.GDMagic2Objects2.length = 0;
-gdjs.ColorSelectSceneCode.GDStarSparksObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDStarSparksObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDBlueExplosionObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDBlueExplosionObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicFlameObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicFlameObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicSparksObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDBasicSparksObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDPixiDustObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDPixiDustObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDRainObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDRainObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDFreezingObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDFreezingObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDFireSpinObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDFireSpinObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDNebulaObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDNebulaObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDFoundament_9595fxsObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDFoundament_9595fxsObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDCheckButtonObjects1.length = 0;

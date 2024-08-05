@@ -44,34 +44,6 @@ gdjs.TestSceneCode.GDRedExplosionObjects1= [];
 gdjs.TestSceneCode.GDRedExplosionObjects2= [];
 gdjs.TestSceneCode.GDBasicExplosionEnergySparksObjects1= [];
 gdjs.TestSceneCode.GDBasicExplosionEnergySparksObjects2= [];
-gdjs.TestSceneCode.GDBasicExplosionSmoothObjects1= [];
-gdjs.TestSceneCode.GDBasicExplosionSmoothObjects2= [];
-gdjs.TestSceneCode.GDBasicExplosionEnergyObjects1= [];
-gdjs.TestSceneCode.GDBasicExplosionEnergyObjects2= [];
-gdjs.TestSceneCode.GDLightningTextureObjects1= [];
-gdjs.TestSceneCode.GDLightningTextureObjects2= [];
-gdjs.TestSceneCode.GDMagicObjects1= [];
-gdjs.TestSceneCode.GDMagicObjects2= [];
-gdjs.TestSceneCode.GDMagic2Objects1= [];
-gdjs.TestSceneCode.GDMagic2Objects2= [];
-gdjs.TestSceneCode.GDStarSparksObjects1= [];
-gdjs.TestSceneCode.GDStarSparksObjects2= [];
-gdjs.TestSceneCode.GDBlueExplosionObjects1= [];
-gdjs.TestSceneCode.GDBlueExplosionObjects2= [];
-gdjs.TestSceneCode.GDBasicFlameObjects1= [];
-gdjs.TestSceneCode.GDBasicFlameObjects2= [];
-gdjs.TestSceneCode.GDBasicSparksObjects1= [];
-gdjs.TestSceneCode.GDBasicSparksObjects2= [];
-gdjs.TestSceneCode.GDPixiDustObjects1= [];
-gdjs.TestSceneCode.GDPixiDustObjects2= [];
-gdjs.TestSceneCode.GDRainObjects1= [];
-gdjs.TestSceneCode.GDRainObjects2= [];
-gdjs.TestSceneCode.GDFreezingObjects1= [];
-gdjs.TestSceneCode.GDFreezingObjects2= [];
-gdjs.TestSceneCode.GDFireSpinObjects1= [];
-gdjs.TestSceneCode.GDFireSpinObjects2= [];
-gdjs.TestSceneCode.GDNebulaObjects1= [];
-gdjs.TestSceneCode.GDNebulaObjects2= [];
 gdjs.TestSceneCode.GDFoundament_9595fxsObjects1= [];
 gdjs.TestSceneCode.GDFoundament_9595fxsObjects2= [];
 gdjs.TestSceneCode.GDCheckButtonObjects1= [];
@@ -124,7 +96,7 @@ gdjs.TestSceneCode.GDBackgroundImageObjects1= [];
 gdjs.TestSceneCode.GDBackgroundImageObjects2= [];
 
 
-gdjs.TestSceneCode.userFunc0xde9910 = function GDJSInlineCode(runtimeScene) {
+gdjs.TestSceneCode.userFunc0xa273f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const AdController = window.Adsgram.init({
   blockId: "848",
@@ -151,7 +123,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.TestSceneCode.userFunc0xde9910(runtimeScene);
+gdjs.TestSceneCode.userFunc0xa273f8(runtimeScene);
 
 }
 
@@ -273,34 +245,6 @@ gdjs.TestSceneCode.GDRedExplosionObjects1.length = 0;
 gdjs.TestSceneCode.GDRedExplosionObjects2.length = 0;
 gdjs.TestSceneCode.GDBasicExplosionEnergySparksObjects1.length = 0;
 gdjs.TestSceneCode.GDBasicExplosionEnergySparksObjects2.length = 0;
-gdjs.TestSceneCode.GDBasicExplosionSmoothObjects1.length = 0;
-gdjs.TestSceneCode.GDBasicExplosionSmoothObjects2.length = 0;
-gdjs.TestSceneCode.GDBasicExplosionEnergyObjects1.length = 0;
-gdjs.TestSceneCode.GDBasicExplosionEnergyObjects2.length = 0;
-gdjs.TestSceneCode.GDLightningTextureObjects1.length = 0;
-gdjs.TestSceneCode.GDLightningTextureObjects2.length = 0;
-gdjs.TestSceneCode.GDMagicObjects1.length = 0;
-gdjs.TestSceneCode.GDMagicObjects2.length = 0;
-gdjs.TestSceneCode.GDMagic2Objects1.length = 0;
-gdjs.TestSceneCode.GDMagic2Objects2.length = 0;
-gdjs.TestSceneCode.GDStarSparksObjects1.length = 0;
-gdjs.TestSceneCode.GDStarSparksObjects2.length = 0;
-gdjs.TestSceneCode.GDBlueExplosionObjects1.length = 0;
-gdjs.TestSceneCode.GDBlueExplosionObjects2.length = 0;
-gdjs.TestSceneCode.GDBasicFlameObjects1.length = 0;
-gdjs.TestSceneCode.GDBasicFlameObjects2.length = 0;
-gdjs.TestSceneCode.GDBasicSparksObjects1.length = 0;
-gdjs.TestSceneCode.GDBasicSparksObjects2.length = 0;
-gdjs.TestSceneCode.GDPixiDustObjects1.length = 0;
-gdjs.TestSceneCode.GDPixiDustObjects2.length = 0;
-gdjs.TestSceneCode.GDRainObjects1.length = 0;
-gdjs.TestSceneCode.GDRainObjects2.length = 0;
-gdjs.TestSceneCode.GDFreezingObjects1.length = 0;
-gdjs.TestSceneCode.GDFreezingObjects2.length = 0;
-gdjs.TestSceneCode.GDFireSpinObjects1.length = 0;
-gdjs.TestSceneCode.GDFireSpinObjects2.length = 0;
-gdjs.TestSceneCode.GDNebulaObjects1.length = 0;
-gdjs.TestSceneCode.GDNebulaObjects2.length = 0;
 gdjs.TestSceneCode.GDFoundament_9595fxsObjects1.length = 0;
 gdjs.TestSceneCode.GDFoundament_9595fxsObjects2.length = 0;
 gdjs.TestSceneCode.GDCheckButtonObjects1.length = 0;
