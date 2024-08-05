@@ -96,7 +96,7 @@ gdjs.TestSceneCode.GDBackgroundImageObjects1= [];
 gdjs.TestSceneCode.GDBackgroundImageObjects2= [];
 
 
-gdjs.TestSceneCode.userFunc0xb15a78 = function GDJSInlineCode(runtimeScene) {
+gdjs.TestSceneCode.userFunc0x1140778 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const AdController = window.Adsgram.init({
   blockId: "848",
@@ -123,7 +123,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.TestSceneCode.userFunc0xb15a78(runtimeScene);
+gdjs.TestSceneCode.userFunc0x1140778(runtimeScene);
 
 }
 
@@ -184,7 +184,7 @@ for (var i = 0, k = 0, l = gdjs.TestSceneCode.GDApplyBtnObjects1.length;i<l;++i)
 gdjs.TestSceneCode.GDApplyBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19078076);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17316476);
 }
 }
 if (isConditionTrue_0) {
