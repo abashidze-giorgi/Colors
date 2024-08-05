@@ -4609,7 +4609,7 @@ gdjs.projectData = {
                 { folded: true, name: "AdsShow", type: "boolean", value: false },
                 { folded: true, name: "AdsStart", type: "boolean", value: false },
                 { folded: true, name: "TgBotAddress", type: "string", value: "https://t.me/gfavazBot/ColorCode" },
-                { name: "TgColorCodeAddX2ScoreAfterEndGame", type: "string", value: "1530" },
+                { name: "TgColorCodeAddX2ScoreAfterEndGame", type: "string", value: "1541" },
             ],
         },
     ],

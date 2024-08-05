@@ -2635,7 +2635,7 @@ gdjs.GamePlayCode.eventsList33(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x10db8e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x11022e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var telegram = runtimeScene.getGame().getVariables().get("Telegram");
 telegram.getChild("AdsStart").setBoolean(true);
@@ -2644,7 +2644,7 @@ var blockNumber = telegram.getChild("TgColorCodeAddX2ScoreAfterEndGame").getAsSt
 console.log("AdsBlock number: ", blockNumber);
 const AdController = window.Adsgram.init({
   blockId: blockNumber,
-  debug: true,
+  debug: false,
   debugBannerType: "FullscreenMedia"
 });
 
@@ -2666,7 +2666,7 @@ gdjs.GamePlayCode.eventsList35 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x10db8e0(runtimeScene);
+gdjs.GamePlayCode.userFunc0x11022e8(runtimeScene);
 
 }
 
@@ -2716,9 +2716,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.GamePlayCode.asyncCallback17490220 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GamePlayCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsStart").setBoolean(false);
-}{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsShow").setBoolean(false);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
 }gdjs.GamePlayCode.localVariables.length = 0;
 }
 gdjs.GamePlayCode.eventsList38 = function(runtimeScene) {
@@ -2751,7 +2749,9 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
+{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsStart").setBoolean(false);
+}{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsShow").setBoolean(false);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
 }{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(3), runtimeScene.getScene().getVariables().getFromIndex(1));
 }
 { //Subevents
@@ -2766,14 +2766,10 @@ gdjs.GamePlayCode.eventsList36(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) == "ok";
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore")) <= 900;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17469476);
-}
 }
 }
 if (isConditionTrue_0) {
@@ -2846,9 +2842,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.GamePlayCode.asyncCallback17492356 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GamePlayCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsStart").setBoolean(false);
-}{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsShow").setBoolean(false);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
 }gdjs.GamePlayCode.localVariables.length = 0;
 }
 gdjs.GamePlayCode.eventsList42 = function(runtimeScene) {
@@ -2881,7 +2875,9 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
+{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsStart").setBoolean(false);
+}{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsShow").setBoolean(false);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
 }{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(3), runtimeScene.getScene().getVariables().getFromIndex(1));
 }
 { //Subevents
@@ -2896,14 +2892,10 @@ gdjs.GamePlayCode.eventsList40(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) == "ok";
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore")) <= 900;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17469477);
-}
 }
 }
 if (isConditionTrue_0) {
@@ -2976,9 +2968,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.GamePlayCode.asyncCallback17494332 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GamePlayCode.localVariables);
-{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsStart").setBoolean(false);
-}{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsShow").setBoolean(false);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
 }gdjs.GamePlayCode.localVariables.length = 0;
 }
 gdjs.GamePlayCode.eventsList46 = function(runtimeScene) {
@@ -3011,7 +3001,9 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
+{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsStart").setBoolean(false);
+}{runtimeScene.getGame().getVariables().getFromIndex(28).getChild("AdsShow").setBoolean(false);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
 }{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(3), runtimeScene.getScene().getVariables().getFromIndex(1));
 }
 { //Subevents
@@ -3026,14 +3018,10 @@ gdjs.GamePlayCode.eventsList44(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) == "ok";
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore")) <= 900;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17469478);
-}
 }
 }
 if (isConditionTrue_0) {
@@ -3202,7 +3190,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0x92d5d0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xa70830 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -3270,7 +3258,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x92d5d0(runtimeScene);
+gdjs.GamePlayCode.userFunc0xa70830(runtimeScene);
 
 }
 
@@ -3348,7 +3336,7 @@ gdjs.GamePlayCode.eventsList50(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x1101fb8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x1058360 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -4192,7 +4180,7 @@ gdjs.GamePlayCode.eventsList64(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0x1101fb8(runtimeScene);
+gdjs.GamePlayCode.userFunc0x1058360(runtimeScene);
 
 }
 
@@ -5021,7 +5009,7 @@ gdjs.GamePlayCode.eventsList76(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0xb14e70 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xa71b50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -5050,7 +5038,7 @@ gdjs.GamePlayCode.eventsList78 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xb14e70(runtimeScene);
+gdjs.GamePlayCode.userFunc0xa71b50(runtimeScene);
 
 }
 
@@ -5415,8 +5403,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Adsgram Timer") >= 1;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("ClaimBtn"), gdjs.GamePlayCode.GDClaimBtnObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ClaimX2Btn"), gdjs.GamePlayCode.GDClaimX2BtnObjects1);
 {for(var i = 0, len = gdjs.GamePlayCode.GDClaimBtnObjects1.length ;i < len;++i) {
     gdjs.GamePlayCode.GDClaimBtnObjects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.GamePlayCode.GDClaimX2BtnObjects1.length ;i < len;++i) {
+    gdjs.GamePlayCode.GDClaimX2BtnObjects1[i].hide(false);
 }
 }{gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "Adsgram Timer");
 }}
