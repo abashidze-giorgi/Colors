@@ -160,7 +160,40 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xd9d3a0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+var script = document.createElement('script');
+script.src = 'https://telegram.org/js/telegram-web-app.js';
+
+var ads_script = document.createElement('script');
+ads_script.src = 'https://sad.adsgram.ai/js/sad.min.js';
+
+function setUserParameteres() {
+    var account_params = runtimeScene.getGame().getVariables().get("Account");
+
+    // Проверка наличия объекта Telegram WebApp API
+    if (window.Telegram.WebApp.initData) {
+        const initData = window.Telegram.WebApp.initDataUnsafe;
+        const user = initData.user;
+
+        account_params.getChild("TgID").setNumber(user.id);
+        account_params.getChild("Username").setString(user.username);
+        account_params.getChild("Loaded").setBoolean(true);
+    } else {
+        console.error("Telegram WebApp is not available");
+        const tg_address = runtimeScene.getGame().getVariables().get("TgBotAddress").getAsString();
+        window.location.href = tg_address;
+    }
+}
+
+script.onload = function() {
+    setUserParameteres();
+};
+
+document.head.appendChild(script);
+document.head.appendChild(ads_script);
+};
+gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -182,6 +215,24 @@ let isConditionTrue_0 = false;
 {
 
 
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+gdjs.LoadingCode.userFunc0xd9d3a0(runtimeScene);
 
 }
 

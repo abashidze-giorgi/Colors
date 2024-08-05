@@ -96,7 +96,7 @@ gdjs.TestSceneCode.GDBackgroundImageObjects1= [];
 gdjs.TestSceneCode.GDBackgroundImageObjects2= [];
 
 
-gdjs.TestSceneCode.userFunc0xa273f8 = function GDJSInlineCode(runtimeScene) {
+gdjs.TestSceneCode.userFunc0xcb49e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const AdController = window.Adsgram.init({
   blockId: "848",
@@ -123,7 +123,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.TestSceneCode.userFunc0xa273f8(runtimeScene);
+gdjs.TestSceneCode.userFunc0xcb49e0(runtimeScene);
 
 }
 
