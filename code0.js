@@ -161,7 +161,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0x92b748 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0x8c82b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -233,12 +233,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x92b748(runtimeScene);
+gdjs.LoadingCode.userFunc0x8c82b8(runtimeScene);
 
 }
 
 
-};gdjs.LoadingCode.asyncCallback17033884 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback14626972 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }gdjs.LoadingCode.localVariables.length = 0;
@@ -252,7 +252,7 @@ gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.LoadingCode.asyncCallback17033884(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.LoadingCode.asyncCallback14626972(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -385,8 +385,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Loaded"), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17032764);
-}
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded"), false, false);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
@@ -394,6 +393,24 @@ if (isConditionTrue_0) {
 { //Subevents
 gdjs.LoadingCode.eventsList2(runtimeScene);} //End of subevents
 }
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) == "ok";
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15849036);
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded").setBoolean(true);
+}}
 
 }
 
