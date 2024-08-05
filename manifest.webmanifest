@@ -8,5 +8,77 @@
   "display": "standalone",
   "background_color": "black",
   "categories": ["games", "entertainment"],
-  "icons": []
+  "icons": [{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "20x20"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "29x29"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "36x36"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "40x40"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "48x48"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "50x50"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "57x57"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "58x58"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "60x60"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "72x72"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "76x76"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "80x80"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "87x87"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "96x96"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "100x100"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "114x114"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "120x120"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "144x144"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "152x152"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "167x167"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "180x180"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "192x192"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "512x512"
+      },{
+        "src": "40a2acc2-5c1f-4dd3-806c-d815c97d227f_0.png",
+        "sizes": "1024x1024"
+      }]
 }

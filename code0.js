@@ -180,9 +180,9 @@ gdjs.LoadingCode.GDGameOverCanvasObjects3= [];
 gdjs.LoadingCode.GDTitlesButtonObjects1= [];
 gdjs.LoadingCode.GDTitlesButtonObjects2= [];
 gdjs.LoadingCode.GDTitlesButtonObjects3= [];
-gdjs.LoadingCode.GDGameCanvasObjects1= [];
-gdjs.LoadingCode.GDGameCanvasObjects2= [];
-gdjs.LoadingCode.GDGameCanvasObjects3= [];
+gdjs.LoadingCode.GDBackgroundImageObjects1= [];
+gdjs.LoadingCode.GDBackgroundImageObjects2= [];
+gdjs.LoadingCode.GDBackgroundImageObjects3= [];
 
 
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
@@ -202,7 +202,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0x11e2ee0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xdea440 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -274,7 +274,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x11e2ee0(runtimeScene);
+gdjs.LoadingCode.userFunc0xdea440(runtimeScene);
 
 }
 
@@ -307,14 +307,14 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.LoadingCode.GDGameCanvasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.LoadingCode.GDBackgroundImageObjects1);
 gdjs.copyArray(runtimeScene.getObjects("GameName"), gdjs.LoadingCode.GDGameNameObjects1);
 gdjs.copyArray(runtimeScene.getObjects("StartBtn"), gdjs.LoadingCode.GDStartBtnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("TestBtn"), gdjs.LoadingCode.GDTestBtnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("UsernameLbl"), gdjs.LoadingCode.GDUsernameLblObjects1);
 gdjs.copyArray(runtimeScene.getObjects("usernameInput"), gdjs.LoadingCode.GDusernameInputObjects1);
-{for(var i = 0, len = gdjs.LoadingCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.LoadingCode.GDGameCanvasObjects1[i].getBehavior("Resizable").setSize(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene), gdjs.evtTools.window.getGameResolutionHeight(runtimeScene));
+{for(var i = 0, len = gdjs.LoadingCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.LoadingCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setSize(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene), gdjs.evtTools.window.getGameResolutionHeight(runtimeScene));
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
 }{for(var i = 0, len = gdjs.LoadingCode.GDusernameInputObjects1.length ;i < len;++i) {
@@ -332,8 +332,8 @@ for(var i = 0, len = gdjs.LoadingCode.GDGameNameObjects1.length ;i < len;++i) {
 for(var i = 0, len = gdjs.LoadingCode.GDTestBtnObjects1.length ;i < len;++i) {
     gdjs.LoadingCode.GDTestBtnObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.LoadingCode.GDTestBtnObjects1[i].getWidth())) / 2);
 }
-for(var i = 0, len = gdjs.LoadingCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.LoadingCode.GDGameCanvasObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.LoadingCode.GDGameCanvasObjects1[i].getWidth())) / 2);
+for(var i = 0, len = gdjs.LoadingCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.LoadingCode.GDBackgroundImageObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.LoadingCode.GDBackgroundImageObjects1[i].getWidth())) / 2);
 }
 }}
 
@@ -414,13 +414,13 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.LoadingCode.GDGameCanvasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.LoadingCode.GDBackgroundImageObjects1);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "");
 }{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene));
 }{gdjs.adMob.setTestMode(true);
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "LoadingTimer");
-}{for(var i = 0, len = gdjs.LoadingCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.LoadingCode.GDGameCanvasObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
+}{for(var i = 0, len = gdjs.LoadingCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.LoadingCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
 }
 { //Subevents
@@ -704,9 +704,9 @@ gdjs.LoadingCode.GDGameOverCanvasObjects3.length = 0;
 gdjs.LoadingCode.GDTitlesButtonObjects1.length = 0;
 gdjs.LoadingCode.GDTitlesButtonObjects2.length = 0;
 gdjs.LoadingCode.GDTitlesButtonObjects3.length = 0;
-gdjs.LoadingCode.GDGameCanvasObjects1.length = 0;
-gdjs.LoadingCode.GDGameCanvasObjects2.length = 0;
-gdjs.LoadingCode.GDGameCanvasObjects3.length = 0;
+gdjs.LoadingCode.GDBackgroundImageObjects1.length = 0;
+gdjs.LoadingCode.GDBackgroundImageObjects2.length = 0;
+gdjs.LoadingCode.GDBackgroundImageObjects3.length = 0;
 
 gdjs.LoadingCode.eventsList7(runtimeScene);
 

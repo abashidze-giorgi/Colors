@@ -112,8 +112,8 @@ gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects1= [];
 gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects2= [];
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects1= [];
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects2= [];
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects1= [];
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects2= [];
+gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1= [];
+gdjs.ColorSelectSceneCode.GDBackgroundImageObjects2= [];
 
 
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
@@ -122,7 +122,7 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
-gdjs.ColorSelectSceneCode.userFunc0x1092a38 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.userFunc0xda90d8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -144,7 +144,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0x1092a38(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0xda90d8(runtimeScene);
 
 }
 
@@ -366,8 +366,8 @@ gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects2.length = 0;
+gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDBackgroundImageObjects2.length = 0;
 
 gdjs.ColorSelectSceneCode.eventsList1(runtimeScene);
 

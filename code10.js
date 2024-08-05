@@ -120,11 +120,11 @@ gdjs.TestSceneCode.GDGameOverCanvasObjects1= [];
 gdjs.TestSceneCode.GDGameOverCanvasObjects2= [];
 gdjs.TestSceneCode.GDTitlesButtonObjects1= [];
 gdjs.TestSceneCode.GDTitlesButtonObjects2= [];
-gdjs.TestSceneCode.GDGameCanvasObjects1= [];
-gdjs.TestSceneCode.GDGameCanvasObjects2= [];
+gdjs.TestSceneCode.GDBackgroundImageObjects1= [];
+gdjs.TestSceneCode.GDBackgroundImageObjects2= [];
 
 
-gdjs.TestSceneCode.userFunc0xea4738 = function GDJSInlineCode(runtimeScene) {
+gdjs.TestSceneCode.userFunc0xde9910 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const AdController = window.Adsgram.init({
   blockId: "848",
@@ -151,7 +151,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.TestSceneCode.userFunc0xea4738(runtimeScene);
+gdjs.TestSceneCode.userFunc0xde9910(runtimeScene);
 
 }
 
@@ -349,8 +349,8 @@ gdjs.TestSceneCode.GDGameOverCanvasObjects1.length = 0;
 gdjs.TestSceneCode.GDGameOverCanvasObjects2.length = 0;
 gdjs.TestSceneCode.GDTitlesButtonObjects1.length = 0;
 gdjs.TestSceneCode.GDTitlesButtonObjects2.length = 0;
-gdjs.TestSceneCode.GDGameCanvasObjects1.length = 0;
-gdjs.TestSceneCode.GDGameCanvasObjects2.length = 0;
+gdjs.TestSceneCode.GDBackgroundImageObjects1.length = 0;
+gdjs.TestSceneCode.GDBackgroundImageObjects2.length = 0;
 
 gdjs.TestSceneCode.eventsList1(runtimeScene);
 

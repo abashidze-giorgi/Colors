@@ -171,9 +171,9 @@ gdjs.MenuCode.GDGameOverCanvasObjects3= [];
 gdjs.MenuCode.GDTitlesButtonObjects1= [];
 gdjs.MenuCode.GDTitlesButtonObjects2= [];
 gdjs.MenuCode.GDTitlesButtonObjects3= [];
-gdjs.MenuCode.GDGameCanvasObjects1= [];
-gdjs.MenuCode.GDGameCanvasObjects2= [];
-gdjs.MenuCode.GDGameCanvasObjects3= [];
+gdjs.MenuCode.GDBackgroundImageObjects1= [];
+gdjs.MenuCode.GDBackgroundImageObjects2= [];
+gdjs.MenuCode.GDBackgroundImageObjects3= [];
 
 
 gdjs.MenuCode.eventsList0 = function(runtimeScene) {
@@ -183,15 +183,15 @@ gdjs.MenuCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.MenuCode.GDGameCanvasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.MenuCode.GDBackgroundImageObjects1);
 gdjs.copyArray(runtimeScene.getObjects("GameName"), gdjs.MenuCode.GDGameNameObjects1);
 gdjs.copyArray(runtimeScene.getObjects("RulesButton"), gdjs.MenuCode.GDRulesButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("SettingsButton"), gdjs.MenuCode.GDSettingsButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("StartGameButton"), gdjs.MenuCode.GDStartGameButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("TitlesButton"), gdjs.MenuCode.GDTitlesButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.MenuCode.GDTotalScoreObjects1);
-{for(var i = 0, len = gdjs.MenuCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDGameCanvasObjects1[i].getBehavior("Resizable").setSize(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene), gdjs.evtTools.window.getGameResolutionHeight(runtimeScene));
+{for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setSize(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene), gdjs.evtTools.window.getGameResolutionHeight(runtimeScene));
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
 }{for(var i = 0, len = gdjs.MenuCode.GDSettingsButtonObjects1.length ;i < len;++i) {
@@ -212,8 +212,8 @@ for(var i = 0, len = gdjs.MenuCode.GDTitlesButtonObjects1.length ;i < len;++i) {
 for(var i = 0, len = gdjs.MenuCode.GDTotalScoreObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDTotalScoreObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.MenuCode.GDTotalScoreObjects1[i].getWidth())) / 2);
 }
-for(var i = 0, len = gdjs.MenuCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDGameCanvasObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.MenuCode.GDGameCanvasObjects1[i].getWidth())) / 2);
+for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDBackgroundImageObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.MenuCode.GDBackgroundImageObjects1[i].getWidth())) / 2);
 }
 }}
 
@@ -315,12 +315,12 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.MenuCode.GDGameCanvasObjects1);
-{for(var i = 0, len = gdjs.MenuCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDGameCanvasObjects1[i].getBehavior("Animation").setAnimationName("2");
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.MenuCode.GDBackgroundImageObjects1);
+{for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationName("2");
 }
-}{for(var i = 0, len = gdjs.MenuCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDGameCanvasObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
+}{for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
 }}
 
@@ -531,9 +531,9 @@ gdjs.MenuCode.GDGameOverCanvasObjects3.length = 0;
 gdjs.MenuCode.GDTitlesButtonObjects1.length = 0;
 gdjs.MenuCode.GDTitlesButtonObjects2.length = 0;
 gdjs.MenuCode.GDTitlesButtonObjects3.length = 0;
-gdjs.MenuCode.GDGameCanvasObjects1.length = 0;
-gdjs.MenuCode.GDGameCanvasObjects2.length = 0;
-gdjs.MenuCode.GDGameCanvasObjects3.length = 0;
+gdjs.MenuCode.GDBackgroundImageObjects1.length = 0;
+gdjs.MenuCode.GDBackgroundImageObjects2.length = 0;
+gdjs.MenuCode.GDBackgroundImageObjects3.length = 0;
 
 gdjs.MenuCode.eventsList2(runtimeScene);
 

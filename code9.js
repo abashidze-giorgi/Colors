@@ -232,10 +232,10 @@ gdjs.TitlesCode.GDTitlesButtonObjects1= [];
 gdjs.TitlesCode.GDTitlesButtonObjects2= [];
 gdjs.TitlesCode.GDTitlesButtonObjects3= [];
 gdjs.TitlesCode.GDTitlesButtonObjects4= [];
-gdjs.TitlesCode.GDGameCanvasObjects1= [];
-gdjs.TitlesCode.GDGameCanvasObjects2= [];
-gdjs.TitlesCode.GDGameCanvasObjects3= [];
-gdjs.TitlesCode.GDGameCanvasObjects4= [];
+gdjs.TitlesCode.GDBackgroundImageObjects1= [];
+gdjs.TitlesCode.GDBackgroundImageObjects2= [];
+gdjs.TitlesCode.GDBackgroundImageObjects3= [];
+gdjs.TitlesCode.GDBackgroundImageObjects4= [];
 
 
 gdjs.TitlesCode.eventsList0 = function(runtimeScene) {
@@ -707,10 +707,10 @@ gdjs.TitlesCode.GDTitlesButtonObjects1.length = 0;
 gdjs.TitlesCode.GDTitlesButtonObjects2.length = 0;
 gdjs.TitlesCode.GDTitlesButtonObjects3.length = 0;
 gdjs.TitlesCode.GDTitlesButtonObjects4.length = 0;
-gdjs.TitlesCode.GDGameCanvasObjects1.length = 0;
-gdjs.TitlesCode.GDGameCanvasObjects2.length = 0;
-gdjs.TitlesCode.GDGameCanvasObjects3.length = 0;
-gdjs.TitlesCode.GDGameCanvasObjects4.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects1.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects2.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects3.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects4.length = 0;
 
 gdjs.TitlesCode.eventsList4(runtimeScene);
 
