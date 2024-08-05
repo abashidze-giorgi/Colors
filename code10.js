@@ -124,7 +124,7 @@ gdjs.TestSceneCode.GDTitlesButtonObjects1= [];
 gdjs.TestSceneCode.GDTitlesButtonObjects2= [];
 
 
-gdjs.TestSceneCode.userFunc0x1021ec0 = function GDJSInlineCode(runtimeScene) {
+gdjs.TestSceneCode.userFunc0x12d2768 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const AdController = window.Adsgram.init({
   blockId: "848",
@@ -151,7 +151,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.TestSceneCode.userFunc0x1021ec0(runtimeScene);
+gdjs.TestSceneCode.userFunc0x12d2768(runtimeScene);
 
 }
 
