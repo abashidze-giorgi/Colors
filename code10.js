@@ -90,8 +90,6 @@ gdjs.TestSceneCode.GDLanguageLogoObjects1= [];
 gdjs.TestSceneCode.GDLanguageLogoObjects2= [];
 gdjs.TestSceneCode.GDNumbersObjects1= [];
 gdjs.TestSceneCode.GDNumbersObjects2= [];
-gdjs.TestSceneCode.GDGameCanvasObjects1= [];
-gdjs.TestSceneCode.GDGameCanvasObjects2= [];
 gdjs.TestSceneCode.GDBlackElementObjects1= [];
 gdjs.TestSceneCode.GDBlackElementObjects2= [];
 gdjs.TestSceneCode.GDStartGameButtonObjects1= [];
@@ -122,9 +120,11 @@ gdjs.TestSceneCode.GDGameOverCanvasObjects1= [];
 gdjs.TestSceneCode.GDGameOverCanvasObjects2= [];
 gdjs.TestSceneCode.GDTitlesButtonObjects1= [];
 gdjs.TestSceneCode.GDTitlesButtonObjects2= [];
+gdjs.TestSceneCode.GDGameCanvasObjects1= [];
+gdjs.TestSceneCode.GDGameCanvasObjects2= [];
 
 
-gdjs.TestSceneCode.userFunc0x1302190 = function GDJSInlineCode(runtimeScene) {
+gdjs.TestSceneCode.userFunc0xea4738 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const AdController = window.Adsgram.init({
   blockId: "848",
@@ -151,7 +151,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.TestSceneCode.userFunc0x1302190(runtimeScene);
+gdjs.TestSceneCode.userFunc0xea4738(runtimeScene);
 
 }
 
@@ -212,7 +212,7 @@ for (var i = 0, k = 0, l = gdjs.TestSceneCode.GDApplyBtnObjects1.length;i<l;++i)
 gdjs.TestSceneCode.GDApplyBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19054332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19078076);
 }
 }
 if (isConditionTrue_0) {
@@ -319,8 +319,6 @@ gdjs.TestSceneCode.GDLanguageLogoObjects1.length = 0;
 gdjs.TestSceneCode.GDLanguageLogoObjects2.length = 0;
 gdjs.TestSceneCode.GDNumbersObjects1.length = 0;
 gdjs.TestSceneCode.GDNumbersObjects2.length = 0;
-gdjs.TestSceneCode.GDGameCanvasObjects1.length = 0;
-gdjs.TestSceneCode.GDGameCanvasObjects2.length = 0;
 gdjs.TestSceneCode.GDBlackElementObjects1.length = 0;
 gdjs.TestSceneCode.GDBlackElementObjects2.length = 0;
 gdjs.TestSceneCode.GDStartGameButtonObjects1.length = 0;
@@ -351,6 +349,8 @@ gdjs.TestSceneCode.GDGameOverCanvasObjects1.length = 0;
 gdjs.TestSceneCode.GDGameOverCanvasObjects2.length = 0;
 gdjs.TestSceneCode.GDTitlesButtonObjects1.length = 0;
 gdjs.TestSceneCode.GDTitlesButtonObjects2.length = 0;
+gdjs.TestSceneCode.GDGameCanvasObjects1.length = 0;
+gdjs.TestSceneCode.GDGameCanvasObjects2.length = 0;
 
 gdjs.TestSceneCode.eventsList1(runtimeScene);
 

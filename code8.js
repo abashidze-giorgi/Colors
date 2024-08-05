@@ -172,10 +172,6 @@ gdjs.Rules4Code.GDNumbersObjects1= [];
 gdjs.Rules4Code.GDNumbersObjects2= [];
 gdjs.Rules4Code.GDNumbersObjects3= [];
 gdjs.Rules4Code.GDNumbersObjects4= [];
-gdjs.Rules4Code.GDGameCanvasObjects1= [];
-gdjs.Rules4Code.GDGameCanvasObjects2= [];
-gdjs.Rules4Code.GDGameCanvasObjects3= [];
-gdjs.Rules4Code.GDGameCanvasObjects4= [];
 gdjs.Rules4Code.GDBlackElementObjects1= [];
 gdjs.Rules4Code.GDBlackElementObjects2= [];
 gdjs.Rules4Code.GDBlackElementObjects3= [];
@@ -236,6 +232,10 @@ gdjs.Rules4Code.GDTitlesButtonObjects1= [];
 gdjs.Rules4Code.GDTitlesButtonObjects2= [];
 gdjs.Rules4Code.GDTitlesButtonObjects3= [];
 gdjs.Rules4Code.GDTitlesButtonObjects4= [];
+gdjs.Rules4Code.GDGameCanvasObjects1= [];
+gdjs.Rules4Code.GDGameCanvasObjects2= [];
+gdjs.Rules4Code.GDGameCanvasObjects3= [];
+gdjs.Rules4Code.GDGameCanvasObjects4= [];
 
 
 gdjs.Rules4Code.eventsList0 = function(runtimeScene) {
@@ -469,7 +469,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.Rules4Code.GDGameCanvasObjects1);
+{for(var i = 0, len = gdjs.Rules4Code.GDGameCanvasObjects1.length ;i < len;++i) {
+    gdjs.Rules4Code.GDGameCanvasObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
+}{for(var i = 0, len = gdjs.Rules4Code.GDGameCanvasObjects1.length ;i < len;++i) {
+    gdjs.Rules4Code.GDGameCanvasObjects1[i].getBehavior("Resizable").setHeight(gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
+}
+}{for(var i = 0, len = gdjs.Rules4Code.GDGameCanvasObjects1.length ;i < len;++i) {
+    gdjs.Rules4Code.GDGameCanvasObjects1[i].getBehavior("Resizable").setWidth(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
+}
+}}
 
 }
 
@@ -682,10 +692,6 @@ gdjs.Rules4Code.GDNumbersObjects1.length = 0;
 gdjs.Rules4Code.GDNumbersObjects2.length = 0;
 gdjs.Rules4Code.GDNumbersObjects3.length = 0;
 gdjs.Rules4Code.GDNumbersObjects4.length = 0;
-gdjs.Rules4Code.GDGameCanvasObjects1.length = 0;
-gdjs.Rules4Code.GDGameCanvasObjects2.length = 0;
-gdjs.Rules4Code.GDGameCanvasObjects3.length = 0;
-gdjs.Rules4Code.GDGameCanvasObjects4.length = 0;
 gdjs.Rules4Code.GDBlackElementObjects1.length = 0;
 gdjs.Rules4Code.GDBlackElementObjects2.length = 0;
 gdjs.Rules4Code.GDBlackElementObjects3.length = 0;
@@ -746,6 +752,10 @@ gdjs.Rules4Code.GDTitlesButtonObjects1.length = 0;
 gdjs.Rules4Code.GDTitlesButtonObjects2.length = 0;
 gdjs.Rules4Code.GDTitlesButtonObjects3.length = 0;
 gdjs.Rules4Code.GDTitlesButtonObjects4.length = 0;
+gdjs.Rules4Code.GDGameCanvasObjects1.length = 0;
+gdjs.Rules4Code.GDGameCanvasObjects2.length = 0;
+gdjs.Rules4Code.GDGameCanvasObjects3.length = 0;
+gdjs.Rules4Code.GDGameCanvasObjects4.length = 0;
 
 gdjs.Rules4Code.eventsList4(runtimeScene);
 

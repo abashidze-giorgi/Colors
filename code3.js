@@ -164,10 +164,6 @@ gdjs.SettingsCode.GDNumbersObjects1= [];
 gdjs.SettingsCode.GDNumbersObjects2= [];
 gdjs.SettingsCode.GDNumbersObjects3= [];
 gdjs.SettingsCode.GDNumbersObjects4= [];
-gdjs.SettingsCode.GDGameCanvasObjects1= [];
-gdjs.SettingsCode.GDGameCanvasObjects2= [];
-gdjs.SettingsCode.GDGameCanvasObjects3= [];
-gdjs.SettingsCode.GDGameCanvasObjects4= [];
 gdjs.SettingsCode.GDBlackElementObjects1= [];
 gdjs.SettingsCode.GDBlackElementObjects2= [];
 gdjs.SettingsCode.GDBlackElementObjects3= [];
@@ -228,6 +224,10 @@ gdjs.SettingsCode.GDTitlesButtonObjects1= [];
 gdjs.SettingsCode.GDTitlesButtonObjects2= [];
 gdjs.SettingsCode.GDTitlesButtonObjects3= [];
 gdjs.SettingsCode.GDTitlesButtonObjects4= [];
+gdjs.SettingsCode.GDGameCanvasObjects1= [];
+gdjs.SettingsCode.GDGameCanvasObjects2= [];
+gdjs.SettingsCode.GDGameCanvasObjects3= [];
+gdjs.SettingsCode.GDGameCanvasObjects4= [];
 
 
 gdjs.SettingsCode.eventsList0 = function(runtimeScene) {
@@ -270,7 +270,6 @@ gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.SettingsCode.GDBackBu
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.SettingsCode.GDBackButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.SettingsCode.GDGameCanvasObjects1);
 gdjs.copyArray(runtimeScene.getObjects("MenuButton"), gdjs.SettingsCode.GDMenuButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("SettingsButton"), gdjs.SettingsCode.GDSettingsButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("VolumeButton"), gdjs.SettingsCode.GDVolumeButtonObjects1);
@@ -283,9 +282,6 @@ for(var i = 0, len = gdjs.SettingsCode.GDVolumeButtonObjects1.length ;i < len;++
 }
 for(var i = 0, len = gdjs.SettingsCode.GDMenuButtonObjects1.length ;i < len;++i) {
     gdjs.SettingsCode.GDMenuButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.SettingsCode.GDMenuButtonObjects1[i].getWidth())) / 2);
-}
-for(var i = 0, len = gdjs.SettingsCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.SettingsCode.GDGameCanvasObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.SettingsCode.GDGameCanvasObjects1[i].getWidth())) / 2);
 }
 }{for(var i = 0, len = gdjs.SettingsCode.GDBackButtonObjects1.length ;i < len;++i) {
     gdjs.SettingsCode.GDBackButtonObjects1[i].setX(runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (2 * (gdjs.SettingsCode.GDBackButtonObjects1[i].getWidth())));
@@ -706,10 +702,6 @@ gdjs.SettingsCode.GDNumbersObjects1.length = 0;
 gdjs.SettingsCode.GDNumbersObjects2.length = 0;
 gdjs.SettingsCode.GDNumbersObjects3.length = 0;
 gdjs.SettingsCode.GDNumbersObjects4.length = 0;
-gdjs.SettingsCode.GDGameCanvasObjects1.length = 0;
-gdjs.SettingsCode.GDGameCanvasObjects2.length = 0;
-gdjs.SettingsCode.GDGameCanvasObjects3.length = 0;
-gdjs.SettingsCode.GDGameCanvasObjects4.length = 0;
 gdjs.SettingsCode.GDBlackElementObjects1.length = 0;
 gdjs.SettingsCode.GDBlackElementObjects2.length = 0;
 gdjs.SettingsCode.GDBlackElementObjects3.length = 0;
@@ -770,6 +762,10 @@ gdjs.SettingsCode.GDTitlesButtonObjects1.length = 0;
 gdjs.SettingsCode.GDTitlesButtonObjects2.length = 0;
 gdjs.SettingsCode.GDTitlesButtonObjects3.length = 0;
 gdjs.SettingsCode.GDTitlesButtonObjects4.length = 0;
+gdjs.SettingsCode.GDGameCanvasObjects1.length = 0;
+gdjs.SettingsCode.GDGameCanvasObjects2.length = 0;
+gdjs.SettingsCode.GDGameCanvasObjects3.length = 0;
+gdjs.SettingsCode.GDGameCanvasObjects4.length = 0;
 
 gdjs.SettingsCode.eventsList4(runtimeScene);
 

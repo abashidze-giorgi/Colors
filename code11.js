@@ -82,8 +82,6 @@ gdjs.ColorSelectSceneCode.GDLanguageLogoObjects1= [];
 gdjs.ColorSelectSceneCode.GDLanguageLogoObjects2= [];
 gdjs.ColorSelectSceneCode.GDNumbersObjects1= [];
 gdjs.ColorSelectSceneCode.GDNumbersObjects2= [];
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects1= [];
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects2= [];
 gdjs.ColorSelectSceneCode.GDBlackElementObjects1= [];
 gdjs.ColorSelectSceneCode.GDBlackElementObjects2= [];
 gdjs.ColorSelectSceneCode.GDStartGameButtonObjects1= [];
@@ -114,6 +112,8 @@ gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects1= [];
 gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects2= [];
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects1= [];
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects2= [];
+gdjs.ColorSelectSceneCode.GDGameCanvasObjects1= [];
+gdjs.ColorSelectSceneCode.GDGameCanvasObjects2= [];
 
 
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
@@ -122,8 +122,7 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
-gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDGameCanvasObjects1Objects = Hashtable.newFrom({"GameCanvas": gdjs.ColorSelectSceneCode.GDGameCanvasObjects1});
-gdjs.ColorSelectSceneCode.userFunc0x13078e0 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.userFunc0x1092a38 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -145,7 +144,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0x13078e0(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0x1092a38(runtimeScene);
 
 }
 
@@ -172,7 +171,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BlueColor"), gdjs.ColorSelectSceneCode.GDBlueColorObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ElementFoundament"), gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1);
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.ColorSelectSceneCode.GDGameCanvasObjects1);
 gdjs.copyArray(runtimeScene.getObjects("GreenColor"), gdjs.ColorSelectSceneCode.GDGreenColorObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PurpleColor"), gdjs.ColorSelectSceneCode.GDPurpleColorObjects1);
 gdjs.copyArray(runtimeScene.getObjects("RedColor"), gdjs.ColorSelectSceneCode.GDRedColorObjects1);
@@ -196,10 +194,7 @@ for(var i = 0, len = gdjs.ColorSelectSceneCode.GDWhiteColorObjects1.length ;i < 
 for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < len;++i) {
     gdjs.ColorSelectSceneCode.GDGreenColorObjects1[i].getBehavior("Sticker").Stick(gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
-}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1.length ;i < len;++i) {
-    gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1[i].getBehavior("Sticker").Stick(gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDGameCanvasObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1.length ;i < len;++i) {
+}{/* Unknown object - skipped. */}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1.length ;i < len;++i) {
     gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
 }}
@@ -212,11 +207,7 @@ for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < 
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.ColorSelectSceneCode.GDGameCanvasObjects1);
-{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.ColorSelectSceneCode.GDGameCanvasObjects1[i].setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.ColorSelectSceneCode.GDGameCanvasObjects1[i].getWidth())) / 2);
-}
-}}
+{/* Unknown object - skipped. */}}
 
 }
 
@@ -253,11 +244,7 @@ gdjs.ColorSelectSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.ColorSelectSceneCode.GDGameCanvasObjects1);
-{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.ColorSelectSceneCode.GDGameCanvasObjects1[i].setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.ColorSelectSceneCode.GDGameCanvasObjects1[i].getWidth())) / 2);
-}
-}}
+{/* Unknown object - skipped. */}}
 
 }
 
@@ -349,8 +336,6 @@ gdjs.ColorSelectSceneCode.GDLanguageLogoObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDLanguageLogoObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDNumbersObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDNumbersObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDGameCanvasObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDBlackElementObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDBlackElementObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDStartGameButtonObjects1.length = 0;
@@ -381,6 +366,8 @@ gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDGameOverCanvasObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects2.length = 0;
+gdjs.ColorSelectSceneCode.GDGameCanvasObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDGameCanvasObjects2.length = 0;
 
 gdjs.ColorSelectSceneCode.eventsList1(runtimeScene);
 

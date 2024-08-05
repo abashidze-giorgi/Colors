@@ -129,9 +129,6 @@ gdjs.VolumeCode.GDLanguageLogoObjects3= [];
 gdjs.VolumeCode.GDNumbersObjects1= [];
 gdjs.VolumeCode.GDNumbersObjects2= [];
 gdjs.VolumeCode.GDNumbersObjects3= [];
-gdjs.VolumeCode.GDGameCanvasObjects1= [];
-gdjs.VolumeCode.GDGameCanvasObjects2= [];
-gdjs.VolumeCode.GDGameCanvasObjects3= [];
 gdjs.VolumeCode.GDBlackElementObjects1= [];
 gdjs.VolumeCode.GDBlackElementObjects2= [];
 gdjs.VolumeCode.GDBlackElementObjects3= [];
@@ -177,6 +174,9 @@ gdjs.VolumeCode.GDGameOverCanvasObjects3= [];
 gdjs.VolumeCode.GDTitlesButtonObjects1= [];
 gdjs.VolumeCode.GDTitlesButtonObjects2= [];
 gdjs.VolumeCode.GDTitlesButtonObjects3= [];
+gdjs.VolumeCode.GDGameCanvasObjects1= [];
+gdjs.VolumeCode.GDGameCanvasObjects2= [];
+gdjs.VolumeCode.GDGameCanvasObjects3= [];
 
 
 gdjs.VolumeCode.eventsList0 = function(runtimeScene) {
@@ -402,7 +402,7 @@ gdjs.copyArray(runtimeScene.getObjects("VolumeButton"), gdjs.VolumeCode.GDVolume
     gdjs.VolumeCode.GDBackButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.VolumeCode.GDBackButtonObjects1[i].getWidth())) / 2);
 }
 }{for(var i = 0, len = gdjs.VolumeCode.GDGameCanvasObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDGameCanvasObjects1[i].setX(runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() / 20));
+    gdjs.VolumeCode.GDGameCanvasObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.VolumeCode.GDGameCanvasObjects1[i].getWidth())) / 2);
 }
 }{for(var i = 0, len = gdjs.VolumeCode.GDSoundTextObjects1.length ;i < len;++i) {
     gdjs.VolumeCode.GDSoundTextObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.VolumeCode.GDSoundTextObjects1[i].getWidth())) / 2);
@@ -502,7 +502,14 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-
+gdjs.copyArray(runtimeScene.getObjects("GameCanvas"), gdjs.VolumeCode.GDGameCanvasObjects1);
+{for(var i = 0, len = gdjs.VolumeCode.GDGameCanvasObjects1.length ;i < len;++i) {
+    gdjs.VolumeCode.GDGameCanvasObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
+}
+}{for(var i = 0, len = gdjs.VolumeCode.GDGameCanvasObjects1.length ;i < len;++i) {
+    gdjs.VolumeCode.GDGameCanvasObjects1[i].getBehavior("Resizable").setSize(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0), gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
+}
+}
 { //Subevents
 gdjs.VolumeCode.eventsList3(runtimeScene);} //End of subevents
 }
@@ -668,9 +675,6 @@ gdjs.VolumeCode.GDLanguageLogoObjects3.length = 0;
 gdjs.VolumeCode.GDNumbersObjects1.length = 0;
 gdjs.VolumeCode.GDNumbersObjects2.length = 0;
 gdjs.VolumeCode.GDNumbersObjects3.length = 0;
-gdjs.VolumeCode.GDGameCanvasObjects1.length = 0;
-gdjs.VolumeCode.GDGameCanvasObjects2.length = 0;
-gdjs.VolumeCode.GDGameCanvasObjects3.length = 0;
 gdjs.VolumeCode.GDBlackElementObjects1.length = 0;
 gdjs.VolumeCode.GDBlackElementObjects2.length = 0;
 gdjs.VolumeCode.GDBlackElementObjects3.length = 0;
@@ -716,6 +720,9 @@ gdjs.VolumeCode.GDGameOverCanvasObjects3.length = 0;
 gdjs.VolumeCode.GDTitlesButtonObjects1.length = 0;
 gdjs.VolumeCode.GDTitlesButtonObjects2.length = 0;
 gdjs.VolumeCode.GDTitlesButtonObjects3.length = 0;
+gdjs.VolumeCode.GDGameCanvasObjects1.length = 0;
+gdjs.VolumeCode.GDGameCanvasObjects2.length = 0;
+gdjs.VolumeCode.GDGameCanvasObjects3.length = 0;
 
 gdjs.VolumeCode.eventsList6(runtimeScene);
 
