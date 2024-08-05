@@ -69,7 +69,7 @@ gdjs.projectData = {
             progressBarMinWidth: 40.0,
             progressBarWidthPercent: 30.0,
             showGDevelopSplash: false,
-            showProgressBar: true,
+            showProgressBar: false,
         },
         watermark: { placement: "bottom-left", showWatermark: false },
         authorIds: ["TZf6qe4D8AUceYNVrj5ORrJedV42"],
@@ -7474,7 +7474,7 @@ gdjs.projectData = {
                     isLocked: false,
                     name: "ColorSelect",
                     renderingType: "",
-                    visibility: true,
+                    visibility: false,
                     cameras: [],
                     effects: [
                         {

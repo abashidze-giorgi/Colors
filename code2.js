@@ -2631,7 +2631,7 @@ gdjs.GamePlayCode.eventsList33(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0xcc9720 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xca5d88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var telegram = runtimeScene.getGame().getVariables().get("Telegram");
 telegram.getChild("AdsStart").setBoolean(true);
@@ -2662,7 +2662,7 @@ gdjs.GamePlayCode.eventsList35 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xcc9720(runtimeScene);
+gdjs.GamePlayCode.userFunc0xca5d88(runtimeScene);
 
 }
 
@@ -3198,7 +3198,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0xd6a230 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xeb1560 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -3266,7 +3266,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xd6a230(runtimeScene);
+gdjs.GamePlayCode.userFunc0xeb1560(runtimeScene);
 
 }
 
@@ -3344,7 +3344,7 @@ gdjs.GamePlayCode.eventsList50(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0xb158e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xeb0da8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -4188,7 +4188,7 @@ gdjs.GamePlayCode.eventsList64(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0xb158e8(runtimeScene);
+gdjs.GamePlayCode.userFunc0xeb0da8(runtimeScene);
 
 }
 
@@ -5017,7 +5017,7 @@ gdjs.GamePlayCode.eventsList76(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0xb14e08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xeb2d20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -5046,7 +5046,7 @@ gdjs.GamePlayCode.eventsList78 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xb14e08(runtimeScene);
+gdjs.GamePlayCode.userFunc0xeb2d20(runtimeScene);
 
 }
 
