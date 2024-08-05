@@ -160,7 +160,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0x9bb788 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xb14810 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -232,12 +232,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x9bb788(runtimeScene);
+gdjs.LoadingCode.userFunc0xb14810(runtimeScene);
 
 }
 
 
-};gdjs.LoadingCode.asyncCallback17014676 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback17033884 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }gdjs.LoadingCode.localVariables.length = 0;
@@ -251,7 +251,7 @@ gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.LoadingCode.asyncCallback17014676(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.LoadingCode.asyncCallback17033884(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -302,26 +302,36 @@ for(var i = 0, len = gdjs.LoadingCode.GDBackgroundImageObjects1.length ;i < len;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("StartBtn"), gdjs.LoadingCode.GDStartBtnObjects2);
-gdjs.copyArray(runtimeScene.getObjects("usernameInput"), gdjs.LoadingCode.GDusernameInputObjects2);
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("StartBtn"), gdjs.LoadingCode.GDStartBtnObjects1);
+gdjs.copyArray(runtimeScene.getObjects("usernameInput"), gdjs.LoadingCode.GDusernameInputObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.LoadingCode.GDStartBtnObjects2.length;i<l;++i) {
-    if ( gdjs.LoadingCode.GDStartBtnObjects2[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.LoadingCode.GDStartBtnObjects1.length;i<l;++i) {
+    if ( gdjs.LoadingCode.GDStartBtnObjects1[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.LoadingCode.GDStartBtnObjects2[k] = gdjs.LoadingCode.GDStartBtnObjects2[i];
+        gdjs.LoadingCode.GDStartBtnObjects1[k] = gdjs.LoadingCode.GDStartBtnObjects1[i];
         ++k;
     }
 }
-gdjs.LoadingCode.GDStartBtnObjects2.length = k;
+gdjs.LoadingCode.GDStartBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (gdjs.evtTools.string.strLen((( gdjs.LoadingCode.GDusernameInputObjects2.length === 0 ) ? "" :gdjs.LoadingCode.GDusernameInputObjects2[0].getText())) > 2);
+{isConditionTrue_0 = (gdjs.evtTools.string.strLen((( gdjs.LoadingCode.GDusernameInputObjects1.length === 0 ) ? "" :gdjs.LoadingCode.GDusernameInputObjects1[0].getText())) > 2);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17011164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17030372);
 }
 }
 }
@@ -332,38 +342,16 @@ if (isConditionTrue_0) {
 }
 
 
-{
-
-
-
-}
-
-
 };gdjs.LoadingCode.eventsList5 = function(runtimeScene) {
 
 {
 
 
-let isConditionTrue_0 = false;
-{
-
-{ //Subevents
-gdjs.LoadingCode.eventsList4(runtimeScene);} //End of subevents
-}
-
+gdjs.LoadingCode.eventsList4(runtimeScene);
 }
 
 
 };gdjs.LoadingCode.eventsList6 = function(runtimeScene) {
-
-{
-
-
-gdjs.LoadingCode.eventsList5(runtimeScene);
-}
-
-
-};gdjs.LoadingCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -396,7 +384,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Loaded"), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17013556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17032764);
 }
 }
 if (isConditionTrue_0) {
@@ -419,7 +407,7 @@ gdjs.LoadingCode.eventsList3(runtimeScene);
 {
 
 
-gdjs.LoadingCode.eventsList6(runtimeScene);
+gdjs.LoadingCode.eventsList5(runtimeScene);
 }
 
 
@@ -439,7 +427,7 @@ for (var i = 0, k = 0, l = gdjs.LoadingCode.GDTestBtnObjects1.length;i<l;++i) {
 gdjs.LoadingCode.GDTestBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17012196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17031404);
 }
 }
 if (isConditionTrue_0) {
@@ -467,7 +455,10 @@ if (isConditionTrue_0) {
 
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Username").getAsString()) >= 3);
+}
+if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("usernameInput"), gdjs.LoadingCode.GDusernameInputObjects1);
 {for(var i = 0, len = gdjs.LoadingCode.GDusernameInputObjects1.length ;i < len;++i) {
     gdjs.LoadingCode.GDusernameInputObjects1[i].getBehavior("Text").setText(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Username").getAsString());
@@ -624,7 +615,7 @@ gdjs.LoadingCode.GDBackgroundImageObjects1.length = 0;
 gdjs.LoadingCode.GDBackgroundImageObjects2.length = 0;
 gdjs.LoadingCode.GDBackgroundImageObjects3.length = 0;
 
-gdjs.LoadingCode.eventsList7(runtimeScene);
+gdjs.LoadingCode.eventsList6(runtimeScene);
 
 return;
 

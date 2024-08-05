@@ -8,6 +8,12 @@ gdjs.TestSceneCode.GDScoreResponceTxtObjects1= [];
 gdjs.TestSceneCode.GDScoreResponceTxtObjects2= [];
 gdjs.TestSceneCode.GDTotalScoreTxtObjects1= [];
 gdjs.TestSceneCode.GDTotalScoreTxtObjects2= [];
+gdjs.TestSceneCode.GDNameInputObjects1= [];
+gdjs.TestSceneCode.GDNameInputObjects2= [];
+gdjs.TestSceneCode.GDEmailInputObjects1= [];
+gdjs.TestSceneCode.GDEmailInputObjects2= [];
+gdjs.TestSceneCode.GDPasswordInputObjects1= [];
+gdjs.TestSceneCode.GDPasswordInputObjects2= [];
 gdjs.TestSceneCode.GDFoundamentObjects1= [];
 gdjs.TestSceneCode.GDFoundamentObjects2= [];
 gdjs.TestSceneCode.GDHiddenColorFoundamentObjects1= [];
@@ -96,34 +102,23 @@ gdjs.TestSceneCode.GDBackgroundImageObjects1= [];
 gdjs.TestSceneCode.GDBackgroundImageObjects2= [];
 
 
-gdjs.TestSceneCode.userFunc0x1140778 = function GDJSInlineCode(runtimeScene) {
-"use strict";
-const AdController = window.Adsgram.init({
-  blockId: "848",
-  debug: false,
-  debugBannerType: "FullscreenMedia"
-});
-
-AdController.show().then((result) => {
-  var adsGram = runtimeScene.getGame().getVariables().get("adsGram");
-  adsGram.setBoolean(true);
-  // your code to reward user
-}).catch((result) => {
-  // user get error during playing ad or skip ad
-  // do nothing or whatever you want
-})
-
-AdController.destroy();
-// Заменить текущую сцену на "NewScene"
-runtimeScene.getGame().getSceneStack().replaceScene("Play Deck");
-
-};
+gdjs.TestSceneCode.asyncCallback17336108 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.TestSceneCode.localVariables);
+{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), "info", "");
+}gdjs.TestSceneCode.localVariables.length = 0;
+}
 gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
-gdjs.TestSceneCode.userFunc0x1140778(runtimeScene);
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.TestSceneCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.TestSceneCode.asyncCallback17336108(runtimeScene, asyncObjectsList)));
+}
+}
 
 }
 
@@ -134,34 +129,34 @@ gdjs.TestSceneCode.userFunc0x1140778(runtimeScene);
 
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("ApplyBtn"), gdjs.TestSceneCode.GDApplyBtnObjects1);
+gdjs.copyArray(runtimeScene.getObjects("EmailInput"), gdjs.TestSceneCode.GDEmailInputObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NameInput"), gdjs.TestSceneCode.GDNameInputObjects1);
+gdjs.copyArray(runtimeScene.getObjects("PasswordInput"), gdjs.TestSceneCode.GDPasswordInputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ScoreInput"), gdjs.TestSceneCode.GDScoreInputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ScoreResponceTxt"), gdjs.TestSceneCode.GDScoreResponceTxtObjects1);
 gdjs.copyArray(runtimeScene.getObjects("TotalScoreTxt"), gdjs.TestSceneCode.GDTotalScoreTxtObjects1);
 {for(var i = 0, len = gdjs.TestSceneCode.GDScoreInputObjects1.length ;i < len;++i) {
-    gdjs.TestSceneCode.GDScoreInputObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.TestSceneCode.GDScoreInputObjects1[i].getWidth())) / 2);
+    gdjs.TestSceneCode.GDScoreInputObjects1[i].setX((gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0) - (gdjs.TestSceneCode.GDScoreInputObjects1[i].getWidth())) / 2);
 }
 for(var i = 0, len = gdjs.TestSceneCode.GDApplyBtnObjects1.length ;i < len;++i) {
-    gdjs.TestSceneCode.GDApplyBtnObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.TestSceneCode.GDApplyBtnObjects1[i].getWidth())) / 2);
+    gdjs.TestSceneCode.GDApplyBtnObjects1[i].setX((gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0) - (gdjs.TestSceneCode.GDApplyBtnObjects1[i].getWidth())) / 2);
 }
 for(var i = 0, len = gdjs.TestSceneCode.GDScoreResponceTxtObjects1.length ;i < len;++i) {
-    gdjs.TestSceneCode.GDScoreResponceTxtObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.TestSceneCode.GDScoreResponceTxtObjects1[i].getWidth())) / 2);
+    gdjs.TestSceneCode.GDScoreResponceTxtObjects1[i].setX((gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0) - (gdjs.TestSceneCode.GDScoreResponceTxtObjects1[i].getWidth())) / 2);
 }
 for(var i = 0, len = gdjs.TestSceneCode.GDTotalScoreTxtObjects1.length ;i < len;++i) {
-    gdjs.TestSceneCode.GDTotalScoreTxtObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.TestSceneCode.GDTotalScoreTxtObjects1[i].getWidth())) / 2);
+    gdjs.TestSceneCode.GDTotalScoreTxtObjects1[i].setX((gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0) - (gdjs.TestSceneCode.GDTotalScoreTxtObjects1[i].getWidth())) / 2);
+}
+for(var i = 0, len = gdjs.TestSceneCode.GDNameInputObjects1.length ;i < len;++i) {
+    gdjs.TestSceneCode.GDNameInputObjects1[i].setX((gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0) - (gdjs.TestSceneCode.GDNameInputObjects1[i].getWidth())) / 2);
+}
+for(var i = 0, len = gdjs.TestSceneCode.GDPasswordInputObjects1.length ;i < len;++i) {
+    gdjs.TestSceneCode.GDPasswordInputObjects1[i].setX((gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0) - (gdjs.TestSceneCode.GDPasswordInputObjects1[i].getWidth())) / 2);
+}
+for(var i = 0, len = gdjs.TestSceneCode.GDEmailInputObjects1.length ;i < len;++i) {
+    gdjs.TestSceneCode.GDEmailInputObjects1[i].setX((gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0) - (gdjs.TestSceneCode.GDEmailInputObjects1[i].getWidth())) / 2);
 }
 }}
 
@@ -184,11 +179,12 @@ for (var i = 0, k = 0, l = gdjs.TestSceneCode.GDApplyBtnObjects1.length;i<l;++i)
 gdjs.TestSceneCode.GDApplyBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17316476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17335524);
 }
 }
 if (isConditionTrue_0) {
-
+{gdjs.evtTools.firebaseTools.auth.signInWithProvider("google", runtimeScene.getScene().getVariables().getFromIndex(0));
+}
 { //Subevents
 gdjs.TestSceneCode.eventsList0(runtimeScene);} //End of subevents
 }
@@ -209,6 +205,12 @@ gdjs.TestSceneCode.GDScoreResponceTxtObjects1.length = 0;
 gdjs.TestSceneCode.GDScoreResponceTxtObjects2.length = 0;
 gdjs.TestSceneCode.GDTotalScoreTxtObjects1.length = 0;
 gdjs.TestSceneCode.GDTotalScoreTxtObjects2.length = 0;
+gdjs.TestSceneCode.GDNameInputObjects1.length = 0;
+gdjs.TestSceneCode.GDNameInputObjects2.length = 0;
+gdjs.TestSceneCode.GDEmailInputObjects1.length = 0;
+gdjs.TestSceneCode.GDEmailInputObjects2.length = 0;
+gdjs.TestSceneCode.GDPasswordInputObjects1.length = 0;
+gdjs.TestSceneCode.GDPasswordInputObjects2.length = 0;
 gdjs.TestSceneCode.GDFoundamentObjects1.length = 0;
 gdjs.TestSceneCode.GDFoundamentObjects2.length = 0;
 gdjs.TestSceneCode.GDHiddenColorFoundamentObjects1.length = 0;
