@@ -2225,7 +2225,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0x920858 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xaaa890 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var telegram = runtimeScene.getGame().getVariables().get("Telegram");
 var gameResult = runtimeScene.getGame().getVariables().get("GameResult");
@@ -2270,7 +2270,7 @@ gdjs.GamePlayCode.eventsList33 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x920858(runtimeScene);
+gdjs.GamePlayCode.userFunc0xaaa890(runtimeScene);
 
 }
 
@@ -2364,6 +2364,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TotalScore").setNumber(runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TotalScore").getAsNumber() + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TempScore").getAsNumber());
 }{gdjs.evtTools.debuggerTools.log("GameResult.TotalScore: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TotalScore").getAsString(), "info", "");
+}{gdjs.evtTools.debuggerTools.log("GameResult.TempScore: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TempScore").getAsString(), "info", "");
 }
 { //Subevents
 gdjs.GamePlayCode.eventsList36(runtimeScene);} //End of subevents
@@ -2471,6 +2472,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TotalScore").setNumber(runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TotalScore").getAsNumber() + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TempScore").getAsNumber());
 }{gdjs.evtTools.debuggerTools.log("GameResult.TotalScore: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TotalScore").getAsString(), "info", "");
+}{gdjs.evtTools.debuggerTools.log("GameResult.TempScore: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TempScore").getAsString(), "info", "");
 }
 { //Subevents
 gdjs.GamePlayCode.eventsList40(runtimeScene);} //End of subevents
@@ -2631,7 +2633,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0x113dd28 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x984888 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -2699,7 +2701,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x113dd28(runtimeScene);
+gdjs.GamePlayCode.userFunc0x984888(runtimeScene);
 
 }
 
@@ -2777,7 +2779,7 @@ gdjs.GamePlayCode.eventsList44(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x10e7db0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x9849a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -3621,7 +3623,7 @@ gdjs.GamePlayCode.eventsList58(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0x10e7db0(runtimeScene);
+gdjs.GamePlayCode.userFunc0x9849a8(runtimeScene);
 
 }
 
@@ -4450,7 +4452,7 @@ gdjs.GamePlayCode.eventsList70(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0x1165440 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x116cd18 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -4479,7 +4481,7 @@ gdjs.GamePlayCode.eventsList72 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x1165440(runtimeScene);
+gdjs.GamePlayCode.userFunc0x116cd18(runtimeScene);
 
 }
 
