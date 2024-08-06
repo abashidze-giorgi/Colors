@@ -2254,7 +2254,11 @@ gdjs.GamePlayCode.eventsList31(runtimeScene);} //End of subevents
 }
 
 
+<<<<<<< HEAD
 };gdjs.GamePlayCode.userFunc0xdf8110 = function GDJSInlineCode(runtimeScene) {
+=======
+};gdjs.GamePlayCode.userFunc0xb945b0 = function GDJSInlineCode(runtimeScene) {
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 "use strict";
 var telegram = runtimeScene.getGame().getVariables().get("Telegram");
 var gameResult = runtimeScene.getGame().getVariables().get("GameResult");
@@ -2294,7 +2298,11 @@ gdjs.GamePlayCode.eventsList33 = function(runtimeScene) {
 {
 
 
+<<<<<<< HEAD
 gdjs.GamePlayCode.userFunc0xdf8110(runtimeScene);
+=======
+gdjs.GamePlayCode.userFunc0xb945b0(runtimeScene);
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 
 }
 
@@ -2655,7 +2663,11 @@ if (isConditionTrue_0) {
 }
 
 
+<<<<<<< HEAD
 };gdjs.GamePlayCode.userFunc0xd9dfc0 = function GDJSInlineCode(runtimeScene) {
+=======
+};gdjs.GamePlayCode.userFunc0x1170c60 = function GDJSInlineCode(runtimeScene) {
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -2723,7 +2735,11 @@ if (isConditionTrue_0) {
 {
 
 
+<<<<<<< HEAD
 gdjs.GamePlayCode.userFunc0xd9dfc0(runtimeScene);
+=======
+gdjs.GamePlayCode.userFunc0x1170c60(runtimeScene);
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 
 }
 
@@ -2801,7 +2817,11 @@ gdjs.GamePlayCode.eventsList44(runtimeScene);} //End of subevents
 }
 
 
+<<<<<<< HEAD
 };gdjs.GamePlayCode.userFunc0x8da250 = function GDJSInlineCode(runtimeScene) {
+=======
+};gdjs.GamePlayCode.userFunc0x986d88 = function GDJSInlineCode(runtimeScene) {
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -3645,7 +3665,11 @@ gdjs.GamePlayCode.eventsList58(runtimeScene);
 {
 
 
+<<<<<<< HEAD
 gdjs.GamePlayCode.userFunc0x8da250(runtimeScene);
+=======
+gdjs.GamePlayCode.userFunc0x986d88(runtimeScene);
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 
 }
 
@@ -4474,7 +4498,11 @@ gdjs.GamePlayCode.eventsList70(runtimeScene);
 }
 
 
+<<<<<<< HEAD
 };gdjs.GamePlayCode.userFunc0x1170420 = function GDJSInlineCode(runtimeScene) {
+=======
+};gdjs.GamePlayCode.userFunc0xa1c058 = function GDJSInlineCode(runtimeScene) {
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -4503,7 +4531,11 @@ gdjs.GamePlayCode.eventsList72 = function(runtimeScene) {
 {
 
 
+<<<<<<< HEAD
 gdjs.GamePlayCode.userFunc0x1170420(runtimeScene);
+=======
+gdjs.GamePlayCode.userFunc0xa1c058(runtimeScene);
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 
 }
 

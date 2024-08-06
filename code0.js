@@ -140,7 +140,11 @@ gdjs.LoadingCode.GDBackgroundImageObjects2= [];
 gdjs.LoadingCode.GDBackgroundImageObjects3= [];
 
 
+<<<<<<< HEAD
 gdjs.LoadingCode.userFunc0xd9dd88 = function GDJSInlineCode(runtimeScene) {
+=======
+gdjs.LoadingCode.userFunc0xa1dae8 = function GDJSInlineCode(runtimeScene) {
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -212,7 +216,11 @@ let isConditionTrue_0 = false;
 {
 
 
+<<<<<<< HEAD
 gdjs.LoadingCode.userFunc0xd9dd88(runtimeScene);
+=======
+gdjs.LoadingCode.userFunc0xa1dae8(runtimeScene);
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
 
 }
 

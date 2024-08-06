@@ -9657,7 +9657,11 @@ gdjs.projectData = {
                     name: "ElementFoundament",
                     persistentUuid: "24416168-e10b-4fff-9f0e-151486483fd5",
                     width: 100.0,
+<<<<<<< HEAD
                     x: 500.0,
+=======
+                    x: 200.0,
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
                     y: 300.0,
                     zOrder: 2,
                     numberProperties: [],
@@ -9674,7 +9678,11 @@ gdjs.projectData = {
                     name: "ElementFoundament",
                     persistentUuid: "78124c36-5aa5-4271-ad00-1c6eb747dd05",
                     width: 100.0,
+<<<<<<< HEAD
                     x: 200.0,
+=======
+                    x: 500.0,
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
                     y: 600.0,
                     zOrder: 2,
                     numberProperties: [],
@@ -9692,7 +9700,11 @@ gdjs.projectData = {
                     persistentUuid: "b0488aa0-ecd7-48c7-a0fa-59fbb8da2007",
                     width: 100.0,
                     x: 200.0,
+<<<<<<< HEAD
                     y: 300.0,
+=======
+                    y: 600.0,
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
                     zOrder: 2,
                     numberProperties: [],
                     stringProperties: [],
@@ -9709,7 +9721,11 @@ gdjs.projectData = {
                     persistentUuid: "e8cfcb33-b607-4e5c-880f-26120e41506d",
                     width: 100.0,
                     x: 500.0,
+<<<<<<< HEAD
                     y: 900.0,
+=======
+                    y: 300.0,
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
                     zOrder: 2,
                     numberProperties: [],
                     stringProperties: [],
@@ -9726,7 +9742,11 @@ gdjs.projectData = {
                     persistentUuid: "53ec2d45-69e7-4d02-beb2-894980fc0d22",
                     width: 100.0,
                     x: 500.0,
+<<<<<<< HEAD
                     y: 600.0,
+=======
+                    y: 900.0,
+>>>>>>> 041196c4a4d8504936ef8f5eca91b6f25a74bac2
                     zOrder: 2,
                     numberProperties: [],
                     stringProperties: [],
