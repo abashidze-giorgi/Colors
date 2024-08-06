@@ -2309,11 +2309,10 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore")) <= 1800;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17453668);
-}
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) != "ok";
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.debuggerTools.log("Write Score To base started", "info", "");
+{gdjs.evtTools.debuggerTools.log("GameResult.TempScore: " + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore").getAsString(), "info", "");
 }{runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").getAsNumber() + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore").getAsNumber());
 }
 { //Subevents
@@ -2425,11 +2424,10 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore")) <= 1800;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17453669);
-}
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) != "ok";
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.debuggerTools.log("Write Score To base started", "info", "");
+{gdjs.evtTools.debuggerTools.log("GameResult.TempScore: " + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore").getAsString(), "info", "");
 }{runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").getAsNumber() + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore").getAsNumber());
 }
 { //Subevents
@@ -2608,7 +2606,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0x1106398 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x115e008 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -2676,7 +2674,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x1106398(runtimeScene);
+gdjs.GamePlayCode.userFunc0x115e008(runtimeScene);
 
 }
 
@@ -2750,7 +2748,7 @@ gdjs.GamePlayCode.eventsList42(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0xaeda50 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x115cc48 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -3594,7 +3592,7 @@ gdjs.GamePlayCode.eventsList56(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0xaeda50(runtimeScene);
+gdjs.GamePlayCode.userFunc0x115cc48(runtimeScene);
 
 }
 
@@ -4423,7 +4421,7 @@ gdjs.GamePlayCode.eventsList68(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0xa16000 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x116fbe0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -4452,7 +4450,7 @@ gdjs.GamePlayCode.eventsList70 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xa16000(runtimeScene);
+gdjs.GamePlayCode.userFunc0x116fbe0(runtimeScene);
 
 }
 
