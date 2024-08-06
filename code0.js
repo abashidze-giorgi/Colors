@@ -155,7 +155,7 @@ gdjs.LoadingCode.GDTestBtnObjects2= [];
 gdjs.LoadingCode.GDTestBtnObjects3= [];
 
 
-gdjs.LoadingCode.userFunc0x898370 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0x10ff328 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -209,7 +209,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x898370(runtimeScene);
+gdjs.LoadingCode.userFunc0x10ff328(runtimeScene);
 
 }
 
@@ -333,23 +333,6 @@ for(var i = 0, len = gdjs.LoadingCode.GDLoadingSphereObjects1.length ;i < len;++
 
 
 };gdjs.LoadingCode.eventsList5 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15963620);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.debuggerTools.log("Account.Loaded: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("Loaded").getAsString(), "info", "");
-}{gdjs.evtTools.debuggerTools.log("Account.FirebaseLoaded: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("FirebaseLoaded").getAsString(), "info", "");
-}{gdjs.evtTools.debuggerTools.log("ResponceToQuery.AccountCreateResponce: " + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountCreateResponce").getAsString(), "info", "");
-}{gdjs.evtTools.debuggerTools.log("ResponceToQuery.AccountExistResponce: " + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce").getAsString(), "info", "");
-}}
-
-}
-
 
 {
 
