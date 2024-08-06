@@ -102,7 +102,7 @@ gdjs.TestSceneCode.GDBackgroundImageObjects1= [];
 gdjs.TestSceneCode.GDBackgroundImageObjects2= [];
 
 
-gdjs.TestSceneCode.asyncCallback17336108 = function (runtimeScene, asyncObjectsList) {
+gdjs.TestSceneCode.asyncCallback17320292 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.TestSceneCode.localVariables);
 {gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString(), "info", "");
 }gdjs.TestSceneCode.localVariables.length = 0;
@@ -116,7 +116,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.TestSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.TestSceneCode.asyncCallback17336108(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.TestSceneCode.asyncCallback17320292(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -179,7 +179,7 @@ for (var i = 0, k = 0, l = gdjs.TestSceneCode.GDApplyBtnObjects1.length;i<l;++i)
 gdjs.TestSceneCode.GDApplyBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17335524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17319684);
 }
 }
 if (isConditionTrue_0) {

@@ -161,7 +161,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0x8c82b8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0x1141900 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -233,12 +233,12 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x8c82b8(runtimeScene);
+gdjs.LoadingCode.userFunc0x1141900(runtimeScene);
 
 }
 
 
-};gdjs.LoadingCode.asyncCallback14626972 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback17017748 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }gdjs.LoadingCode.localVariables.length = 0;
@@ -252,7 +252,7 @@ gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.LoadingCode.asyncCallback14626972(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.LoadingCode.asyncCallback17017748(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -332,7 +332,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17030372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17011892);
 }
 }
 }
@@ -405,7 +405,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)) == "ok";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15849036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17017532);
 }
 }
 if (isConditionTrue_0) {
@@ -445,7 +445,7 @@ for (var i = 0, k = 0, l = gdjs.LoadingCode.GDTestBtnObjects1.length;i<l;++i) {
 gdjs.LoadingCode.GDTestBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17031404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17013108);
 }
 }
 if (isConditionTrue_0) {

@@ -58,7 +58,7 @@ gdjs.projectData = {
         loadingScreen: {
             backgroundColor: 0,
             backgroundFadeInDuration: 0.2,
-            backgroundImageResourceName: "Images\\Sphere\\ColorSphere.png",
+            backgroundImageResourceName: "",
             gdevelopLogoStyle: "dark-colored",
             logoAndProgressFadeInDuration: 0.2,
             logoAndProgressLogoFadeInDelay: 0.0,
