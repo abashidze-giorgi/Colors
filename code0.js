@@ -155,7 +155,7 @@ gdjs.LoadingCode.GDTestBtnObjects2= [];
 gdjs.LoadingCode.GDTestBtnObjects3= [];
 
 
-gdjs.LoadingCode.userFunc0x10d44d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0x8fcd30 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -172,8 +172,8 @@ function setUserParameteres() {
         const user = initData.user;
 
         account_params.getChild("TgID").setNumber(user.id);
-        account_params.getChild("Username").setString(user.username);
         account_params.getChild("Loaded").setBoolean(true);
+        console.log("Account loaded");
     } else {
         console.error("Telegram WebApp is not available");
         const tg_address = runtimeScene.getGame().getVariables().get("TgBotAddress").getAsString();
@@ -210,7 +210,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x10d44d8(runtimeScene);
+gdjs.LoadingCode.userFunc0x8fcd30(runtimeScene);
 
 }
 
