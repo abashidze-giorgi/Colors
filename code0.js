@@ -155,7 +155,7 @@ gdjs.LoadingCode.GDTestBtnObjects2= [];
 gdjs.LoadingCode.GDTestBtnObjects3= [];
 
 
-gdjs.LoadingCode.userFunc0x8d62f8 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0xb8c628 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -209,7 +209,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x8d62f8(runtimeScene);
+gdjs.LoadingCode.userFunc0xb8c628(runtimeScene);
 
 }
 
@@ -339,6 +339,23 @@ for(var i = 0, len = gdjs.LoadingCode.GDLoadingSphereObjects1.length ;i < len;++
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15963620);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.debuggerTools.log("Account.Loaded: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("Loaded").getAsString(), "info", "");
+}{gdjs.evtTools.debuggerTools.log("Account.FirebaseLoaded: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("FirebaseLoaded").getAsString(), "info", "");
+}{gdjs.evtTools.debuggerTools.log("ResponceToQuery.AccountCreateResponce: " + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountCreateResponce").getAsString(), "info", "");
+}{gdjs.evtTools.debuggerTools.log("ResponceToQuery.AccountExistResponce: " + runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce").getAsString(), "info", "");
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17068948);
 }
 if (isConditionTrue_0) {
@@ -359,8 +376,6 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getSce
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.firestore.hasDocument("account", runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TgID").getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce"));
-}{gdjs.evtTools.debuggerTools.log("check if firebase account exist", "info", "");
-}{gdjs.evtTools.debuggerTools.log("Account.TgID: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TgID").getAsString(), "info", "");
 }}
 
 }
