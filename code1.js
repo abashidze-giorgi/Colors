@@ -1,8 +1,8 @@
 gdjs.MenuCode = {};
 gdjs.MenuCode.localVariables = [];
-gdjs.MenuCode.GDTotalScoreObjects1= [];
-gdjs.MenuCode.GDTotalScoreObjects2= [];
-gdjs.MenuCode.GDTotalScoreObjects3= [];
+gdjs.MenuCode.GDTotalScoreTxtObjects1= [];
+gdjs.MenuCode.GDTotalScoreTxtObjects2= [];
+gdjs.MenuCode.GDTotalScoreTxtObjects3= [];
 gdjs.MenuCode.GDFoundamentObjects1= [];
 gdjs.MenuCode.GDFoundamentObjects2= [];
 gdjs.MenuCode.GDFoundamentObjects3= [];
@@ -147,7 +147,7 @@ gdjs.copyArray(runtimeScene.getObjects("RulesButton"), gdjs.MenuCode.GDRulesButt
 gdjs.copyArray(runtimeScene.getObjects("SettingsButton"), gdjs.MenuCode.GDSettingsButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("StartGameButton"), gdjs.MenuCode.GDStartGameButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("TitlesButton"), gdjs.MenuCode.GDTitlesButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.MenuCode.GDTotalScoreObjects1);
+gdjs.copyArray(runtimeScene.getObjects("TotalScoreTxt"), gdjs.MenuCode.GDTotalScoreTxtObjects1);
 {for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setSize(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene), gdjs.evtTools.window.getGameResolutionHeight(runtimeScene));
 }
@@ -167,8 +167,8 @@ for(var i = 0, len = gdjs.MenuCode.GDRulesButtonObjects1.length ;i < len;++i) {
 for(var i = 0, len = gdjs.MenuCode.GDTitlesButtonObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDTitlesButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.MenuCode.GDTitlesButtonObjects1[i].getWidth())) / 2);
 }
-for(var i = 0, len = gdjs.MenuCode.GDTotalScoreObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDTotalScoreObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.MenuCode.GDTotalScoreObjects1[i].getWidth())) / 2);
+for(var i = 0, len = gdjs.MenuCode.GDTotalScoreTxtObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDTotalScoreTxtObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.MenuCode.GDTotalScoreTxtObjects1[i].getWidth())) / 2);
 }
 for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDBackgroundImageObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.MenuCode.GDBackgroundImageObjects1[i].getWidth())) / 2);
@@ -264,7 +264,28 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.MenuCode.eventsList2 = function(runtimeScene) {
+};gdjs.MenuCode.asyncCallback14710188 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.MenuCode.localVariables);
+{runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber());
+}gdjs.MenuCode.localVariables.length = 0;
+}
+gdjs.MenuCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.MenuCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.MenuCode.asyncCallback14710188(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.MenuCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -280,6 +301,7 @@ gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.MenuCode.GDBackg
 }{for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
+}{runtimeScene.getScene().getVariables().getFromIndex(0).setString("0");
 }}
 
 }
@@ -304,11 +326,59 @@ gdjs.MenuCode.eventsList1(runtimeScene);
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.MenuCode.GDTotalScoreObjects1);
-{for(var i = 0, len = gdjs.MenuCode.GDTotalScoreObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDTotalScoreObjects1[i].getBehavior("Text").setText("Score: " + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").getAsString());
+gdjs.copyArray(runtimeScene.getObjects("TotalScoreTxt"), gdjs.MenuCode.GDTotalScoreTxtObjects1);
+{for(var i = 0, len = gdjs.MenuCode.GDTotalScoreTxtObjects1.length ;i < len;++i) {
+    gdjs.MenuCode.GDTotalScoreTxtObjects1[i].getBehavior("Text").setText("Score: " + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").getAsString());
 }
 }}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Loaded"), true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded"), false, false);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(1), runtimeScene.getScene().getVariables().getFromIndex(0));
+}
+{ //Subevents
+gdjs.MenuCode.eventsList2(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)) == "ok";
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17288036);
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded").setBoolean(true);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
 
 }
 
@@ -318,9 +388,9 @@ gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.MenuCode.GDTotalScore
 gdjs.MenuCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.MenuCode.GDTotalScoreObjects1.length = 0;
-gdjs.MenuCode.GDTotalScoreObjects2.length = 0;
-gdjs.MenuCode.GDTotalScoreObjects3.length = 0;
+gdjs.MenuCode.GDTotalScoreTxtObjects1.length = 0;
+gdjs.MenuCode.GDTotalScoreTxtObjects2.length = 0;
+gdjs.MenuCode.GDTotalScoreTxtObjects3.length = 0;
 gdjs.MenuCode.GDFoundamentObjects1.length = 0;
 gdjs.MenuCode.GDFoundamentObjects2.length = 0;
 gdjs.MenuCode.GDFoundamentObjects3.length = 0;
@@ -451,7 +521,7 @@ gdjs.MenuCode.GDBackgroundImageObjects1.length = 0;
 gdjs.MenuCode.GDBackgroundImageObjects2.length = 0;
 gdjs.MenuCode.GDBackgroundImageObjects3.length = 0;
 
-gdjs.MenuCode.eventsList2(runtimeScene);
+gdjs.MenuCode.eventsList3(runtimeScene);
 
 return;
 

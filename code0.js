@@ -161,7 +161,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0x1141900 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xaf12c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -233,7 +233,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x1141900(runtimeScene);
+gdjs.LoadingCode.userFunc0xaf12c8(runtimeScene);
 
 }
 
@@ -369,6 +369,7 @@ gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.LoadingCode.GDBa
 }{for(var i = 0, len = gdjs.LoadingCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.LoadingCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
+}{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
 }
 { //Subevents
 gdjs.LoadingCode.eventsList1(runtimeScene);} //End of subevents
