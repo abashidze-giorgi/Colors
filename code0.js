@@ -123,9 +123,6 @@ gdjs.LoadingCode.GDArrowRightObjects3= [];
 gdjs.LoadingCode.GDOkButtonObjects1= [];
 gdjs.LoadingCode.GDOkButtonObjects2= [];
 gdjs.LoadingCode.GDOkButtonObjects3= [];
-gdjs.LoadingCode.GDDotObjects1= [];
-gdjs.LoadingCode.GDDotObjects2= [];
-gdjs.LoadingCode.GDDotObjects3= [];
 gdjs.LoadingCode.GDSoundTextObjects1= [];
 gdjs.LoadingCode.GDSoundTextObjects2= [];
 gdjs.LoadingCode.GDSoundTextObjects3= [];
@@ -155,13 +152,13 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.storage.readNumberFromJSONFile("Storage", "Sound", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(20));
 }{gdjs.evtTools.storage.readNumberFromJSONFile("Storage", "Music", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(19));
 }{gdjs.evtTools.storage.unloadJSONFile("Storage");
-}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(30);
+}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(5);
 }}
 
 }
 
 
-};gdjs.LoadingCode.userFunc0xaf12c8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0xaa97c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -233,7 +230,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xaf12c8(runtimeScene);
+gdjs.LoadingCode.userFunc0xaa97c8(runtimeScene);
 
 }
 
@@ -615,9 +612,6 @@ gdjs.LoadingCode.GDArrowRightObjects3.length = 0;
 gdjs.LoadingCode.GDOkButtonObjects1.length = 0;
 gdjs.LoadingCode.GDOkButtonObjects2.length = 0;
 gdjs.LoadingCode.GDOkButtonObjects3.length = 0;
-gdjs.LoadingCode.GDDotObjects1.length = 0;
-gdjs.LoadingCode.GDDotObjects2.length = 0;
-gdjs.LoadingCode.GDDotObjects3.length = 0;
 gdjs.LoadingCode.GDSoundTextObjects1.length = 0;
 gdjs.LoadingCode.GDSoundTextObjects2.length = 0;
 gdjs.LoadingCode.GDSoundTextObjects3.length = 0;

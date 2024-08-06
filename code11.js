@@ -1,5 +1,7 @@
 gdjs.ColorSelectSceneCode = {};
 gdjs.ColorSelectSceneCode.localVariables = [];
+gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1= [];
+gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects2= [];
 gdjs.ColorSelectSceneCode.GDFoundamentObjects1= [];
 gdjs.ColorSelectSceneCode.GDFoundamentObjects2= [];
 gdjs.ColorSelectSceneCode.GDHiddenColorFoundamentObjects1= [];
@@ -74,8 +76,6 @@ gdjs.ColorSelectSceneCode.GDArrowRightObjects1= [];
 gdjs.ColorSelectSceneCode.GDArrowRightObjects2= [];
 gdjs.ColorSelectSceneCode.GDOkButtonObjects1= [];
 gdjs.ColorSelectSceneCode.GDOkButtonObjects2= [];
-gdjs.ColorSelectSceneCode.GDDotObjects1= [];
-gdjs.ColorSelectSceneCode.GDDotObjects2= [];
 gdjs.ColorSelectSceneCode.GDSoundTextObjects1= [];
 gdjs.ColorSelectSceneCode.GDSoundTextObjects2= [];
 gdjs.ColorSelectSceneCode.GDMusicTextObjects1= [];
@@ -94,7 +94,8 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
-gdjs.ColorSelectSceneCode.userFunc0xaec738 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDSelectColorElementsBackgroundLayerObjects1Objects = Hashtable.newFrom({"SelectColorElementsBackgroundLayer": gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1});
+gdjs.ColorSelectSceneCode.userFunc0xaa9c10 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -116,7 +117,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0xaec738(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0xaa9c10(runtimeScene);
 
 }
 
@@ -141,11 +142,13 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1);
 gdjs.copyArray(runtimeScene.getObjects("BlueColor"), gdjs.ColorSelectSceneCode.GDBlueColorObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ElementFoundament"), gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1);
 gdjs.copyArray(runtimeScene.getObjects("GreenColor"), gdjs.ColorSelectSceneCode.GDGreenColorObjects1);
 gdjs.copyArray(runtimeScene.getObjects("PurpleColor"), gdjs.ColorSelectSceneCode.GDPurpleColorObjects1);
 gdjs.copyArray(runtimeScene.getObjects("RedColor"), gdjs.ColorSelectSceneCode.GDRedColorObjects1);
+gdjs.copyArray(runtimeScene.getObjects("SelectColorElementsBackgroundLayer"), gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("WhiteColor"), gdjs.ColorSelectSceneCode.GDWhiteColorObjects1);
 gdjs.copyArray(runtimeScene.getObjects("YellowColor"), gdjs.ColorSelectSceneCode.GDYellowColorObjects1);
 {for(var i = 0, len = gdjs.ColorSelectSceneCode.GDRedColorObjects1.length ;i < len;++i) {
@@ -166,8 +169,23 @@ for(var i = 0, len = gdjs.ColorSelectSceneCode.GDWhiteColorObjects1.length ;i < 
 for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < len;++i) {
     gdjs.ColorSelectSceneCode.GDGreenColorObjects1[i].getBehavior("Sticker").Stick(gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
-}{/* Unknown object - skipped. */}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1.length ;i < len;++i) {
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1[i].getBehavior("Sticker").Stick(gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDSelectColorElementsBackgroundLayerObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1.length ;i < len;++i) {
     gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1[i].getBehavior("Opacity").setOpacity(0);
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1[i].getBehavior("Opacity").setOpacity(0);
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationName("1");
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setHeight(gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setWidth(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
 }
 }}
 
@@ -179,7 +197,18 @@ for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < 
 
 let isConditionTrue_0 = false;
 {
-{/* Unknown object - skipped. */}}
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1);
+gdjs.copyArray(runtimeScene.getObjects("SelectColorElementsBackgroundLayer"), gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1);
+{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1[i].setX((gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1[i].getWidth())) / 2);
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setHeight(gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setWidth(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
+}
+}}
 
 }
 
@@ -216,7 +245,7 @@ gdjs.ColorSelectSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 {
-{/* Unknown object - skipped. */}}
+}
 
 }
 
@@ -226,6 +255,8 @@ let isConditionTrue_0 = false;
 gdjs.ColorSelectSceneCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDFoundamentObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDFoundamentObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDHiddenColorFoundamentObjects1.length = 0;
@@ -300,8 +331,6 @@ gdjs.ColorSelectSceneCode.GDArrowRightObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDArrowRightObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDOkButtonObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDOkButtonObjects2.length = 0;
-gdjs.ColorSelectSceneCode.GDDotObjects1.length = 0;
-gdjs.ColorSelectSceneCode.GDDotObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDSoundTextObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDSoundTextObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDMusicTextObjects1.length = 0;
