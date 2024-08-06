@@ -191,24 +191,24 @@ gdjs.copyArray(runtimeScene.getObjects("GameWinSprite"), gdjs.Rules4Code.GDGameW
 gdjs.copyArray(runtimeScene.getObjects("MenuButton"), gdjs.Rules4Code.GDMenuButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("RulesButton"), gdjs.Rules4Code.GDRulesButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("RulesEng"), gdjs.Rules4Code.GDRulesEngObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
+{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
 }{for(var i = 0, len = gdjs.Rules4Code.GDArrowLeftObjects1.length ;i < len;++i) {
-    gdjs.Rules4Code.GDArrowLeftObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() / 2) - ((gdjs.Rules4Code.GDArrowLeftObjects1[i].getWidth()) * 2));
+    gdjs.Rules4Code.GDArrowLeftObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber() / 2) - ((gdjs.Rules4Code.GDArrowLeftObjects1[i].getWidth()) * 2));
 }
 }{for(var i = 0, len = gdjs.Rules4Code.GDMenuButtonObjects1.length ;i < len;++i) {
-    gdjs.Rules4Code.GDMenuButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() / 2));
+    gdjs.Rules4Code.GDMenuButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber() / 2));
 }
 }{for(var i = 0, len = gdjs.Rules4Code.GDRulesButtonObjects1.length ;i < len;++i) {
-    gdjs.Rules4Code.GDRulesButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.Rules4Code.GDRulesButtonObjects1[i].getWidth())) / 2);
+    gdjs.Rules4Code.GDRulesButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber() - (gdjs.Rules4Code.GDRulesButtonObjects1[i].getWidth())) / 2);
 }
 for(var i = 0, len = gdjs.Rules4Code.GDRulesEngObjects1.length ;i < len;++i) {
-    gdjs.Rules4Code.GDRulesEngObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.Rules4Code.GDRulesEngObjects1[i].getWidth())) / 2);
+    gdjs.Rules4Code.GDRulesEngObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber() - (gdjs.Rules4Code.GDRulesEngObjects1[i].getWidth())) / 2);
 }
 for(var i = 0, len = gdjs.Rules4Code.GDGameWinSpriteObjects1.length ;i < len;++i) {
-    gdjs.Rules4Code.GDGameWinSpriteObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.Rules4Code.GDGameWinSpriteObjects1[i].getWidth())) / 2);
+    gdjs.Rules4Code.GDGameWinSpriteObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber() - (gdjs.Rules4Code.GDGameWinSpriteObjects1[i].getWidth())) / 2);
 }
 for(var i = 0, len = gdjs.Rules4Code.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.Rules4Code.GDBackgroundImageObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() - (gdjs.Rules4Code.GDBackgroundImageObjects1[i].getWidth())) / 2);
+    gdjs.Rules4Code.GDBackgroundImageObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(11).getAsNumber() - (gdjs.Rules4Code.GDBackgroundImageObjects1[i].getWidth())) / 2);
 }
 }}
 
@@ -268,7 +268,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.Rules4Code.localVariables[0].getFromIndex(0)) == 1;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\ByeByeBrain320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\ByeByeBrain320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -281,7 +281,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.Rules4Code.localVariables[0].getFromIndex(0)) == 2;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\FastFeelBananaPeel-320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\FastFeelBananaPeel-320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -294,7 +294,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.Rules4Code.localVariables[0].getFromIndex(0)) == 3;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Fluffing-a-Duck(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Fluffing-a-Duck(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -307,7 +307,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.Rules4Code.localVariables[0].getFromIndex(0)) == 4;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\peritune-spook4(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\peritune-spook4(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -320,7 +320,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.Rules4Code.localVariables[0].getFromIndex(0)) == 5;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Run-Amok(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Run-Amok(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -333,7 +333,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.Rules4Code.localVariables[0].getFromIndex(0)) == 6;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Sneaky-Snitch(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Sneaky-Snitch(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -346,7 +346,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.Rules4Code.localVariables[0].getFromIndex(0)) == 7;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Spook2(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Spook2(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -392,7 +392,7 @@ gdjs.Rules4Code.localVariables.pop();
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume")) == 0;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume")) == 0;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.unloadAllAudio(runtimeScene);
 }{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
