@@ -2128,7 +2128,14 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17462724);
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("ScoreNumberText"), gdjs.GamePlayCode.GDScoreNumberTextObjects3);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Adsgram Timer");
+}{for(var i = 0, len = gdjs.GamePlayCode.GDScoreNumberTextObjects3.length ;i < len;++i) {
+    gdjs.GamePlayCode.GDScoreNumberTextObjects3[i].getBehavior("Text").setText("You get  " + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore").getAsString() + " \n Score");
+}
+}{for(var i = 0, len = gdjs.GamePlayCode.GDScoreNumberTextObjects3.length ;i < len;++i) {
+    gdjs.GamePlayCode.GDScoreNumberTextObjects3[i].hide(false);
+}
 }}
 
 }
@@ -2139,14 +2146,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("ScoreNumberText"), gdjs.GamePlayCode.GDScoreNumberTextObjects3);
-{for(var i = 0, len = gdjs.GamePlayCode.GDScoreNumberTextObjects3.length ;i < len;++i) {
-    gdjs.GamePlayCode.GDScoreNumberTextObjects3[i].getBehavior("Text").setText("You get  " + runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TempScore").getAsString() + " \n Score");
 }
-}{for(var i = 0, len = gdjs.GamePlayCode.GDScoreNumberTextObjects3.length ;i < len;++i) {
-    gdjs.GamePlayCode.GDScoreNumberTextObjects3[i].hide(false);
-}
-}}
 
 }
 
@@ -2297,7 +2297,7 @@ gdjs.GamePlayCode.eventsList31(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x113d500 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x10ec758 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var telegram = runtimeScene.getGame().getVariables().get("Telegram");
 var gameResult = runtimeScene.getGame().getVariables().get("GameResult");
@@ -2319,14 +2319,12 @@ AdController.show().then((result) => {
   // Ваша логика вознаграждения пользователя
   var tempScore = gameResult.getChild("TempScore").getAsNumber();
   tempScore = tempScore * multiplier;
-  var newScoreText = "You get " + (tempScore) + " Score";
   gameResult.getChild("TempScore").setNumber(tempScore);
+  var newScoreText = "You get " + (tempScore) + " Score";
 
   // Изменение текста текстового объекта "ScoreNumberText"
   var scoreNumberText = runtimeScene.getObjects("ScoreNumberText")[0];
   scoreNumberText.setString(newScoreText);
-  console.log("Score number text: ",runtimeScene.getObjects("ScoreNumberText")[0]);
-  console.log("tempScore: ", tempScore);
   
   telegram.getChild("AdsShow").setBoolean(true);
 }).catch((result) => {
@@ -2344,7 +2342,7 @@ gdjs.GamePlayCode.eventsList33 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x113d500(runtimeScene);
+gdjs.GamePlayCode.userFunc0x10ec758(runtimeScene);
 
 }
 
@@ -2736,7 +2734,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0xa76460 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xdb14f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -2804,7 +2802,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xa76460(runtimeScene);
+gdjs.GamePlayCode.userFunc0xdb14f8(runtimeScene);
 
 }
 
@@ -2878,7 +2876,7 @@ gdjs.GamePlayCode.eventsList44(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x1055190 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xaeee58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -3722,7 +3720,7 @@ gdjs.GamePlayCode.eventsList58(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0x1055190(runtimeScene);
+gdjs.GamePlayCode.userFunc0xaeee58(runtimeScene);
 
 }
 
@@ -4551,7 +4549,7 @@ gdjs.GamePlayCode.eventsList70(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0xdb0318 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x114ad48 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -4580,7 +4578,7 @@ gdjs.GamePlayCode.eventsList72 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xdb0318(runtimeScene);
+gdjs.GamePlayCode.userFunc0x114ad48(runtimeScene);
 
 }
 
@@ -5055,16 +5053,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GamePlayCode.eventsList41(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
 }
 
 }

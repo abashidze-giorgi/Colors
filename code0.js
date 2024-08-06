@@ -158,7 +158,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0xa74100 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0x1149d78 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -230,7 +230,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xa74100(runtimeScene);
+gdjs.LoadingCode.userFunc0x1149d78(runtimeScene);
 
 }
 
