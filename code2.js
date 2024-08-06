@@ -2221,7 +2221,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0x10b84e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xa189d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var telegram = runtimeScene.getGame().getVariables().get("Telegram");
 var gameResult = runtimeScene.getGame().getVariables().get("GameResult");
@@ -2267,7 +2267,7 @@ gdjs.GamePlayCode.eventsList33 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x10b84e8(runtimeScene);
+gdjs.GamePlayCode.userFunc0xa189d0(runtimeScene);
 
 }
 
@@ -2645,7 +2645,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0x11560d0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x973270 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -2713,7 +2713,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x11560d0(runtimeScene);
+gdjs.GamePlayCode.userFunc0x973270(runtimeScene);
 
 }
 
@@ -2787,7 +2787,7 @@ gdjs.GamePlayCode.eventsList42(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x115fe30 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xaed4b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -3631,7 +3631,7 @@ gdjs.GamePlayCode.eventsList56(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0x115fe30(runtimeScene);
+gdjs.GamePlayCode.userFunc0xaed4b8(runtimeScene);
 
 }
 
@@ -4460,7 +4460,7 @@ gdjs.GamePlayCode.eventsList68(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0x116c440 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x973730 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -4489,7 +4489,7 @@ gdjs.GamePlayCode.eventsList70 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x116c440(runtimeScene);
+gdjs.GamePlayCode.userFunc0x973730(runtimeScene);
 
 }
 
