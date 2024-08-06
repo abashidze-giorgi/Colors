@@ -95,7 +95,7 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDSelectColorElementsBackgroundLayerObjects1Objects = Hashtable.newFrom({"SelectColorElementsBackgroundLayer": gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1});
-gdjs.ColorSelectSceneCode.userFunc0x921798 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.userFunc0x986948 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -117,7 +117,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0x921798(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0x986948(runtimeScene);
 
 }
 
@@ -245,7 +245,89 @@ gdjs.ColorSelectSceneCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 {
+gdjs.copyArray(runtimeScene.getObjects("BlueColor"), gdjs.ColorSelectSceneCode.GDBlueColorObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ElementFoundament"), gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1);
+gdjs.copyArray(runtimeScene.getObjects("GreenColor"), gdjs.ColorSelectSceneCode.GDGreenColorObjects1);
+gdjs.copyArray(runtimeScene.getObjects("PurpleColor"), gdjs.ColorSelectSceneCode.GDPurpleColorObjects1);
+gdjs.copyArray(runtimeScene.getObjects("RedColor"), gdjs.ColorSelectSceneCode.GDRedColorObjects1);
+gdjs.copyArray(runtimeScene.getObjects("WhiteColor"), gdjs.ColorSelectSceneCode.GDWhiteColorObjects1);
+gdjs.copyArray(runtimeScene.getObjects("YellowColor"), gdjs.ColorSelectSceneCode.GDYellowColorObjects1);
+{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDRedColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDRedColorObjects1[i].setFlow(250);
 }
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBlueColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBlueColorObjects1[i].setFlow(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDYellowColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDYellowColorObjects1[i].setFlow(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDPurpleColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDPurpleColorObjects1[i].setFlow(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDWhiteColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDWhiteColorObjects1[i].setFlow(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDGreenColorObjects1[i].setFlow(250);
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDRedColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDRedColorObjects1[i].setParticleSize2(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBlueColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBlueColorObjects1[i].setParticleSize2(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDYellowColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDYellowColorObjects1[i].setParticleSize2(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDPurpleColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDPurpleColorObjects1[i].setParticleSize2(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDWhiteColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDWhiteColorObjects1[i].setParticleSize2(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDGreenColorObjects1[i].setParticleSize2(200);
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDRedColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDRedColorObjects1[i].setParticleSize1(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBlueColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBlueColorObjects1[i].setParticleSize1(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDYellowColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDYellowColorObjects1[i].setParticleSize1(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDPurpleColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDPurpleColorObjects1[i].setParticleSize1(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDWhiteColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDWhiteColorObjects1[i].setParticleSize1(200);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDGreenColorObjects1[i].setParticleSize1(200);
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDRedColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDRedColorObjects1[i].setMaxParticlesCount(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBlueColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDBlueColorObjects1[i].setMaxParticlesCount(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDYellowColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDYellowColorObjects1[i].setMaxParticlesCount(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDPurpleColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDPurpleColorObjects1[i].setMaxParticlesCount(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDWhiteColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDWhiteColorObjects1[i].setMaxParticlesCount(250);
+}
+for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDGreenColorObjects1[i].setMaxParticlesCount(250);
+}
+}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1.length ;i < len;++i) {
+    gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1[i].getBehavior("Resizable").setSize(200, 200);
+}
+}}
 
 }
 

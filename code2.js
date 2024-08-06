@@ -2254,7 +2254,7 @@ gdjs.GamePlayCode.eventsList31(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x9735a8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xb945b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var telegram = runtimeScene.getGame().getVariables().get("Telegram");
 var gameResult = runtimeScene.getGame().getVariables().get("GameResult");
@@ -2294,7 +2294,7 @@ gdjs.GamePlayCode.eventsList33 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x9735a8(runtimeScene);
+gdjs.GamePlayCode.userFunc0xb945b0(runtimeScene);
 
 }
 
@@ -2655,7 +2655,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0x115d8d8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x1170c60 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -2723,7 +2723,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0x115d8d8(runtimeScene);
+gdjs.GamePlayCode.userFunc0x1170c60(runtimeScene);
 
 }
 
@@ -2801,7 +2801,7 @@ gdjs.GamePlayCode.eventsList44(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0x920ab8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x986d88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -3645,7 +3645,7 @@ gdjs.GamePlayCode.eventsList58(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0x920ab8(runtimeScene);
+gdjs.GamePlayCode.userFunc0x986d88(runtimeScene);
 
 }
 
@@ -4474,7 +4474,7 @@ gdjs.GamePlayCode.eventsList70(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0xb65460 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xa1c058 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -4503,7 +4503,7 @@ gdjs.GamePlayCode.eventsList72 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xb65460(runtimeScene);
+gdjs.GamePlayCode.userFunc0xa1c058(runtimeScene);
 
 }
 
