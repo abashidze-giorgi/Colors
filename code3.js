@@ -177,7 +177,7 @@ gdjs.SettingsCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(21), true, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(19), true, false);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.SettingsCode.GDBackButtonObjects2);
 {for(var i = 0, len = gdjs.SettingsCode.GDBackButtonObjects2.length ;i < len;++i) {
@@ -193,7 +193,7 @@ gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.SettingsCode.GDBackBu
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(21), false, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(19), false, false);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.SettingsCode.GDBackButtonObjects2);
 {for(var i = 0, len = gdjs.SettingsCode.GDBackButtonObjects2.length ;i < len;++i) {
@@ -290,7 +290,7 @@ for (var i = 0, k = 0, l = gdjs.SettingsCode.GDBackButtonObjects1.length;i<l;++i
 }
 gdjs.SettingsCode.GDBackButtonObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.variable.toggleVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(21));
+{gdjs.evtTools.variable.toggleVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(19));
 }{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }}
 
@@ -306,7 +306,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.SettingsCode.localVariables[0].getFromIndex(0)) == 1;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\ByeByeBrain320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\ByeByeBrain320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -319,7 +319,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.SettingsCode.localVariables[0].getFromIndex(0)) == 2;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\FastFeelBananaPeel-320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\FastFeelBananaPeel-320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -332,7 +332,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.SettingsCode.localVariables[0].getFromIndex(0)) == 3;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Fluffing-a-Duck(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Fluffing-a-Duck(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -345,7 +345,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.SettingsCode.localVariables[0].getFromIndex(0)) == 4;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\peritune-spook4(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\peritune-spook4(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -358,7 +358,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.SettingsCode.localVariables[0].getFromIndex(0)) == 5;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Run-Amok(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Run-Amok(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -371,7 +371,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.SettingsCode.localVariables[0].getFromIndex(0)) == 6;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Sneaky-Snitch(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Sneaky-Snitch(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -384,7 +384,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.SettingsCode.localVariables[0].getFromIndex(0)) == 7;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Spook2(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Spook2(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -430,9 +430,10 @@ gdjs.SettingsCode.localVariables.pop();
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(19)) == 0;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume")) == 0;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.unloadAllAudio(runtimeScene);
+}{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }}
 
 }

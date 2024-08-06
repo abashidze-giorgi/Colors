@@ -140,7 +140,7 @@ gdjs.LoadingCode.GDBackgroundImageObjects2= [];
 gdjs.LoadingCode.GDBackgroundImageObjects3= [];
 
 
-gdjs.LoadingCode.userFunc0x113a3a0 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0x982fb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -212,7 +212,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x113a3a0(runtimeScene);
+gdjs.LoadingCode.userFunc0x982fb0(runtimeScene);
 
 }
 
@@ -349,8 +349,8 @@ gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.LoadingCode.GDBa
     gdjs.LoadingCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
 }{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
-}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(5);
-}{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(40);
+}{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("MusicVolume").setNumber(5);
+}{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("SoundVolume").setNumber(40);
 }
 { //Subevents
 gdjs.LoadingCode.eventsList0(runtimeScene);} //End of subevents
@@ -364,13 +364,13 @@ gdjs.LoadingCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Loaded"), true, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("Loaded"), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded"), false, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("ScoreLoaded"), false, false);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
+{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(25).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
 }
 { //Subevents
 gdjs.LoadingCode.eventsList1(runtimeScene);} //End of subevents
@@ -391,7 +391,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded").setBoolean(true);
+{runtimeScene.getGame().getVariables().getFromIndex(25).getChild("ScoreLoaded").setBoolean(true);
 }}
 
 }
@@ -456,12 +456,12 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Username").getAsString()) >= 3);
+{isConditionTrue_0 = (gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("Username").getAsString()) >= 3);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("usernameInput"), gdjs.LoadingCode.GDusernameInputObjects1);
 {for(var i = 0, len = gdjs.LoadingCode.GDusernameInputObjects1.length ;i < len;++i) {
-    gdjs.LoadingCode.GDusernameInputObjects1[i].getBehavior("Text").setText(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Username").getAsString());
+    gdjs.LoadingCode.GDusernameInputObjects1[i].getBehavior("Text").setText(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("Username").getAsString());
 }
 }}
 

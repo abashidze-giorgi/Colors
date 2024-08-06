@@ -337,13 +337,13 @@ gdjs.copyArray(runtimeScene.getObjects("TotalScoreTxt"), gdjs.MenuCode.GDTotalSc
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Loaded"), true, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("Loaded"), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded"), false, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(25).getChild("ScoreLoaded"), false, false);
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(1), runtimeScene.getScene().getVariables().getFromIndex(0));
+{gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(25).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(1), runtimeScene.getScene().getVariables().getFromIndex(0));
 }
 { //Subevents
 gdjs.MenuCode.eventsList2(runtimeScene);} //End of subevents
@@ -364,7 +364,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(27).getChild("ScoreLoaded").setBoolean(true);
+{runtimeScene.getGame().getVariables().getFromIndex(25).getChild("ScoreLoaded").setBoolean(true);
 }}
 
 }
