@@ -140,25 +140,7 @@ gdjs.LoadingCode.GDBackgroundImageObjects2= [];
 gdjs.LoadingCode.GDBackgroundImageObjects3= [];
 
 
-gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.storage.elementExistsInJSONFile("Storage", "Sound");
-if (isConditionTrue_0) {
-{gdjs.evtTools.storage.readNumberFromJSONFile("Storage", "Sound", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(20));
-}{gdjs.evtTools.storage.readNumberFromJSONFile("Storage", "Music", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(19));
-}{gdjs.evtTools.storage.unloadJSONFile("Storage");
-}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(5);
-}}
-
-}
-
-
-};gdjs.LoadingCode.userFunc0x10550f0 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0x9e6ab8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -191,24 +173,7 @@ script.onload = function() {
 document.head.appendChild(script);
 document.head.appendChild(ads_script);
 };
-gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-gdjs.LoadingCode.eventsList0(runtimeScene);
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
+gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -230,7 +195,24 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x10550f0(runtimeScene);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+gdjs.LoadingCode.userFunc0x9e6ab8(runtimeScene);
 
 }
 
@@ -240,7 +222,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables
 {runtimeScene.getGame().getVariables().getFromIndex(10).getChild("TotalScore").setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
 }gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
+gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -256,7 +238,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 }
 
 
-};gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -296,7 +278,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDBackgroundImageObjects1.length ;i < len;
 }
 
 
-};gdjs.LoadingCode.eventsList4 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -340,16 +322,16 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.eventsList5 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList4 = function(runtimeScene) {
 
 {
 
 
-gdjs.LoadingCode.eventsList4(runtimeScene);
+gdjs.LoadingCode.eventsList3(runtimeScene);
 }
 
 
-};gdjs.LoadingCode.eventsList6 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -367,9 +349,11 @@ gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.LoadingCode.GDBa
     gdjs.LoadingCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
 }{runtimeScene.getScene().getVariables().getFromIndex(1).setString("0");
+}{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(5);
+}{runtimeScene.getGame().getVariables().getFromIndex(20).setNumber(40);
 }
 { //Subevents
-gdjs.LoadingCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
@@ -389,7 +373,7 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.firestore.getField("leaderboard", runtimeScene.getGame().getVariables().getFromIndex(27).getChild("TgID").getAsString(), "score", runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(1));
 }
 { //Subevents
-gdjs.LoadingCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -416,14 +400,14 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.LoadingCode.eventsList3(runtimeScene);
+gdjs.LoadingCode.eventsList2(runtimeScene);
 }
 
 
 {
 
 
-gdjs.LoadingCode.eventsList5(runtimeScene);
+gdjs.LoadingCode.eventsList4(runtimeScene);
 }
 
 
@@ -628,7 +612,7 @@ gdjs.LoadingCode.GDBackgroundImageObjects1.length = 0;
 gdjs.LoadingCode.GDBackgroundImageObjects2.length = 0;
 gdjs.LoadingCode.GDBackgroundImageObjects3.length = 0;
 
-gdjs.LoadingCode.eventsList6(runtimeScene);
+gdjs.LoadingCode.eventsList5(runtimeScene);
 
 return;
 
