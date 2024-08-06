@@ -86,6 +86,16 @@ gdjs.ColorSelectSceneCode.GDTitlesButtonObjects1= [];
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects2= [];
 gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1= [];
 gdjs.ColorSelectSceneCode.GDBackgroundImageObjects2= [];
+gdjs.ColorSelectSceneCode.GDSecretColorBoosterObjects1= [];
+gdjs.ColorSelectSceneCode.GDSecretColorBoosterObjects2= [];
+gdjs.ColorSelectSceneCode.GDSecretColorCountTextObjects1= [];
+gdjs.ColorSelectSceneCode.GDSecretColorCountTextObjects2= [];
+gdjs.ColorSelectSceneCode.GDSoundSliderObjects1= [];
+gdjs.ColorSelectSceneCode.GDSoundSliderObjects2= [];
+gdjs.ColorSelectSceneCode.GDMusicSliderObjects1= [];
+gdjs.ColorSelectSceneCode.GDMusicSliderObjects2= [];
+gdjs.ColorSelectSceneCode.GDTestBtnObjects1= [];
+gdjs.ColorSelectSceneCode.GDTestBtnObjects2= [];
 
 
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
@@ -95,7 +105,7 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDSelectColorElementsBackgroundLayerObjects1Objects = Hashtable.newFrom({"SelectColorElementsBackgroundLayer": gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1});
-gdjs.ColorSelectSceneCode.userFunc0x1401508 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.userFunc0x9c78b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -117,7 +127,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0x1401508(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0x9c78b0(runtimeScene);
 
 }
 
@@ -423,6 +433,16 @@ gdjs.ColorSelectSceneCode.GDTitlesButtonObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDTitlesButtonObjects2.length = 0;
 gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length = 0;
 gdjs.ColorSelectSceneCode.GDBackgroundImageObjects2.length = 0;
+gdjs.ColorSelectSceneCode.GDSecretColorBoosterObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDSecretColorBoosterObjects2.length = 0;
+gdjs.ColorSelectSceneCode.GDSecretColorCountTextObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDSecretColorCountTextObjects2.length = 0;
+gdjs.ColorSelectSceneCode.GDSoundSliderObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDSoundSliderObjects2.length = 0;
+gdjs.ColorSelectSceneCode.GDMusicSliderObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDMusicSliderObjects2.length = 0;
+gdjs.ColorSelectSceneCode.GDTestBtnObjects1.length = 0;
+gdjs.ColorSelectSceneCode.GDTestBtnObjects2.length = 0;
 
 gdjs.ColorSelectSceneCode.eventsList1(runtimeScene);
 

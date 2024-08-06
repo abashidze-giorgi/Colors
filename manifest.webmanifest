@@ -1,8 +1,8 @@
 {
-  "name": "TG Color Code",
-  "short_name": "TG Color Code",
+  "name": "Color Code",
+  "short_name": "Color Code",
   "id": "com.example.ColorCode",
-  "description": "Try to guess the correct arrangement of colors in 9 attempts.\n\n1. Start the game:\n\nWhen the game starts, the system randomly selects 5 colors from the available set.\nThese colors are hidden from the player.\n\n2. Player actions:\n\nThe player makes a move, indicating 5 colors and their approximate location.\nAfter each move, the system evaluates how close the player is to the goal.\n\n3. Evaluation of progress:\n\nThe left counter shows the number of colors that have been guessed and their location is correct.\nThe right counter shows the number of colors that are correct but the location is not correct.\n\n4. Victory and defeat:\n\nThe player wins if he correctly guesses all five colors and their location within 9 tries.\nIf the player fails to guess the correct combination after 9 attempts, the game ends in failure.",
+  "description": "This game is for Telegram.\n\nTry to guess the correct arrangement of colors in 9 attempts.\n\n1. Start the game:\n\nWhen the game starts, the system randomly selects 5 colors from the available set.\nThese colors are hidden from the player.\n\n2. Player actions:\n\nThe player makes a move, indicating 5 colors and their approximate location.\nAfter each move, the system evaluates how close the player is to the goal.\n\n3. Evaluation of progress:\n\nThe left counter shows the number of colors that have been guessed and their location is correct.\nThe right counter shows the number of colors that are correct but the location is not correct.\n\n4. Victory and defeat:\n\nThe player wins if he correctly guesses all five colors and their location within 9 tries.\nIf the player fails to guess the correct combination after 9 attempts, the game ends in failure.",
   "orientation": "portrait",
   "start_url": "./index.html",
   "display": "standalone",
