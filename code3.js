@@ -230,6 +230,7 @@ gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.SettingsCode.GDBackBu
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("BackButton"), gdjs.SettingsCode.GDBackButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.SettingsCode.GDBackgroundImageObjects1);
 gdjs.copyArray(runtimeScene.getObjects("MenuButton"), gdjs.SettingsCode.GDMenuButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("SettingsButton"), gdjs.SettingsCode.GDSettingsButtonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("VolumeButton"), gdjs.SettingsCode.GDVolumeButtonObjects1);
@@ -245,6 +246,12 @@ for(var i = 0, len = gdjs.SettingsCode.GDMenuButtonObjects1.length ;i < len;++i)
 }
 }{for(var i = 0, len = gdjs.SettingsCode.GDBackButtonObjects1.length ;i < len;++i) {
     gdjs.SettingsCode.GDBackButtonObjects1[i].setX(runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (2 * (gdjs.SettingsCode.GDBackButtonObjects1[i].getWidth())));
+}
+}{for(var i = 0, len = gdjs.SettingsCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setWidth(runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber());
+}
+}{for(var i = 0, len = gdjs.SettingsCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setHeight(gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
 }
 }}
 
@@ -468,7 +475,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.SettingsCode.GDBackgroundImageObjects1);
+{for(var i = 0, len = gdjs.SettingsCode.GDBackgroundImageObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationName("8");
 }
+}}
 
 }
 

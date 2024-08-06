@@ -155,7 +155,7 @@ gdjs.LoadingCode.GDTestBtnObjects2= [];
 gdjs.LoadingCode.GDTestBtnObjects3= [];
 
 
-gdjs.LoadingCode.userFunc0xd6c6b8 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0x898370 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -209,7 +209,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xd6c6b8(runtimeScene);
+gdjs.LoadingCode.userFunc0x898370(runtimeScene);
 
 }
 
