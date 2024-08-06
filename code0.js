@@ -155,7 +155,7 @@ gdjs.LoadingCode.GDTestBtnObjects2= [];
 gdjs.LoadingCode.GDTestBtnObjects3= [];
 
 
-gdjs.LoadingCode.userFunc0x8a3ec8 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0x8d62f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -209,7 +209,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0x8a3ec8(runtimeScene);
+gdjs.LoadingCode.userFunc0x8d62f8(runtimeScene);
 
 }
 
@@ -359,6 +359,8 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getSce
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.firebaseTools.firestore.hasDocument("account", runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TgID").getAsString(), runtimeScene.getScene().getVariables().getFromIndex(1), runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce"));
+}{gdjs.evtTools.debuggerTools.log("check if firebase account exist", "info", "");
+}{gdjs.evtTools.debuggerTools.log("Account.TgID: " + runtimeScene.getGame().getVariables().getFromIndex(20).getChild("TgID").getAsString(), "info", "");
 }}
 
 }
@@ -496,7 +498,6 @@ if (isConditionTrue_0) {
 }{runtimeScene.getGame().getVariables().getFromIndex(20).getChild("Crystals").setNumber(runtimeScene.getScene().getVariables().getFromIndex(2).getChild("crystals").getAsNumber());
 }{runtimeScene.getGame().getVariables().getFromIndex(20).getChild("Registered").setNumber(runtimeScene.getScene().getVariables().getFromIndex(2).getChild("registered").getAsNumber());
 }{runtimeScene.getGame().getVariables().getFromIndex(20).getChild("Score").setNumber(runtimeScene.getScene().getVariables().getFromIndex(2).getChild("score").getAsNumber());
-}{gdjs.evtTools.debuggerTools.log("Firebase loaded", "info", "");
 }
 { //Subevents
 gdjs.LoadingCode.eventsList10(runtimeScene);} //End of subevents
