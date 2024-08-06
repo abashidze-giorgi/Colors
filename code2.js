@@ -2572,7 +2572,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GamePlayCode.userFunc0xa48308 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x983da0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const tempFoundaments = runtimeScene.getObjects("Foundament");
 
@@ -2640,7 +2640,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xa48308(runtimeScene);
+gdjs.GamePlayCode.userFunc0x983da0(runtimeScene);
 
 }
 
@@ -2714,7 +2714,7 @@ gdjs.GamePlayCode.eventsList40(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.GamePlayCode.userFunc0xa47bd8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0x1186c38 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getGame().getVariables().get("FinishCheckColors").setBoolean(false);
 
@@ -3558,7 +3558,7 @@ gdjs.GamePlayCode.eventsList54(runtimeScene);
 {
 
 
-gdjs.GamePlayCode.userFunc0xa47bd8(runtimeScene);
+gdjs.GamePlayCode.userFunc0x1186c38(runtimeScene);
 
 }
 
@@ -4387,7 +4387,7 @@ gdjs.GamePlayCode.eventsList66(runtimeScene);
 }
 
 
-};gdjs.GamePlayCode.userFunc0xa49b48 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GamePlayCode.userFunc0xe6d698 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const selectedColor = runtimeScene.getGame().getVariables().get("SelectedColor").getAsString();
 runtimeScene.getGame().getVariables().get("ScenePaused").setBoolean(false);
@@ -4416,7 +4416,7 @@ gdjs.GamePlayCode.eventsList68 = function(runtimeScene) {
 {
 
 
-gdjs.GamePlayCode.userFunc0xa49b48(runtimeScene);
+gdjs.GamePlayCode.userFunc0xe6d698(runtimeScene);
 
 }
 
