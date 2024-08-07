@@ -153,10 +153,10 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(runtimeScene.getObjects("MusicSlider"), gdjs.VolumeCode.GDMusicSliderObjects2);
 gdjs.copyArray(runtimeScene.getObjects("SoundSlider"), gdjs.VolumeCode.GDSoundSliderObjects2);
 {for(var i = 0, len = gdjs.VolumeCode.GDSoundSliderObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDSoundSliderObjects2[i].SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.VolumeCode.GDSoundSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.VolumeCode.GDMusicSliderObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDMusicSliderObjects2[i].SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.VolumeCode.GDMusicSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -424,10 +424,10 @@ for (var i = 0, k = 0, l = gdjs.VolumeCode.GDSoundSliderObjects2.length;i<l;++i)
 gdjs.VolumeCode.GDSoundSliderObjects2.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs.VolumeCode.GDSoundSliderObjects2 */
-{gdjs.VariablesContainer.badVariable.setNumber((( gdjs.VolumeCode.GDSoundSliderObjects2.length === 0 ) ? 0 :gdjs.VolumeCode.GDSoundSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Sound", 0);
+{runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").setNumber((( gdjs.VolumeCode.GDSoundSliderObjects2.length === 0 ) ? 0 :gdjs.VolumeCode.GDSoundSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Sound", runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").getAsNumber());
 }{gdjs.evtTools.storage.unloadJSONFile("Storage");
-}{gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 1, 0);
+}{gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").getAsNumber());
 }}
 
 }
@@ -449,8 +449,8 @@ for (var i = 0, k = 0, l = gdjs.VolumeCode.GDMusicSliderObjects1.length;i<l;++i)
 gdjs.VolumeCode.GDMusicSliderObjects1.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs.VolumeCode.GDMusicSliderObjects1 */
-{gdjs.VariablesContainer.badVariable.setNumber((( gdjs.VolumeCode.GDMusicSliderObjects1.length === 0 ) ? 0 :gdjs.VolumeCode.GDMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Music", 0);
+{runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").setNumber((( gdjs.VolumeCode.GDMusicSliderObjects1.length === 0 ) ? 0 :gdjs.VolumeCode.GDMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Music", runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber());
 }{gdjs.evtTools.storage.unloadJSONFile("Storage");
 }}
 
@@ -468,9 +468,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.VolumeCode.GDBackgroundImageObjects1);
 {for(var i = 0, len = gdjs.VolumeCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
-}
-}{for(var i = 0, len = gdjs.VolumeCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.VolumeCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setSize(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0), gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
 }
 }

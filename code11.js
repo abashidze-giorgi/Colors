@@ -105,7 +105,7 @@ gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoun
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDElementFoundamentObjects1Objects = Hashtable.newFrom({"ElementFoundament": gdjs.ColorSelectSceneCode.GDElementFoundamentObjects1});
 gdjs.ColorSelectSceneCode.mapOfGDgdjs_9546ColorSelectSceneCode_9546GDSelectColorElementsBackgroundLayerObjects1Objects = Hashtable.newFrom({"SelectColorElementsBackgroundLayer": gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1});
-gdjs.ColorSelectSceneCode.userFunc0x112dc48 = function GDJSInlineCode(runtimeScene) {
+gdjs.ColorSelectSceneCode.userFunc0x105ab30 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var selectedColor = "";
 
@@ -127,7 +127,7 @@ gdjs.ColorSelectSceneCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ColorSelectSceneCode.userFunc0x112dc48(runtimeScene);
+gdjs.ColorSelectSceneCode.userFunc0x105ab30(runtimeScene);
 
 }
 
@@ -187,9 +187,6 @@ for(var i = 0, len = gdjs.ColorSelectSceneCode.GDGreenColorObjects1.length ;i < 
 }
 }{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1.length ;i < len;++i) {
     gdjs.ColorSelectSceneCode.GDSelectColorElementsBackgroundLayerObjects1[i].getBehavior("Opacity").setOpacity(0);
-}
-}{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationName("1");
 }
 }{for(var i = 0, len = gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.ColorSelectSceneCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setHeight(gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));

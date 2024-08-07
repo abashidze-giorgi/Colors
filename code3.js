@@ -475,11 +475,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.SettingsCode.GDBackgroundImageObjects1);
-{for(var i = 0, len = gdjs.SettingsCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.SettingsCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationName("8");
 }
-}}
 
 }
 

@@ -456,9 +456,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.RulesCode.GDBackgroundImageObjects1);
 {for(var i = 0, len = gdjs.RulesCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
-}
-}{for(var i = 0, len = gdjs.RulesCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.RulesCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setHeight(gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
 }
 }{for(var i = 0, len = gdjs.RulesCode.GDBackgroundImageObjects1.length ;i < len;++i) {

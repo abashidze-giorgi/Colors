@@ -217,7 +217,7 @@ gdjs.copyArray(runtimeScene.getObjects("TitlesEng"), gdjs.TitlesCode.GDTitlesEng
 }{for(var i = 0, len = gdjs.TitlesCode.GDMenuButtonObjects1.length ;i < len;++i) {
     gdjs.TitlesCode.GDMenuButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.TitlesCode.GDMenuButtonObjects1[i].getWidth())) / 2);
 }
-}{/* Unknown object - skipped. */}{/* Unknown object - skipped. */}}
+}}
 
 }
 

@@ -164,7 +164,7 @@ gdjs.TestSceneCode.GDTestBtnObjects2= [];
 gdjs.TestSceneCode.GDTestBtnObjects3= [];
 
 
-gdjs.TestSceneCode.asyncCallback14308212 = function (runtimeScene, asyncObjectsList) {
+gdjs.TestSceneCode.asyncCallback23700788 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.TestSceneCode.localVariables);
 {gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(4).getChild("registered").getAsString(), "info", "");
 }{gdjs.evtTools.debuggerTools.log(runtimeScene.getScene().getVariables().getFromIndex(4).getChild("score").getAsString(), "info", "");
@@ -181,7 +181,7 @@ gdjs.TestSceneCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.TestSceneCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.TestSceneCode.asyncCallback14308212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.TestSceneCode.asyncCallback23700788(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -279,7 +279,7 @@ for (var i = 0, k = 0, l = gdjs.TestSceneCode.GDApplyBtnObjects1.length;i<l;++i)
 gdjs.TestSceneCode.GDApplyBtnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17036548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23710356);
 }
 }
 if (isConditionTrue_0) {

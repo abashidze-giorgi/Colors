@@ -166,7 +166,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17504628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23868076);
 }
 }
 if (isConditionTrue_0) {
@@ -361,7 +361,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15875092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23426828);
 }
 }
 }
@@ -385,9 +385,6 @@ gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.MenuCode.GDBackg
 gdjs.copyArray(runtimeScene.getObjects("TestBtn"), gdjs.MenuCode.GDTestBtnObjects1);
 {for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationName("2");
-}
-}{for(var i = 0, len = gdjs.MenuCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.MenuCode.GDBackgroundImageObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomInRange(0, 8));
 }
 }{runtimeScene.getScene().getVariables().getFromIndex(0).setString("0");
 }{for(var i = 0, len = gdjs.MenuCode.GDTestBtnObjects1.length ;i < len;++i) {
