@@ -153,10 +153,10 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(runtimeScene.getObjects("MusicSlider"), gdjs.VolumeCode.GDMusicSliderObjects2);
 gdjs.copyArray(runtimeScene.getObjects("SoundSlider"), gdjs.VolumeCode.GDSoundSliderObjects2);
 {for(var i = 0, len = gdjs.VolumeCode.GDSoundSliderObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDSoundSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.VolumeCode.GDSoundSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(23).getChild("SoundVolume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.VolumeCode.GDMusicSliderObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDMusicSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.VolumeCode.GDMusicSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -181,65 +181,9 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(26).getChild("Geo"), true, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Geo"), true, false);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("CheckButton"), gdjs.VolumeCode.GDCheckButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("CurrentLanguage"), gdjs.VolumeCode.GDCurrentLanguageObjects2);
-gdjs.copyArray(runtimeScene.getObjects("GameName"), gdjs.VolumeCode.GDGameNameObjects2);
-gdjs.copyArray(runtimeScene.getObjects("LegendI"), gdjs.VolumeCode.GDLegendIObjects2);
-gdjs.copyArray(runtimeScene.getObjects("LegendR"), gdjs.VolumeCode.GDLegendRObjects2);
-gdjs.copyArray(runtimeScene.getObjects("MenuButton"), gdjs.VolumeCode.GDMenuButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("MusicText"), gdjs.VolumeCode.GDMusicTextObjects2);
-gdjs.copyArray(runtimeScene.getObjects("OkButton"), gdjs.VolumeCode.GDOkButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("RulesButton"), gdjs.VolumeCode.GDRulesButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("SettingsButton"), gdjs.VolumeCode.GDSettingsButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("SoundText"), gdjs.VolumeCode.GDSoundTextObjects2);
-gdjs.copyArray(runtimeScene.getObjects("StartGameButton"), gdjs.VolumeCode.GDStartGameButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("TitlesButton"), gdjs.VolumeCode.GDTitlesButtonObjects2);
-gdjs.copyArray(runtimeScene.getObjects("VolumeButton"), gdjs.VolumeCode.GDVolumeButtonObjects2);
-{for(var i = 0, len = gdjs.VolumeCode.GDCheckButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDCheckButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDSettingsButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDSettingsButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDLegendRObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDLegendRObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDGameNameObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDGameNameObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDStartGameButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDStartGameButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDLegendIObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDLegendIObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDCurrentLanguageObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDCurrentLanguageObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDRulesButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDRulesButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDMenuButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDMenuButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDVolumeButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDVolumeButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDOkButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDOkButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDSoundTextObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDSoundTextObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDMusicTextObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDMusicTextObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDTitlesButtonObjects2.length ;i < len;++i) {
-    gdjs.VolumeCode.GDTitlesButtonObjects2[i].getBehavior("Animation").setAnimationName("Geo");
-}
-}}
+{/* Unknown object - skipped. */}}
 
 }
 
@@ -249,65 +193,9 @@ for(var i = 0, len = gdjs.VolumeCode.GDTitlesButtonObjects2.length ;i < len;++i)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(26).getChild("Geo"), false, false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(27).getChild("Geo"), false, false);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("CheckButton"), gdjs.VolumeCode.GDCheckButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("CurrentLanguage"), gdjs.VolumeCode.GDCurrentLanguageObjects1);
-gdjs.copyArray(runtimeScene.getObjects("GameName"), gdjs.VolumeCode.GDGameNameObjects1);
-gdjs.copyArray(runtimeScene.getObjects("LegendI"), gdjs.VolumeCode.GDLegendIObjects1);
-gdjs.copyArray(runtimeScene.getObjects("LegendR"), gdjs.VolumeCode.GDLegendRObjects1);
-gdjs.copyArray(runtimeScene.getObjects("MenuButton"), gdjs.VolumeCode.GDMenuButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("MusicText"), gdjs.VolumeCode.GDMusicTextObjects1);
-gdjs.copyArray(runtimeScene.getObjects("OkButton"), gdjs.VolumeCode.GDOkButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("RulesButton"), gdjs.VolumeCode.GDRulesButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("SettingsButton"), gdjs.VolumeCode.GDSettingsButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("SoundText"), gdjs.VolumeCode.GDSoundTextObjects1);
-gdjs.copyArray(runtimeScene.getObjects("StartGameButton"), gdjs.VolumeCode.GDStartGameButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("TitlesButton"), gdjs.VolumeCode.GDTitlesButtonObjects1);
-gdjs.copyArray(runtimeScene.getObjects("VolumeButton"), gdjs.VolumeCode.GDVolumeButtonObjects1);
-{for(var i = 0, len = gdjs.VolumeCode.GDCheckButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDCheckButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDSettingsButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDSettingsButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDLegendRObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDLegendRObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDGameNameObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDGameNameObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDStartGameButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDStartGameButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDLegendIObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDLegendIObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDCurrentLanguageObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDCurrentLanguageObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDRulesButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDRulesButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDMenuButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDMenuButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDVolumeButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDVolumeButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDOkButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDOkButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDSoundTextObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDSoundTextObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDMusicTextObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDMusicTextObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-for(var i = 0, len = gdjs.VolumeCode.GDTitlesButtonObjects1.length ;i < len;++i) {
-    gdjs.VolumeCode.GDTitlesButtonObjects1[i].getBehavior("Animation").setAnimationName("Eng");
-}
-}}
+{/* Unknown object - skipped. */}}
 
 }
 
@@ -424,10 +312,10 @@ for (var i = 0, k = 0, l = gdjs.VolumeCode.GDSoundSliderObjects2.length;i<l;++i)
 gdjs.VolumeCode.GDSoundSliderObjects2.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs.VolumeCode.GDSoundSliderObjects2 */
-{runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").setNumber((( gdjs.VolumeCode.GDSoundSliderObjects2.length === 0 ) ? 0 :gdjs.VolumeCode.GDSoundSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Sound", runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(23).getChild("SoundVolume").setNumber((( gdjs.VolumeCode.GDSoundSliderObjects2.length === 0 ) ? 0 :gdjs.VolumeCode.GDSoundSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Sound", runtimeScene.getGame().getVariables().getFromIndex(23).getChild("SoundVolume").getAsNumber());
 }{gdjs.evtTools.storage.unloadJSONFile("Storage");
-}{gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("SoundVolume").getAsNumber());
+}{gdjs.evtTools.sound.setSoundOnChannelVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("SoundVolume").getAsNumber());
 }}
 
 }
@@ -449,8 +337,8 @@ for (var i = 0, k = 0, l = gdjs.VolumeCode.GDMusicSliderObjects1.length;i<l;++i)
 gdjs.VolumeCode.GDMusicSliderObjects1.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs.VolumeCode.GDMusicSliderObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").setNumber((( gdjs.VolumeCode.GDMusicSliderObjects1.length === 0 ) ? 0 :gdjs.VolumeCode.GDMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Music", runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").setNumber((( gdjs.VolumeCode.GDMusicSliderObjects1.length === 0 ) ? 0 :gdjs.VolumeCode.GDMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
+}{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "Music", runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber());
 }{gdjs.evtTools.storage.unloadJSONFile("Storage");
 }}
 

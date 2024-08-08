@@ -1,280 +1,243 @@
-gdjs.RulesCode = {};
-gdjs.RulesCode.localVariables = [];
-gdjs.RulesCode.GDRules1EngObjects1= [];
-gdjs.RulesCode.GDRules1EngObjects2= [];
-gdjs.RulesCode.GDRules1EngObjects3= [];
-gdjs.RulesCode.GDRules1EngObjects4= [];
-gdjs.RulesCode.GDRules2EngObjects1= [];
-gdjs.RulesCode.GDRules2EngObjects2= [];
-gdjs.RulesCode.GDRules2EngObjects3= [];
-gdjs.RulesCode.GDRules2EngObjects4= [];
-gdjs.RulesCode.GDRules3EngObjects1= [];
-gdjs.RulesCode.GDRules3EngObjects2= [];
-gdjs.RulesCode.GDRules3EngObjects3= [];
-gdjs.RulesCode.GDRules3EngObjects4= [];
-gdjs.RulesCode.GDHiddenColorsObjects1= [];
-gdjs.RulesCode.GDHiddenColorsObjects2= [];
-gdjs.RulesCode.GDHiddenColorsObjects3= [];
-gdjs.RulesCode.GDHiddenColorsObjects4= [];
-gdjs.RulesCode.GDRandomColorsObjects1= [];
-gdjs.RulesCode.GDRandomColorsObjects2= [];
-gdjs.RulesCode.GDRandomColorsObjects3= [];
-gdjs.RulesCode.GDRandomColorsObjects4= [];
-gdjs.RulesCode.GDFoundamentObjects1= [];
-gdjs.RulesCode.GDFoundamentObjects2= [];
-gdjs.RulesCode.GDFoundamentObjects3= [];
-gdjs.RulesCode.GDFoundamentObjects4= [];
-gdjs.RulesCode.GDHiddenColorFoundamentObjects1= [];
-gdjs.RulesCode.GDHiddenColorFoundamentObjects2= [];
-gdjs.RulesCode.GDHiddenColorFoundamentObjects3= [];
-gdjs.RulesCode.GDHiddenColorFoundamentObjects4= [];
-gdjs.RulesCode.GDRedColorObjects1= [];
-gdjs.RulesCode.GDRedColorObjects2= [];
-gdjs.RulesCode.GDRedColorObjects3= [];
-gdjs.RulesCode.GDRedColorObjects4= [];
-gdjs.RulesCode.GDBlueColorObjects1= [];
-gdjs.RulesCode.GDBlueColorObjects2= [];
-gdjs.RulesCode.GDBlueColorObjects3= [];
-gdjs.RulesCode.GDBlueColorObjects4= [];
-gdjs.RulesCode.GDYellowColorObjects1= [];
-gdjs.RulesCode.GDYellowColorObjects2= [];
-gdjs.RulesCode.GDYellowColorObjects3= [];
-gdjs.RulesCode.GDYellowColorObjects4= [];
-gdjs.RulesCode.GDPurpleColorObjects1= [];
-gdjs.RulesCode.GDPurpleColorObjects2= [];
-gdjs.RulesCode.GDPurpleColorObjects3= [];
-gdjs.RulesCode.GDPurpleColorObjects4= [];
-gdjs.RulesCode.GDWhiteColorObjects1= [];
-gdjs.RulesCode.GDWhiteColorObjects2= [];
-gdjs.RulesCode.GDWhiteColorObjects3= [];
-gdjs.RulesCode.GDWhiteColorObjects4= [];
-gdjs.RulesCode.GDElementFoundamentObjects1= [];
-gdjs.RulesCode.GDElementFoundamentObjects2= [];
-gdjs.RulesCode.GDElementFoundamentObjects3= [];
-gdjs.RulesCode.GDElementFoundamentObjects4= [];
-gdjs.RulesCode.GDGreenColorObjects1= [];
-gdjs.RulesCode.GDGreenColorObjects2= [];
-gdjs.RulesCode.GDGreenColorObjects3= [];
-gdjs.RulesCode.GDGreenColorObjects4= [];
-gdjs.RulesCode.GDElement1Objects1= [];
-gdjs.RulesCode.GDElement1Objects2= [];
-gdjs.RulesCode.GDElement1Objects3= [];
-gdjs.RulesCode.GDElement1Objects4= [];
-gdjs.RulesCode.GDElement2Objects1= [];
-gdjs.RulesCode.GDElement2Objects2= [];
-gdjs.RulesCode.GDElement2Objects3= [];
-gdjs.RulesCode.GDElement2Objects4= [];
-gdjs.RulesCode.GDElement3Objects1= [];
-gdjs.RulesCode.GDElement3Objects2= [];
-gdjs.RulesCode.GDElement3Objects3= [];
-gdjs.RulesCode.GDElement3Objects4= [];
-gdjs.RulesCode.GDElement4Objects1= [];
-gdjs.RulesCode.GDElement4Objects2= [];
-gdjs.RulesCode.GDElement4Objects3= [];
-gdjs.RulesCode.GDElement4Objects4= [];
-gdjs.RulesCode.GDElement5Objects1= [];
-gdjs.RulesCode.GDElement5Objects2= [];
-gdjs.RulesCode.GDElement5Objects3= [];
-gdjs.RulesCode.GDElement5Objects4= [];
-gdjs.RulesCode.GDElement6Objects1= [];
-gdjs.RulesCode.GDElement6Objects2= [];
-gdjs.RulesCode.GDElement6Objects3= [];
-gdjs.RulesCode.GDElement6Objects4= [];
-gdjs.RulesCode.GDTrailObjects1= [];
-gdjs.RulesCode.GDTrailObjects2= [];
-gdjs.RulesCode.GDTrailObjects3= [];
-gdjs.RulesCode.GDTrailObjects4= [];
-gdjs.RulesCode.GDRedExplosionObjects1= [];
-gdjs.RulesCode.GDRedExplosionObjects2= [];
-gdjs.RulesCode.GDRedExplosionObjects3= [];
-gdjs.RulesCode.GDRedExplosionObjects4= [];
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects1= [];
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects2= [];
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects3= [];
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects4= [];
-gdjs.RulesCode.GDFoundament_9595fxsObjects1= [];
-gdjs.RulesCode.GDFoundament_9595fxsObjects2= [];
-gdjs.RulesCode.GDFoundament_9595fxsObjects3= [];
-gdjs.RulesCode.GDFoundament_9595fxsObjects4= [];
-gdjs.RulesCode.GDCheckButtonObjects1= [];
-gdjs.RulesCode.GDCheckButtonObjects2= [];
-gdjs.RulesCode.GDCheckButtonObjects3= [];
-gdjs.RulesCode.GDCheckButtonObjects4= [];
-gdjs.RulesCode.GDSettingsButtonObjects1= [];
-gdjs.RulesCode.GDSettingsButtonObjects2= [];
-gdjs.RulesCode.GDSettingsButtonObjects3= [];
-gdjs.RulesCode.GDSettingsButtonObjects4= [];
-gdjs.RulesCode.GDBackButtonObjects1= [];
-gdjs.RulesCode.GDBackButtonObjects2= [];
-gdjs.RulesCode.GDBackButtonObjects3= [];
-gdjs.RulesCode.GDBackButtonObjects4= [];
-gdjs.RulesCode.GDLegendRObjects1= [];
-gdjs.RulesCode.GDLegendRObjects2= [];
-gdjs.RulesCode.GDLegendRObjects3= [];
-gdjs.RulesCode.GDLegendRObjects4= [];
-gdjs.RulesCode.GDGameNameObjects1= [];
-gdjs.RulesCode.GDGameNameObjects2= [];
-gdjs.RulesCode.GDGameNameObjects3= [];
-gdjs.RulesCode.GDGameNameObjects4= [];
-gdjs.RulesCode.GDPauseObjects1= [];
-gdjs.RulesCode.GDPauseObjects2= [];
-gdjs.RulesCode.GDPauseObjects3= [];
-gdjs.RulesCode.GDPauseObjects4= [];
-gdjs.RulesCode.GDLanguageLogoObjects1= [];
-gdjs.RulesCode.GDLanguageLogoObjects2= [];
-gdjs.RulesCode.GDLanguageLogoObjects3= [];
-gdjs.RulesCode.GDLanguageLogoObjects4= [];
-gdjs.RulesCode.GDNumbersObjects1= [];
-gdjs.RulesCode.GDNumbersObjects2= [];
-gdjs.RulesCode.GDNumbersObjects3= [];
-gdjs.RulesCode.GDNumbersObjects4= [];
-gdjs.RulesCode.GDBlackElementObjects1= [];
-gdjs.RulesCode.GDBlackElementObjects2= [];
-gdjs.RulesCode.GDBlackElementObjects3= [];
-gdjs.RulesCode.GDBlackElementObjects4= [];
-gdjs.RulesCode.GDStartGameButtonObjects1= [];
-gdjs.RulesCode.GDStartGameButtonObjects2= [];
-gdjs.RulesCode.GDStartGameButtonObjects3= [];
-gdjs.RulesCode.GDStartGameButtonObjects4= [];
-gdjs.RulesCode.GDLegendIObjects1= [];
-gdjs.RulesCode.GDLegendIObjects2= [];
-gdjs.RulesCode.GDLegendIObjects3= [];
-gdjs.RulesCode.GDLegendIObjects4= [];
-gdjs.RulesCode.GDCurrentLanguageObjects1= [];
-gdjs.RulesCode.GDCurrentLanguageObjects2= [];
-gdjs.RulesCode.GDCurrentLanguageObjects3= [];
-gdjs.RulesCode.GDCurrentLanguageObjects4= [];
-gdjs.RulesCode.GDRulesButtonObjects1= [];
-gdjs.RulesCode.GDRulesButtonObjects2= [];
-gdjs.RulesCode.GDRulesButtonObjects3= [];
-gdjs.RulesCode.GDRulesButtonObjects4= [];
-gdjs.RulesCode.GDMenuButtonObjects1= [];
-gdjs.RulesCode.GDMenuButtonObjects2= [];
-gdjs.RulesCode.GDMenuButtonObjects3= [];
-gdjs.RulesCode.GDMenuButtonObjects4= [];
-gdjs.RulesCode.GDVolumeButtonObjects1= [];
-gdjs.RulesCode.GDVolumeButtonObjects2= [];
-gdjs.RulesCode.GDVolumeButtonObjects3= [];
-gdjs.RulesCode.GDVolumeButtonObjects4= [];
-gdjs.RulesCode.GDArrowLeftObjects1= [];
-gdjs.RulesCode.GDArrowLeftObjects2= [];
-gdjs.RulesCode.GDArrowLeftObjects3= [];
-gdjs.RulesCode.GDArrowLeftObjects4= [];
-gdjs.RulesCode.GDArrowRightObjects1= [];
-gdjs.RulesCode.GDArrowRightObjects2= [];
-gdjs.RulesCode.GDArrowRightObjects3= [];
-gdjs.RulesCode.GDArrowRightObjects4= [];
-gdjs.RulesCode.GDOkButtonObjects1= [];
-gdjs.RulesCode.GDOkButtonObjects2= [];
-gdjs.RulesCode.GDOkButtonObjects3= [];
-gdjs.RulesCode.GDOkButtonObjects4= [];
-gdjs.RulesCode.GDSoundTextObjects1= [];
-gdjs.RulesCode.GDSoundTextObjects2= [];
-gdjs.RulesCode.GDSoundTextObjects3= [];
-gdjs.RulesCode.GDSoundTextObjects4= [];
-gdjs.RulesCode.GDMusicTextObjects1= [];
-gdjs.RulesCode.GDMusicTextObjects2= [];
-gdjs.RulesCode.GDMusicTextObjects3= [];
-gdjs.RulesCode.GDMusicTextObjects4= [];
-gdjs.RulesCode.GDGameOverCanvasObjects1= [];
-gdjs.RulesCode.GDGameOverCanvasObjects2= [];
-gdjs.RulesCode.GDGameOverCanvasObjects3= [];
-gdjs.RulesCode.GDGameOverCanvasObjects4= [];
-gdjs.RulesCode.GDTitlesButtonObjects1= [];
-gdjs.RulesCode.GDTitlesButtonObjects2= [];
-gdjs.RulesCode.GDTitlesButtonObjects3= [];
-gdjs.RulesCode.GDTitlesButtonObjects4= [];
-gdjs.RulesCode.GDBackgroundImageObjects1= [];
-gdjs.RulesCode.GDBackgroundImageObjects2= [];
-gdjs.RulesCode.GDBackgroundImageObjects3= [];
-gdjs.RulesCode.GDBackgroundImageObjects4= [];
-gdjs.RulesCode.GDSecretColorBoosterObjects1= [];
-gdjs.RulesCode.GDSecretColorBoosterObjects2= [];
-gdjs.RulesCode.GDSecretColorBoosterObjects3= [];
-gdjs.RulesCode.GDSecretColorBoosterObjects4= [];
-gdjs.RulesCode.GDSecretColorCountTextObjects1= [];
-gdjs.RulesCode.GDSecretColorCountTextObjects2= [];
-gdjs.RulesCode.GDSecretColorCountTextObjects3= [];
-gdjs.RulesCode.GDSecretColorCountTextObjects4= [];
-gdjs.RulesCode.GDSoundSliderObjects1= [];
-gdjs.RulesCode.GDSoundSliderObjects2= [];
-gdjs.RulesCode.GDSoundSliderObjects3= [];
-gdjs.RulesCode.GDSoundSliderObjects4= [];
-gdjs.RulesCode.GDMusicSliderObjects1= [];
-gdjs.RulesCode.GDMusicSliderObjects2= [];
-gdjs.RulesCode.GDMusicSliderObjects3= [];
-gdjs.RulesCode.GDMusicSliderObjects4= [];
-gdjs.RulesCode.GDTestBtnObjects1= [];
-gdjs.RulesCode.GDTestBtnObjects2= [];
-gdjs.RulesCode.GDTestBtnObjects3= [];
-gdjs.RulesCode.GDTestBtnObjects4= [];
+gdjs.TitlesCode = {};
+gdjs.TitlesCode.localVariables = [];
+gdjs.TitlesCode.GDTitlesEngObjects1= [];
+gdjs.TitlesCode.GDTitlesEngObjects2= [];
+gdjs.TitlesCode.GDTitlesEngObjects3= [];
+gdjs.TitlesCode.GDTitlesEngObjects4= [];
+gdjs.TitlesCode.GDGameWinSpriteObjects1= [];
+gdjs.TitlesCode.GDGameWinSpriteObjects2= [];
+gdjs.TitlesCode.GDGameWinSpriteObjects3= [];
+gdjs.TitlesCode.GDGameWinSpriteObjects4= [];
+gdjs.TitlesCode.GDFoundamentObjects1= [];
+gdjs.TitlesCode.GDFoundamentObjects2= [];
+gdjs.TitlesCode.GDFoundamentObjects3= [];
+gdjs.TitlesCode.GDFoundamentObjects4= [];
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects1= [];
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects2= [];
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects3= [];
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects4= [];
+gdjs.TitlesCode.GDRedColorObjects1= [];
+gdjs.TitlesCode.GDRedColorObjects2= [];
+gdjs.TitlesCode.GDRedColorObjects3= [];
+gdjs.TitlesCode.GDRedColorObjects4= [];
+gdjs.TitlesCode.GDBlueColorObjects1= [];
+gdjs.TitlesCode.GDBlueColorObjects2= [];
+gdjs.TitlesCode.GDBlueColorObjects3= [];
+gdjs.TitlesCode.GDBlueColorObjects4= [];
+gdjs.TitlesCode.GDYellowColorObjects1= [];
+gdjs.TitlesCode.GDYellowColorObjects2= [];
+gdjs.TitlesCode.GDYellowColorObjects3= [];
+gdjs.TitlesCode.GDYellowColorObjects4= [];
+gdjs.TitlesCode.GDPurpleColorObjects1= [];
+gdjs.TitlesCode.GDPurpleColorObjects2= [];
+gdjs.TitlesCode.GDPurpleColorObjects3= [];
+gdjs.TitlesCode.GDPurpleColorObjects4= [];
+gdjs.TitlesCode.GDWhiteColorObjects1= [];
+gdjs.TitlesCode.GDWhiteColorObjects2= [];
+gdjs.TitlesCode.GDWhiteColorObjects3= [];
+gdjs.TitlesCode.GDWhiteColorObjects4= [];
+gdjs.TitlesCode.GDElementFoundamentObjects1= [];
+gdjs.TitlesCode.GDElementFoundamentObjects2= [];
+gdjs.TitlesCode.GDElementFoundamentObjects3= [];
+gdjs.TitlesCode.GDElementFoundamentObjects4= [];
+gdjs.TitlesCode.GDGreenColorObjects1= [];
+gdjs.TitlesCode.GDGreenColorObjects2= [];
+gdjs.TitlesCode.GDGreenColorObjects3= [];
+gdjs.TitlesCode.GDGreenColorObjects4= [];
+gdjs.TitlesCode.GDElement1Objects1= [];
+gdjs.TitlesCode.GDElement1Objects2= [];
+gdjs.TitlesCode.GDElement1Objects3= [];
+gdjs.TitlesCode.GDElement1Objects4= [];
+gdjs.TitlesCode.GDElement2Objects1= [];
+gdjs.TitlesCode.GDElement2Objects2= [];
+gdjs.TitlesCode.GDElement2Objects3= [];
+gdjs.TitlesCode.GDElement2Objects4= [];
+gdjs.TitlesCode.GDElement3Objects1= [];
+gdjs.TitlesCode.GDElement3Objects2= [];
+gdjs.TitlesCode.GDElement3Objects3= [];
+gdjs.TitlesCode.GDElement3Objects4= [];
+gdjs.TitlesCode.GDElement4Objects1= [];
+gdjs.TitlesCode.GDElement4Objects2= [];
+gdjs.TitlesCode.GDElement4Objects3= [];
+gdjs.TitlesCode.GDElement4Objects4= [];
+gdjs.TitlesCode.GDElement5Objects1= [];
+gdjs.TitlesCode.GDElement5Objects2= [];
+gdjs.TitlesCode.GDElement5Objects3= [];
+gdjs.TitlesCode.GDElement5Objects4= [];
+gdjs.TitlesCode.GDElement6Objects1= [];
+gdjs.TitlesCode.GDElement6Objects2= [];
+gdjs.TitlesCode.GDElement6Objects3= [];
+gdjs.TitlesCode.GDElement6Objects4= [];
+gdjs.TitlesCode.GDTrailObjects1= [];
+gdjs.TitlesCode.GDTrailObjects2= [];
+gdjs.TitlesCode.GDTrailObjects3= [];
+gdjs.TitlesCode.GDTrailObjects4= [];
+gdjs.TitlesCode.GDRedExplosionObjects1= [];
+gdjs.TitlesCode.GDRedExplosionObjects2= [];
+gdjs.TitlesCode.GDRedExplosionObjects3= [];
+gdjs.TitlesCode.GDRedExplosionObjects4= [];
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects1= [];
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects2= [];
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects3= [];
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects4= [];
+gdjs.TitlesCode.GDFoundament_9595fxsObjects1= [];
+gdjs.TitlesCode.GDFoundament_9595fxsObjects2= [];
+gdjs.TitlesCode.GDFoundament_9595fxsObjects3= [];
+gdjs.TitlesCode.GDFoundament_9595fxsObjects4= [];
+gdjs.TitlesCode.GDCheckButtonObjects1= [];
+gdjs.TitlesCode.GDCheckButtonObjects2= [];
+gdjs.TitlesCode.GDCheckButtonObjects3= [];
+gdjs.TitlesCode.GDCheckButtonObjects4= [];
+gdjs.TitlesCode.GDSettingsButtonObjects1= [];
+gdjs.TitlesCode.GDSettingsButtonObjects2= [];
+gdjs.TitlesCode.GDSettingsButtonObjects3= [];
+gdjs.TitlesCode.GDSettingsButtonObjects4= [];
+gdjs.TitlesCode.GDBackButtonObjects1= [];
+gdjs.TitlesCode.GDBackButtonObjects2= [];
+gdjs.TitlesCode.GDBackButtonObjects3= [];
+gdjs.TitlesCode.GDBackButtonObjects4= [];
+gdjs.TitlesCode.GDLegendRObjects1= [];
+gdjs.TitlesCode.GDLegendRObjects2= [];
+gdjs.TitlesCode.GDLegendRObjects3= [];
+gdjs.TitlesCode.GDLegendRObjects4= [];
+gdjs.TitlesCode.GDGameNameObjects1= [];
+gdjs.TitlesCode.GDGameNameObjects2= [];
+gdjs.TitlesCode.GDGameNameObjects3= [];
+gdjs.TitlesCode.GDGameNameObjects4= [];
+gdjs.TitlesCode.GDPauseObjects1= [];
+gdjs.TitlesCode.GDPauseObjects2= [];
+gdjs.TitlesCode.GDPauseObjects3= [];
+gdjs.TitlesCode.GDPauseObjects4= [];
+gdjs.TitlesCode.GDLanguageLogoObjects1= [];
+gdjs.TitlesCode.GDLanguageLogoObjects2= [];
+gdjs.TitlesCode.GDLanguageLogoObjects3= [];
+gdjs.TitlesCode.GDLanguageLogoObjects4= [];
+gdjs.TitlesCode.GDNumbersObjects1= [];
+gdjs.TitlesCode.GDNumbersObjects2= [];
+gdjs.TitlesCode.GDNumbersObjects3= [];
+gdjs.TitlesCode.GDNumbersObjects4= [];
+gdjs.TitlesCode.GDBlackElementObjects1= [];
+gdjs.TitlesCode.GDBlackElementObjects2= [];
+gdjs.TitlesCode.GDBlackElementObjects3= [];
+gdjs.TitlesCode.GDBlackElementObjects4= [];
+gdjs.TitlesCode.GDStartGameButtonObjects1= [];
+gdjs.TitlesCode.GDStartGameButtonObjects2= [];
+gdjs.TitlesCode.GDStartGameButtonObjects3= [];
+gdjs.TitlesCode.GDStartGameButtonObjects4= [];
+gdjs.TitlesCode.GDLegendIObjects1= [];
+gdjs.TitlesCode.GDLegendIObjects2= [];
+gdjs.TitlesCode.GDLegendIObjects3= [];
+gdjs.TitlesCode.GDLegendIObjects4= [];
+gdjs.TitlesCode.GDCurrentLanguageObjects1= [];
+gdjs.TitlesCode.GDCurrentLanguageObjects2= [];
+gdjs.TitlesCode.GDCurrentLanguageObjects3= [];
+gdjs.TitlesCode.GDCurrentLanguageObjects4= [];
+gdjs.TitlesCode.GDRulesButtonObjects1= [];
+gdjs.TitlesCode.GDRulesButtonObjects2= [];
+gdjs.TitlesCode.GDRulesButtonObjects3= [];
+gdjs.TitlesCode.GDRulesButtonObjects4= [];
+gdjs.TitlesCode.GDMenuButtonObjects1= [];
+gdjs.TitlesCode.GDMenuButtonObjects2= [];
+gdjs.TitlesCode.GDMenuButtonObjects3= [];
+gdjs.TitlesCode.GDMenuButtonObjects4= [];
+gdjs.TitlesCode.GDVolumeButtonObjects1= [];
+gdjs.TitlesCode.GDVolumeButtonObjects2= [];
+gdjs.TitlesCode.GDVolumeButtonObjects3= [];
+gdjs.TitlesCode.GDVolumeButtonObjects4= [];
+gdjs.TitlesCode.GDArrowLeftObjects1= [];
+gdjs.TitlesCode.GDArrowLeftObjects2= [];
+gdjs.TitlesCode.GDArrowLeftObjects3= [];
+gdjs.TitlesCode.GDArrowLeftObjects4= [];
+gdjs.TitlesCode.GDArrowRightObjects1= [];
+gdjs.TitlesCode.GDArrowRightObjects2= [];
+gdjs.TitlesCode.GDArrowRightObjects3= [];
+gdjs.TitlesCode.GDArrowRightObjects4= [];
+gdjs.TitlesCode.GDOkButtonObjects1= [];
+gdjs.TitlesCode.GDOkButtonObjects2= [];
+gdjs.TitlesCode.GDOkButtonObjects3= [];
+gdjs.TitlesCode.GDOkButtonObjects4= [];
+gdjs.TitlesCode.GDSoundTextObjects1= [];
+gdjs.TitlesCode.GDSoundTextObjects2= [];
+gdjs.TitlesCode.GDSoundTextObjects3= [];
+gdjs.TitlesCode.GDSoundTextObjects4= [];
+gdjs.TitlesCode.GDMusicTextObjects1= [];
+gdjs.TitlesCode.GDMusicTextObjects2= [];
+gdjs.TitlesCode.GDMusicTextObjects3= [];
+gdjs.TitlesCode.GDMusicTextObjects4= [];
+gdjs.TitlesCode.GDGameOverCanvasObjects1= [];
+gdjs.TitlesCode.GDGameOverCanvasObjects2= [];
+gdjs.TitlesCode.GDGameOverCanvasObjects3= [];
+gdjs.TitlesCode.GDGameOverCanvasObjects4= [];
+gdjs.TitlesCode.GDTitlesButtonObjects1= [];
+gdjs.TitlesCode.GDTitlesButtonObjects2= [];
+gdjs.TitlesCode.GDTitlesButtonObjects3= [];
+gdjs.TitlesCode.GDTitlesButtonObjects4= [];
+gdjs.TitlesCode.GDBackgroundImageObjects1= [];
+gdjs.TitlesCode.GDBackgroundImageObjects2= [];
+gdjs.TitlesCode.GDBackgroundImageObjects3= [];
+gdjs.TitlesCode.GDBackgroundImageObjects4= [];
+gdjs.TitlesCode.GDSecretColorBoosterObjects1= [];
+gdjs.TitlesCode.GDSecretColorBoosterObjects2= [];
+gdjs.TitlesCode.GDSecretColorBoosterObjects3= [];
+gdjs.TitlesCode.GDSecretColorBoosterObjects4= [];
+gdjs.TitlesCode.GDSecretColorCountTextObjects1= [];
+gdjs.TitlesCode.GDSecretColorCountTextObjects2= [];
+gdjs.TitlesCode.GDSecretColorCountTextObjects3= [];
+gdjs.TitlesCode.GDSecretColorCountTextObjects4= [];
+gdjs.TitlesCode.GDSoundSliderObjects1= [];
+gdjs.TitlesCode.GDSoundSliderObjects2= [];
+gdjs.TitlesCode.GDSoundSliderObjects3= [];
+gdjs.TitlesCode.GDSoundSliderObjects4= [];
+gdjs.TitlesCode.GDMusicSliderObjects1= [];
+gdjs.TitlesCode.GDMusicSliderObjects2= [];
+gdjs.TitlesCode.GDMusicSliderObjects3= [];
+gdjs.TitlesCode.GDMusicSliderObjects4= [];
+gdjs.TitlesCode.GDTestBtnObjects1= [];
+gdjs.TitlesCode.GDTestBtnObjects2= [];
+gdjs.TitlesCode.GDTestBtnObjects3= [];
+gdjs.TitlesCode.GDTestBtnObjects4= [];
 
 
-gdjs.RulesCode.eventsList0 = function(runtimeScene) {
+gdjs.TitlesCode.eventsList0 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("ArrowLeft"), gdjs.RulesCode.GDArrowLeftObjects1);
-gdjs.copyArray(runtimeScene.getObjects("ArrowRight"), gdjs.RulesCode.GDArrowRightObjects1);
-gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.RulesCode.GDBackgroundImageObjects1);
-gdjs.copyArray(runtimeScene.getObjects("HiddenColors"), gdjs.RulesCode.GDHiddenColorsObjects1);
-gdjs.copyArray(runtimeScene.getObjects("RandomColors"), gdjs.RulesCode.GDRandomColorsObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Rules1Eng"), gdjs.RulesCode.GDRules1EngObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Rules2Eng"), gdjs.RulesCode.GDRules2EngObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Rules3Eng"), gdjs.RulesCode.GDRules3EngObjects1);
-gdjs.copyArray(runtimeScene.getObjects("RulesButton"), gdjs.RulesCode.GDRulesButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("MenuButton"), gdjs.TitlesCode.GDMenuButtonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("TitlesEng"), gdjs.TitlesCode.GDTitlesEngObjects1);
 {runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
-}{for(var i = 0, len = gdjs.RulesCode.GDArrowLeftObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDArrowLeftObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() / 2) - ((gdjs.RulesCode.GDArrowLeftObjects1[i].getWidth()) * 2));
+}{for(var i = 0, len = gdjs.TitlesCode.GDTitlesEngObjects1.length ;i < len;++i) {
+    gdjs.TitlesCode.GDTitlesEngObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.TitlesCode.GDTitlesEngObjects1[i].getWidth())) / 2);
 }
-}{for(var i = 0, len = gdjs.RulesCode.GDRulesButtonObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDRulesButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.RulesCode.GDRulesButtonObjects1[i].getWidth())) / 2);
+}{for(var i = 0, len = gdjs.TitlesCode.GDTitlesEngObjects1.length ;i < len;++i) {
+    gdjs.TitlesCode.GDTitlesEngObjects1[i].setWrappingWidth(gdjs.evtTools.window.getWindowInnerWidth());
 }
-for(var i = 0, len = gdjs.RulesCode.GDRules1EngObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDRules1EngObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.RulesCode.GDRules1EngObjects1[i].getWidth())) / 2);
-}
-for(var i = 0, len = gdjs.RulesCode.GDRules2EngObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDRules2EngObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.RulesCode.GDRules2EngObjects1[i].getWidth())) / 2);
-}
-for(var i = 0, len = gdjs.RulesCode.GDRules3EngObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDRules3EngObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.RulesCode.GDRules3EngObjects1[i].getWidth())) / 2);
-}
-for(var i = 0, len = gdjs.RulesCode.GDHiddenColorsObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDHiddenColorsObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.RulesCode.GDHiddenColorsObjects1[i].getWidth())) / 2);
-}
-for(var i = 0, len = gdjs.RulesCode.GDRandomColorsObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDRandomColorsObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.RulesCode.GDRandomColorsObjects1[i].getWidth())) / 2);
-}
-for(var i = 0, len = gdjs.RulesCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDBackgroundImageObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.RulesCode.GDBackgroundImageObjects1[i].getWidth())) / 2);
-}
-}{for(var i = 0, len = gdjs.RulesCode.GDArrowRightObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDArrowRightObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() / 2) + ((( gdjs.RulesCode.GDArrowLeftObjects1.length === 0 ) ? 0 :gdjs.RulesCode.GDArrowLeftObjects1[0].getWidth())));
+}{for(var i = 0, len = gdjs.TitlesCode.GDMenuButtonObjects1.length ;i < len;++i) {
+    gdjs.TitlesCode.GDMenuButtonObjects1[i].setX((runtimeScene.getGame().getVariables().getFromIndex(10).getAsNumber() - (gdjs.TitlesCode.GDMenuButtonObjects1[i].getWidth())) / 2);
 }
 }}
 
 }
 
 
-};gdjs.RulesCode.eventsList1 = function(runtimeScene) {
+};gdjs.TitlesCode.eventsList1 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("ArrowLeft"), gdjs.RulesCode.GDArrowLeftObjects2);
+gdjs.copyArray(runtimeScene.getObjects("MenuButton"), gdjs.TitlesCode.GDMenuButtonObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.RulesCode.GDArrowLeftObjects2.length;i<l;++i) {
-    if ( gdjs.RulesCode.GDArrowLeftObjects2[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.TitlesCode.GDMenuButtonObjects1.length;i<l;++i) {
+    if ( gdjs.TitlesCode.GDMenuButtonObjects1[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.RulesCode.GDArrowLeftObjects2[k] = gdjs.RulesCode.GDArrowLeftObjects2[i];
+        gdjs.TitlesCode.GDMenuButtonObjects1[k] = gdjs.TitlesCode.GDMenuButtonObjects1[i];
         ++k;
     }
 }
-gdjs.RulesCode.GDArrowLeftObjects2.length = k;
+gdjs.TitlesCode.GDMenuButtonObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu", false);
 }}
@@ -282,37 +245,16 @@ if (isConditionTrue_0) {
 }
 
 
-{
-
-gdjs.copyArray(runtimeScene.getObjects("ArrowRight"), gdjs.RulesCode.GDArrowRightObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.RulesCode.GDArrowRightObjects1.length;i<l;++i) {
-    if ( gdjs.RulesCode.GDArrowRightObjects1[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        isConditionTrue_0 = true;
-        gdjs.RulesCode.GDArrowRightObjects1[k] = gdjs.RulesCode.GDArrowRightObjects1[i];
-        ++k;
-    }
-}
-gdjs.RulesCode.GDArrowRightObjects1.length = k;
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Rules2", false);
-}}
-
-}
-
-
-};gdjs.RulesCode.eventsList2 = function(runtimeScene) {
+};gdjs.TitlesCode.eventsList2 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.RulesCode.localVariables[0].getFromIndex(0)) == 1;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.TitlesCode.localVariables[0].getFromIndex(0)) == 1;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\ByeByeBrain320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\ByeByeBrain320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -323,9 +265,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.RulesCode.localVariables[0].getFromIndex(0)) == 2;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.TitlesCode.localVariables[0].getFromIndex(0)) == 2;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\FastFeelBananaPeel-320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\FastFeelBananaPeel-320bit(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -336,9 +278,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.RulesCode.localVariables[0].getFromIndex(0)) == 3;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.TitlesCode.localVariables[0].getFromIndex(0)) == 3;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Fluffing-a-Duck(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Fluffing-a-Duck(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -349,9 +291,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.RulesCode.localVariables[0].getFromIndex(0)) == 4;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.TitlesCode.localVariables[0].getFromIndex(0)) == 4;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\peritune-spook4(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\peritune-spook4(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -362,9 +304,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.RulesCode.localVariables[0].getFromIndex(0)) == 5;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.TitlesCode.localVariables[0].getFromIndex(0)) == 5;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Run-Amok(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Run-Amok(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -375,9 +317,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.RulesCode.localVariables[0].getFromIndex(0)) == 6;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.TitlesCode.localVariables[0].getFromIndex(0)) == 6;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Sneaky-Snitch(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Sneaky-Snitch(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
@@ -388,15 +330,15 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.RulesCode.localVariables[0].getFromIndex(0)) == 7;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(gdjs.TitlesCode.localVariables[0].getFromIndex(0)) == 7;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Spook2(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume").getAsNumber(), 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music\\Spook2(chosic.com).mp3", 1, false, runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume").getAsNumber(), 1);
 }}
 
 }
 
 
-};gdjs.RulesCode.eventsList3 = function(runtimeScene) {
+};gdjs.TitlesCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -415,18 +357,18 @@ const variable = new gdjs.Variable();
 variable.setNumber(0);
 variables._declare("MusicName", variable);
 }
-gdjs.RulesCode.localVariables.push(variables);
+gdjs.TitlesCode.localVariables.push(variables);
 }
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelStopped(runtimeScene, 1);
 if (isConditionTrue_0) {
-{gdjs.RulesCode.localVariables[0].getFromIndex(0).setNumber(gdjs.randomInRange(1, 7));
+{gdjs.TitlesCode.localVariables[0].getFromIndex(0).setNumber(gdjs.randomInRange(1, 7));
 }
 { //Subevents
-gdjs.RulesCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.TitlesCode.eventsList2(runtimeScene);} //End of subevents
 }
-gdjs.RulesCode.localVariables.pop();
+gdjs.TitlesCode.localVariables.pop();
 
 }
 
@@ -436,7 +378,7 @@ gdjs.RulesCode.localVariables.pop();
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(22).getChild("MusicVolume")) == 0;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(23).getChild("MusicVolume")) == 0;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.unloadAllAudio(runtimeScene);
 }{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
@@ -445,21 +387,16 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.RulesCode.eventsList4 = function(runtimeScene) {
+};gdjs.TitlesCode.eventsList4 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.RulesCode.GDBackgroundImageObjects1);
-{for(var i = 0, len = gdjs.RulesCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setHeight(gdjs.evtTools.camera.getCameraHeight(runtimeScene, "", 0));
-}
-}{for(var i = 0, len = gdjs.RulesCode.GDBackgroundImageObjects1.length ;i < len;++i) {
-    gdjs.RulesCode.GDBackgroundImageObjects1[i].getBehavior("Resizable").setWidth(gdjs.evtTools.camera.getCameraWidth(runtimeScene, "", 0));
+{
+gdjs.copyArray(runtimeScene.getObjects("TitlesEng"), gdjs.TitlesCode.GDTitlesEngObjects1);
+{for(var i = 0, len = gdjs.TitlesCode.GDTitlesEngObjects1.length ;i < len;++i) {
+    gdjs.TitlesCode.GDTitlesEngObjects1[i].addForce(0, -(15), 0);
 }
 }}
 
@@ -469,252 +406,237 @@ gdjs.copyArray(runtimeScene.getObjects("BackgroundImage"), gdjs.RulesCode.GDBack
 {
 
 
-gdjs.RulesCode.eventsList0(runtimeScene);
+gdjs.TitlesCode.eventsList0(runtimeScene);
 }
 
 
 {
 
 
-gdjs.RulesCode.eventsList1(runtimeScene);
+gdjs.TitlesCode.eventsList1(runtimeScene);
 }
 
 
 {
 
 
-gdjs.RulesCode.eventsList3(runtimeScene);
+gdjs.TitlesCode.eventsList3(runtimeScene);
 }
 
 
 {
 
 
-let isConditionTrue_0 = false;
-{
-}
 
 }
 
 
 };
 
-gdjs.RulesCode.func = function(runtimeScene) {
+gdjs.TitlesCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.RulesCode.GDRules1EngObjects1.length = 0;
-gdjs.RulesCode.GDRules1EngObjects2.length = 0;
-gdjs.RulesCode.GDRules1EngObjects3.length = 0;
-gdjs.RulesCode.GDRules1EngObjects4.length = 0;
-gdjs.RulesCode.GDRules2EngObjects1.length = 0;
-gdjs.RulesCode.GDRules2EngObjects2.length = 0;
-gdjs.RulesCode.GDRules2EngObjects3.length = 0;
-gdjs.RulesCode.GDRules2EngObjects4.length = 0;
-gdjs.RulesCode.GDRules3EngObjects1.length = 0;
-gdjs.RulesCode.GDRules3EngObjects2.length = 0;
-gdjs.RulesCode.GDRules3EngObjects3.length = 0;
-gdjs.RulesCode.GDRules3EngObjects4.length = 0;
-gdjs.RulesCode.GDHiddenColorsObjects1.length = 0;
-gdjs.RulesCode.GDHiddenColorsObjects2.length = 0;
-gdjs.RulesCode.GDHiddenColorsObjects3.length = 0;
-gdjs.RulesCode.GDHiddenColorsObjects4.length = 0;
-gdjs.RulesCode.GDRandomColorsObjects1.length = 0;
-gdjs.RulesCode.GDRandomColorsObjects2.length = 0;
-gdjs.RulesCode.GDRandomColorsObjects3.length = 0;
-gdjs.RulesCode.GDRandomColorsObjects4.length = 0;
-gdjs.RulesCode.GDFoundamentObjects1.length = 0;
-gdjs.RulesCode.GDFoundamentObjects2.length = 0;
-gdjs.RulesCode.GDFoundamentObjects3.length = 0;
-gdjs.RulesCode.GDFoundamentObjects4.length = 0;
-gdjs.RulesCode.GDHiddenColorFoundamentObjects1.length = 0;
-gdjs.RulesCode.GDHiddenColorFoundamentObjects2.length = 0;
-gdjs.RulesCode.GDHiddenColorFoundamentObjects3.length = 0;
-gdjs.RulesCode.GDHiddenColorFoundamentObjects4.length = 0;
-gdjs.RulesCode.GDRedColorObjects1.length = 0;
-gdjs.RulesCode.GDRedColorObjects2.length = 0;
-gdjs.RulesCode.GDRedColorObjects3.length = 0;
-gdjs.RulesCode.GDRedColorObjects4.length = 0;
-gdjs.RulesCode.GDBlueColorObjects1.length = 0;
-gdjs.RulesCode.GDBlueColorObjects2.length = 0;
-gdjs.RulesCode.GDBlueColorObjects3.length = 0;
-gdjs.RulesCode.GDBlueColorObjects4.length = 0;
-gdjs.RulesCode.GDYellowColorObjects1.length = 0;
-gdjs.RulesCode.GDYellowColorObjects2.length = 0;
-gdjs.RulesCode.GDYellowColorObjects3.length = 0;
-gdjs.RulesCode.GDYellowColorObjects4.length = 0;
-gdjs.RulesCode.GDPurpleColorObjects1.length = 0;
-gdjs.RulesCode.GDPurpleColorObjects2.length = 0;
-gdjs.RulesCode.GDPurpleColorObjects3.length = 0;
-gdjs.RulesCode.GDPurpleColorObjects4.length = 0;
-gdjs.RulesCode.GDWhiteColorObjects1.length = 0;
-gdjs.RulesCode.GDWhiteColorObjects2.length = 0;
-gdjs.RulesCode.GDWhiteColorObjects3.length = 0;
-gdjs.RulesCode.GDWhiteColorObjects4.length = 0;
-gdjs.RulesCode.GDElementFoundamentObjects1.length = 0;
-gdjs.RulesCode.GDElementFoundamentObjects2.length = 0;
-gdjs.RulesCode.GDElementFoundamentObjects3.length = 0;
-gdjs.RulesCode.GDElementFoundamentObjects4.length = 0;
-gdjs.RulesCode.GDGreenColorObjects1.length = 0;
-gdjs.RulesCode.GDGreenColorObjects2.length = 0;
-gdjs.RulesCode.GDGreenColorObjects3.length = 0;
-gdjs.RulesCode.GDGreenColorObjects4.length = 0;
-gdjs.RulesCode.GDElement1Objects1.length = 0;
-gdjs.RulesCode.GDElement1Objects2.length = 0;
-gdjs.RulesCode.GDElement1Objects3.length = 0;
-gdjs.RulesCode.GDElement1Objects4.length = 0;
-gdjs.RulesCode.GDElement2Objects1.length = 0;
-gdjs.RulesCode.GDElement2Objects2.length = 0;
-gdjs.RulesCode.GDElement2Objects3.length = 0;
-gdjs.RulesCode.GDElement2Objects4.length = 0;
-gdjs.RulesCode.GDElement3Objects1.length = 0;
-gdjs.RulesCode.GDElement3Objects2.length = 0;
-gdjs.RulesCode.GDElement3Objects3.length = 0;
-gdjs.RulesCode.GDElement3Objects4.length = 0;
-gdjs.RulesCode.GDElement4Objects1.length = 0;
-gdjs.RulesCode.GDElement4Objects2.length = 0;
-gdjs.RulesCode.GDElement4Objects3.length = 0;
-gdjs.RulesCode.GDElement4Objects4.length = 0;
-gdjs.RulesCode.GDElement5Objects1.length = 0;
-gdjs.RulesCode.GDElement5Objects2.length = 0;
-gdjs.RulesCode.GDElement5Objects3.length = 0;
-gdjs.RulesCode.GDElement5Objects4.length = 0;
-gdjs.RulesCode.GDElement6Objects1.length = 0;
-gdjs.RulesCode.GDElement6Objects2.length = 0;
-gdjs.RulesCode.GDElement6Objects3.length = 0;
-gdjs.RulesCode.GDElement6Objects4.length = 0;
-gdjs.RulesCode.GDTrailObjects1.length = 0;
-gdjs.RulesCode.GDTrailObjects2.length = 0;
-gdjs.RulesCode.GDTrailObjects3.length = 0;
-gdjs.RulesCode.GDTrailObjects4.length = 0;
-gdjs.RulesCode.GDRedExplosionObjects1.length = 0;
-gdjs.RulesCode.GDRedExplosionObjects2.length = 0;
-gdjs.RulesCode.GDRedExplosionObjects3.length = 0;
-gdjs.RulesCode.GDRedExplosionObjects4.length = 0;
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects1.length = 0;
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects2.length = 0;
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects3.length = 0;
-gdjs.RulesCode.GDBasicExplosionEnergySparksObjects4.length = 0;
-gdjs.RulesCode.GDFoundament_9595fxsObjects1.length = 0;
-gdjs.RulesCode.GDFoundament_9595fxsObjects2.length = 0;
-gdjs.RulesCode.GDFoundament_9595fxsObjects3.length = 0;
-gdjs.RulesCode.GDFoundament_9595fxsObjects4.length = 0;
-gdjs.RulesCode.GDCheckButtonObjects1.length = 0;
-gdjs.RulesCode.GDCheckButtonObjects2.length = 0;
-gdjs.RulesCode.GDCheckButtonObjects3.length = 0;
-gdjs.RulesCode.GDCheckButtonObjects4.length = 0;
-gdjs.RulesCode.GDSettingsButtonObjects1.length = 0;
-gdjs.RulesCode.GDSettingsButtonObjects2.length = 0;
-gdjs.RulesCode.GDSettingsButtonObjects3.length = 0;
-gdjs.RulesCode.GDSettingsButtonObjects4.length = 0;
-gdjs.RulesCode.GDBackButtonObjects1.length = 0;
-gdjs.RulesCode.GDBackButtonObjects2.length = 0;
-gdjs.RulesCode.GDBackButtonObjects3.length = 0;
-gdjs.RulesCode.GDBackButtonObjects4.length = 0;
-gdjs.RulesCode.GDLegendRObjects1.length = 0;
-gdjs.RulesCode.GDLegendRObjects2.length = 0;
-gdjs.RulesCode.GDLegendRObjects3.length = 0;
-gdjs.RulesCode.GDLegendRObjects4.length = 0;
-gdjs.RulesCode.GDGameNameObjects1.length = 0;
-gdjs.RulesCode.GDGameNameObjects2.length = 0;
-gdjs.RulesCode.GDGameNameObjects3.length = 0;
-gdjs.RulesCode.GDGameNameObjects4.length = 0;
-gdjs.RulesCode.GDPauseObjects1.length = 0;
-gdjs.RulesCode.GDPauseObjects2.length = 0;
-gdjs.RulesCode.GDPauseObjects3.length = 0;
-gdjs.RulesCode.GDPauseObjects4.length = 0;
-gdjs.RulesCode.GDLanguageLogoObjects1.length = 0;
-gdjs.RulesCode.GDLanguageLogoObjects2.length = 0;
-gdjs.RulesCode.GDLanguageLogoObjects3.length = 0;
-gdjs.RulesCode.GDLanguageLogoObjects4.length = 0;
-gdjs.RulesCode.GDNumbersObjects1.length = 0;
-gdjs.RulesCode.GDNumbersObjects2.length = 0;
-gdjs.RulesCode.GDNumbersObjects3.length = 0;
-gdjs.RulesCode.GDNumbersObjects4.length = 0;
-gdjs.RulesCode.GDBlackElementObjects1.length = 0;
-gdjs.RulesCode.GDBlackElementObjects2.length = 0;
-gdjs.RulesCode.GDBlackElementObjects3.length = 0;
-gdjs.RulesCode.GDBlackElementObjects4.length = 0;
-gdjs.RulesCode.GDStartGameButtonObjects1.length = 0;
-gdjs.RulesCode.GDStartGameButtonObjects2.length = 0;
-gdjs.RulesCode.GDStartGameButtonObjects3.length = 0;
-gdjs.RulesCode.GDStartGameButtonObjects4.length = 0;
-gdjs.RulesCode.GDLegendIObjects1.length = 0;
-gdjs.RulesCode.GDLegendIObjects2.length = 0;
-gdjs.RulesCode.GDLegendIObjects3.length = 0;
-gdjs.RulesCode.GDLegendIObjects4.length = 0;
-gdjs.RulesCode.GDCurrentLanguageObjects1.length = 0;
-gdjs.RulesCode.GDCurrentLanguageObjects2.length = 0;
-gdjs.RulesCode.GDCurrentLanguageObjects3.length = 0;
-gdjs.RulesCode.GDCurrentLanguageObjects4.length = 0;
-gdjs.RulesCode.GDRulesButtonObjects1.length = 0;
-gdjs.RulesCode.GDRulesButtonObjects2.length = 0;
-gdjs.RulesCode.GDRulesButtonObjects3.length = 0;
-gdjs.RulesCode.GDRulesButtonObjects4.length = 0;
-gdjs.RulesCode.GDMenuButtonObjects1.length = 0;
-gdjs.RulesCode.GDMenuButtonObjects2.length = 0;
-gdjs.RulesCode.GDMenuButtonObjects3.length = 0;
-gdjs.RulesCode.GDMenuButtonObjects4.length = 0;
-gdjs.RulesCode.GDVolumeButtonObjects1.length = 0;
-gdjs.RulesCode.GDVolumeButtonObjects2.length = 0;
-gdjs.RulesCode.GDVolumeButtonObjects3.length = 0;
-gdjs.RulesCode.GDVolumeButtonObjects4.length = 0;
-gdjs.RulesCode.GDArrowLeftObjects1.length = 0;
-gdjs.RulesCode.GDArrowLeftObjects2.length = 0;
-gdjs.RulesCode.GDArrowLeftObjects3.length = 0;
-gdjs.RulesCode.GDArrowLeftObjects4.length = 0;
-gdjs.RulesCode.GDArrowRightObjects1.length = 0;
-gdjs.RulesCode.GDArrowRightObjects2.length = 0;
-gdjs.RulesCode.GDArrowRightObjects3.length = 0;
-gdjs.RulesCode.GDArrowRightObjects4.length = 0;
-gdjs.RulesCode.GDOkButtonObjects1.length = 0;
-gdjs.RulesCode.GDOkButtonObjects2.length = 0;
-gdjs.RulesCode.GDOkButtonObjects3.length = 0;
-gdjs.RulesCode.GDOkButtonObjects4.length = 0;
-gdjs.RulesCode.GDSoundTextObjects1.length = 0;
-gdjs.RulesCode.GDSoundTextObjects2.length = 0;
-gdjs.RulesCode.GDSoundTextObjects3.length = 0;
-gdjs.RulesCode.GDSoundTextObjects4.length = 0;
-gdjs.RulesCode.GDMusicTextObjects1.length = 0;
-gdjs.RulesCode.GDMusicTextObjects2.length = 0;
-gdjs.RulesCode.GDMusicTextObjects3.length = 0;
-gdjs.RulesCode.GDMusicTextObjects4.length = 0;
-gdjs.RulesCode.GDGameOverCanvasObjects1.length = 0;
-gdjs.RulesCode.GDGameOverCanvasObjects2.length = 0;
-gdjs.RulesCode.GDGameOverCanvasObjects3.length = 0;
-gdjs.RulesCode.GDGameOverCanvasObjects4.length = 0;
-gdjs.RulesCode.GDTitlesButtonObjects1.length = 0;
-gdjs.RulesCode.GDTitlesButtonObjects2.length = 0;
-gdjs.RulesCode.GDTitlesButtonObjects3.length = 0;
-gdjs.RulesCode.GDTitlesButtonObjects4.length = 0;
-gdjs.RulesCode.GDBackgroundImageObjects1.length = 0;
-gdjs.RulesCode.GDBackgroundImageObjects2.length = 0;
-gdjs.RulesCode.GDBackgroundImageObjects3.length = 0;
-gdjs.RulesCode.GDBackgroundImageObjects4.length = 0;
-gdjs.RulesCode.GDSecretColorBoosterObjects1.length = 0;
-gdjs.RulesCode.GDSecretColorBoosterObjects2.length = 0;
-gdjs.RulesCode.GDSecretColorBoosterObjects3.length = 0;
-gdjs.RulesCode.GDSecretColorBoosterObjects4.length = 0;
-gdjs.RulesCode.GDSecretColorCountTextObjects1.length = 0;
-gdjs.RulesCode.GDSecretColorCountTextObjects2.length = 0;
-gdjs.RulesCode.GDSecretColorCountTextObjects3.length = 0;
-gdjs.RulesCode.GDSecretColorCountTextObjects4.length = 0;
-gdjs.RulesCode.GDSoundSliderObjects1.length = 0;
-gdjs.RulesCode.GDSoundSliderObjects2.length = 0;
-gdjs.RulesCode.GDSoundSliderObjects3.length = 0;
-gdjs.RulesCode.GDSoundSliderObjects4.length = 0;
-gdjs.RulesCode.GDMusicSliderObjects1.length = 0;
-gdjs.RulesCode.GDMusicSliderObjects2.length = 0;
-gdjs.RulesCode.GDMusicSliderObjects3.length = 0;
-gdjs.RulesCode.GDMusicSliderObjects4.length = 0;
-gdjs.RulesCode.GDTestBtnObjects1.length = 0;
-gdjs.RulesCode.GDTestBtnObjects2.length = 0;
-gdjs.RulesCode.GDTestBtnObjects3.length = 0;
-gdjs.RulesCode.GDTestBtnObjects4.length = 0;
+gdjs.TitlesCode.GDTitlesEngObjects1.length = 0;
+gdjs.TitlesCode.GDTitlesEngObjects2.length = 0;
+gdjs.TitlesCode.GDTitlesEngObjects3.length = 0;
+gdjs.TitlesCode.GDTitlesEngObjects4.length = 0;
+gdjs.TitlesCode.GDGameWinSpriteObjects1.length = 0;
+gdjs.TitlesCode.GDGameWinSpriteObjects2.length = 0;
+gdjs.TitlesCode.GDGameWinSpriteObjects3.length = 0;
+gdjs.TitlesCode.GDGameWinSpriteObjects4.length = 0;
+gdjs.TitlesCode.GDFoundamentObjects1.length = 0;
+gdjs.TitlesCode.GDFoundamentObjects2.length = 0;
+gdjs.TitlesCode.GDFoundamentObjects3.length = 0;
+gdjs.TitlesCode.GDFoundamentObjects4.length = 0;
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects1.length = 0;
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects2.length = 0;
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects3.length = 0;
+gdjs.TitlesCode.GDHiddenColorFoundamentObjects4.length = 0;
+gdjs.TitlesCode.GDRedColorObjects1.length = 0;
+gdjs.TitlesCode.GDRedColorObjects2.length = 0;
+gdjs.TitlesCode.GDRedColorObjects3.length = 0;
+gdjs.TitlesCode.GDRedColorObjects4.length = 0;
+gdjs.TitlesCode.GDBlueColorObjects1.length = 0;
+gdjs.TitlesCode.GDBlueColorObjects2.length = 0;
+gdjs.TitlesCode.GDBlueColorObjects3.length = 0;
+gdjs.TitlesCode.GDBlueColorObjects4.length = 0;
+gdjs.TitlesCode.GDYellowColorObjects1.length = 0;
+gdjs.TitlesCode.GDYellowColorObjects2.length = 0;
+gdjs.TitlesCode.GDYellowColorObjects3.length = 0;
+gdjs.TitlesCode.GDYellowColorObjects4.length = 0;
+gdjs.TitlesCode.GDPurpleColorObjects1.length = 0;
+gdjs.TitlesCode.GDPurpleColorObjects2.length = 0;
+gdjs.TitlesCode.GDPurpleColorObjects3.length = 0;
+gdjs.TitlesCode.GDPurpleColorObjects4.length = 0;
+gdjs.TitlesCode.GDWhiteColorObjects1.length = 0;
+gdjs.TitlesCode.GDWhiteColorObjects2.length = 0;
+gdjs.TitlesCode.GDWhiteColorObjects3.length = 0;
+gdjs.TitlesCode.GDWhiteColorObjects4.length = 0;
+gdjs.TitlesCode.GDElementFoundamentObjects1.length = 0;
+gdjs.TitlesCode.GDElementFoundamentObjects2.length = 0;
+gdjs.TitlesCode.GDElementFoundamentObjects3.length = 0;
+gdjs.TitlesCode.GDElementFoundamentObjects4.length = 0;
+gdjs.TitlesCode.GDGreenColorObjects1.length = 0;
+gdjs.TitlesCode.GDGreenColorObjects2.length = 0;
+gdjs.TitlesCode.GDGreenColorObjects3.length = 0;
+gdjs.TitlesCode.GDGreenColorObjects4.length = 0;
+gdjs.TitlesCode.GDElement1Objects1.length = 0;
+gdjs.TitlesCode.GDElement1Objects2.length = 0;
+gdjs.TitlesCode.GDElement1Objects3.length = 0;
+gdjs.TitlesCode.GDElement1Objects4.length = 0;
+gdjs.TitlesCode.GDElement2Objects1.length = 0;
+gdjs.TitlesCode.GDElement2Objects2.length = 0;
+gdjs.TitlesCode.GDElement2Objects3.length = 0;
+gdjs.TitlesCode.GDElement2Objects4.length = 0;
+gdjs.TitlesCode.GDElement3Objects1.length = 0;
+gdjs.TitlesCode.GDElement3Objects2.length = 0;
+gdjs.TitlesCode.GDElement3Objects3.length = 0;
+gdjs.TitlesCode.GDElement3Objects4.length = 0;
+gdjs.TitlesCode.GDElement4Objects1.length = 0;
+gdjs.TitlesCode.GDElement4Objects2.length = 0;
+gdjs.TitlesCode.GDElement4Objects3.length = 0;
+gdjs.TitlesCode.GDElement4Objects4.length = 0;
+gdjs.TitlesCode.GDElement5Objects1.length = 0;
+gdjs.TitlesCode.GDElement5Objects2.length = 0;
+gdjs.TitlesCode.GDElement5Objects3.length = 0;
+gdjs.TitlesCode.GDElement5Objects4.length = 0;
+gdjs.TitlesCode.GDElement6Objects1.length = 0;
+gdjs.TitlesCode.GDElement6Objects2.length = 0;
+gdjs.TitlesCode.GDElement6Objects3.length = 0;
+gdjs.TitlesCode.GDElement6Objects4.length = 0;
+gdjs.TitlesCode.GDTrailObjects1.length = 0;
+gdjs.TitlesCode.GDTrailObjects2.length = 0;
+gdjs.TitlesCode.GDTrailObjects3.length = 0;
+gdjs.TitlesCode.GDTrailObjects4.length = 0;
+gdjs.TitlesCode.GDRedExplosionObjects1.length = 0;
+gdjs.TitlesCode.GDRedExplosionObjects2.length = 0;
+gdjs.TitlesCode.GDRedExplosionObjects3.length = 0;
+gdjs.TitlesCode.GDRedExplosionObjects4.length = 0;
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects1.length = 0;
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects2.length = 0;
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects3.length = 0;
+gdjs.TitlesCode.GDBasicExplosionEnergySparksObjects4.length = 0;
+gdjs.TitlesCode.GDFoundament_9595fxsObjects1.length = 0;
+gdjs.TitlesCode.GDFoundament_9595fxsObjects2.length = 0;
+gdjs.TitlesCode.GDFoundament_9595fxsObjects3.length = 0;
+gdjs.TitlesCode.GDFoundament_9595fxsObjects4.length = 0;
+gdjs.TitlesCode.GDCheckButtonObjects1.length = 0;
+gdjs.TitlesCode.GDCheckButtonObjects2.length = 0;
+gdjs.TitlesCode.GDCheckButtonObjects3.length = 0;
+gdjs.TitlesCode.GDCheckButtonObjects4.length = 0;
+gdjs.TitlesCode.GDSettingsButtonObjects1.length = 0;
+gdjs.TitlesCode.GDSettingsButtonObjects2.length = 0;
+gdjs.TitlesCode.GDSettingsButtonObjects3.length = 0;
+gdjs.TitlesCode.GDSettingsButtonObjects4.length = 0;
+gdjs.TitlesCode.GDBackButtonObjects1.length = 0;
+gdjs.TitlesCode.GDBackButtonObjects2.length = 0;
+gdjs.TitlesCode.GDBackButtonObjects3.length = 0;
+gdjs.TitlesCode.GDBackButtonObjects4.length = 0;
+gdjs.TitlesCode.GDLegendRObjects1.length = 0;
+gdjs.TitlesCode.GDLegendRObjects2.length = 0;
+gdjs.TitlesCode.GDLegendRObjects3.length = 0;
+gdjs.TitlesCode.GDLegendRObjects4.length = 0;
+gdjs.TitlesCode.GDGameNameObjects1.length = 0;
+gdjs.TitlesCode.GDGameNameObjects2.length = 0;
+gdjs.TitlesCode.GDGameNameObjects3.length = 0;
+gdjs.TitlesCode.GDGameNameObjects4.length = 0;
+gdjs.TitlesCode.GDPauseObjects1.length = 0;
+gdjs.TitlesCode.GDPauseObjects2.length = 0;
+gdjs.TitlesCode.GDPauseObjects3.length = 0;
+gdjs.TitlesCode.GDPauseObjects4.length = 0;
+gdjs.TitlesCode.GDLanguageLogoObjects1.length = 0;
+gdjs.TitlesCode.GDLanguageLogoObjects2.length = 0;
+gdjs.TitlesCode.GDLanguageLogoObjects3.length = 0;
+gdjs.TitlesCode.GDLanguageLogoObjects4.length = 0;
+gdjs.TitlesCode.GDNumbersObjects1.length = 0;
+gdjs.TitlesCode.GDNumbersObjects2.length = 0;
+gdjs.TitlesCode.GDNumbersObjects3.length = 0;
+gdjs.TitlesCode.GDNumbersObjects4.length = 0;
+gdjs.TitlesCode.GDBlackElementObjects1.length = 0;
+gdjs.TitlesCode.GDBlackElementObjects2.length = 0;
+gdjs.TitlesCode.GDBlackElementObjects3.length = 0;
+gdjs.TitlesCode.GDBlackElementObjects4.length = 0;
+gdjs.TitlesCode.GDStartGameButtonObjects1.length = 0;
+gdjs.TitlesCode.GDStartGameButtonObjects2.length = 0;
+gdjs.TitlesCode.GDStartGameButtonObjects3.length = 0;
+gdjs.TitlesCode.GDStartGameButtonObjects4.length = 0;
+gdjs.TitlesCode.GDLegendIObjects1.length = 0;
+gdjs.TitlesCode.GDLegendIObjects2.length = 0;
+gdjs.TitlesCode.GDLegendIObjects3.length = 0;
+gdjs.TitlesCode.GDLegendIObjects4.length = 0;
+gdjs.TitlesCode.GDCurrentLanguageObjects1.length = 0;
+gdjs.TitlesCode.GDCurrentLanguageObjects2.length = 0;
+gdjs.TitlesCode.GDCurrentLanguageObjects3.length = 0;
+gdjs.TitlesCode.GDCurrentLanguageObjects4.length = 0;
+gdjs.TitlesCode.GDRulesButtonObjects1.length = 0;
+gdjs.TitlesCode.GDRulesButtonObjects2.length = 0;
+gdjs.TitlesCode.GDRulesButtonObjects3.length = 0;
+gdjs.TitlesCode.GDRulesButtonObjects4.length = 0;
+gdjs.TitlesCode.GDMenuButtonObjects1.length = 0;
+gdjs.TitlesCode.GDMenuButtonObjects2.length = 0;
+gdjs.TitlesCode.GDMenuButtonObjects3.length = 0;
+gdjs.TitlesCode.GDMenuButtonObjects4.length = 0;
+gdjs.TitlesCode.GDVolumeButtonObjects1.length = 0;
+gdjs.TitlesCode.GDVolumeButtonObjects2.length = 0;
+gdjs.TitlesCode.GDVolumeButtonObjects3.length = 0;
+gdjs.TitlesCode.GDVolumeButtonObjects4.length = 0;
+gdjs.TitlesCode.GDArrowLeftObjects1.length = 0;
+gdjs.TitlesCode.GDArrowLeftObjects2.length = 0;
+gdjs.TitlesCode.GDArrowLeftObjects3.length = 0;
+gdjs.TitlesCode.GDArrowLeftObjects4.length = 0;
+gdjs.TitlesCode.GDArrowRightObjects1.length = 0;
+gdjs.TitlesCode.GDArrowRightObjects2.length = 0;
+gdjs.TitlesCode.GDArrowRightObjects3.length = 0;
+gdjs.TitlesCode.GDArrowRightObjects4.length = 0;
+gdjs.TitlesCode.GDOkButtonObjects1.length = 0;
+gdjs.TitlesCode.GDOkButtonObjects2.length = 0;
+gdjs.TitlesCode.GDOkButtonObjects3.length = 0;
+gdjs.TitlesCode.GDOkButtonObjects4.length = 0;
+gdjs.TitlesCode.GDSoundTextObjects1.length = 0;
+gdjs.TitlesCode.GDSoundTextObjects2.length = 0;
+gdjs.TitlesCode.GDSoundTextObjects3.length = 0;
+gdjs.TitlesCode.GDSoundTextObjects4.length = 0;
+gdjs.TitlesCode.GDMusicTextObjects1.length = 0;
+gdjs.TitlesCode.GDMusicTextObjects2.length = 0;
+gdjs.TitlesCode.GDMusicTextObjects3.length = 0;
+gdjs.TitlesCode.GDMusicTextObjects4.length = 0;
+gdjs.TitlesCode.GDGameOverCanvasObjects1.length = 0;
+gdjs.TitlesCode.GDGameOverCanvasObjects2.length = 0;
+gdjs.TitlesCode.GDGameOverCanvasObjects3.length = 0;
+gdjs.TitlesCode.GDGameOverCanvasObjects4.length = 0;
+gdjs.TitlesCode.GDTitlesButtonObjects1.length = 0;
+gdjs.TitlesCode.GDTitlesButtonObjects2.length = 0;
+gdjs.TitlesCode.GDTitlesButtonObjects3.length = 0;
+gdjs.TitlesCode.GDTitlesButtonObjects4.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects1.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects2.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects3.length = 0;
+gdjs.TitlesCode.GDBackgroundImageObjects4.length = 0;
+gdjs.TitlesCode.GDSecretColorBoosterObjects1.length = 0;
+gdjs.TitlesCode.GDSecretColorBoosterObjects2.length = 0;
+gdjs.TitlesCode.GDSecretColorBoosterObjects3.length = 0;
+gdjs.TitlesCode.GDSecretColorBoosterObjects4.length = 0;
+gdjs.TitlesCode.GDSecretColorCountTextObjects1.length = 0;
+gdjs.TitlesCode.GDSecretColorCountTextObjects2.length = 0;
+gdjs.TitlesCode.GDSecretColorCountTextObjects3.length = 0;
+gdjs.TitlesCode.GDSecretColorCountTextObjects4.length = 0;
+gdjs.TitlesCode.GDSoundSliderObjects1.length = 0;
+gdjs.TitlesCode.GDSoundSliderObjects2.length = 0;
+gdjs.TitlesCode.GDSoundSliderObjects3.length = 0;
+gdjs.TitlesCode.GDSoundSliderObjects4.length = 0;
+gdjs.TitlesCode.GDMusicSliderObjects1.length = 0;
+gdjs.TitlesCode.GDMusicSliderObjects2.length = 0;
+gdjs.TitlesCode.GDMusicSliderObjects3.length = 0;
+gdjs.TitlesCode.GDMusicSliderObjects4.length = 0;
+gdjs.TitlesCode.GDTestBtnObjects1.length = 0;
+gdjs.TitlesCode.GDTestBtnObjects2.length = 0;
+gdjs.TitlesCode.GDTestBtnObjects3.length = 0;
+gdjs.TitlesCode.GDTestBtnObjects4.length = 0;
 
-gdjs.RulesCode.eventsList4(runtimeScene);
+gdjs.TitlesCode.eventsList4(runtimeScene);
 
 return;
 
 }
 
-gdjs['RulesCode'] = gdjs.RulesCode;
+gdjs['TitlesCode'] = gdjs.TitlesCode;

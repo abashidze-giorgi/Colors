@@ -10,7 +10,7 @@ gdjs.evtsExt__ArrayTools__ObjectInsertAt.GDObjectObjects1= [];
 gdjs.evtsExt__ArrayTools__ObjectInsertAt.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__ArrayTools__ObjectInsertAt.userFunc0xd93e80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__ObjectInsertAt.userFunc0x9c90d8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.Variable} */
 const array = eventsFunctionContext.getArgument("Array");
@@ -30,7 +30,7 @@ gdjs.evtsExt__ArrayTools__ObjectInsertAt.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__ArrayTools__ObjectInsertAt.userFunc0xd93e80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__ObjectInsertAt.userFunc0x9c90d8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
