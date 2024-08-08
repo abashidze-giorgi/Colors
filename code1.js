@@ -166,7 +166,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18199244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17876996);
 }
 }
 if (isConditionTrue_0) {
@@ -359,7 +359,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17640212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17453836);
 }
 }
 }
@@ -388,6 +388,7 @@ gdjs.copyArray(runtimeScene.getObjects("TestBtn"), gdjs.MenuCode.GDTestBtnObject
 }{for(var i = 0, len = gdjs.MenuCode.GDTestBtnObjects1.length ;i < len;++i) {
     gdjs.MenuCode.GDTestBtnObjects1[i].hide();
 }
+}{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "GamePlay");
 }
 { //Subevents
 gdjs.MenuCode.eventsList1(runtimeScene);} //End of subevents

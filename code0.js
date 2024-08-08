@@ -175,7 +175,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.userFunc0xec0650 = function GDJSInlineCode(runtimeScene) {
+};gdjs.LoadingCode.userFunc0x927b28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var script = document.createElement('script');
 script.src = 'https://telegram.org/js/telegram-web-app.js';
@@ -229,7 +229,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.LoadingCode.userFunc0xec0650(runtimeScene);
+gdjs.LoadingCode.userFunc0x927b28(runtimeScene);
 
 }
 
@@ -251,7 +251,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18199244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17876996);
 }
 }
 if (isConditionTrue_0) {
@@ -383,7 +383,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce")) != "ok";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17626588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17366372);
 }
 }
 }
@@ -409,7 +409,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce")) == "ok";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17628284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17368068);
 }
 }
 }
@@ -456,7 +456,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce")) == "ok";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17628540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17368324);
 }
 }
 }
@@ -481,7 +481,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0).getChild("AccountExistResponce")) == "ok";
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17629732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17369516);
 }
 }
 }
@@ -523,7 +523,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(20), false, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17641388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17381172);
 }
 }
 }
@@ -614,7 +614,7 @@ for (var i = 0, k = 0, l = gdjs.LoadingCode.GDTutorialBtnObjects2.length;i<l;++i
 gdjs.LoadingCode.GDTutorialBtnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17645740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17385524);
 }
 }
 }
@@ -651,7 +651,7 @@ for (var i = 0, k = 0, l = gdjs.LoadingCode.GDGameBtnObjects2.length;i<l;++i) {
 gdjs.LoadingCode.GDGameBtnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17646836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17386620);
 }
 }
 }
@@ -700,6 +700,7 @@ gdjs.copyArray(runtimeScene.getObjects("TutorialLbl"), gdjs.LoadingCode.GDTutori
 }{for(var i = 0, len = gdjs.LoadingCode.GDGameBtnObjects1.length ;i < len;++i) {
     gdjs.LoadingCode.GDGameBtnObjects1[i].hide();
 }
+}{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Menu");
 }
 { //Subevents
 gdjs.LoadingCode.eventsList3(runtimeScene);} //End of subevents

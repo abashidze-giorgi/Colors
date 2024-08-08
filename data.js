@@ -69,7 +69,7 @@ gdjs.projectData = {
             progressBarMinWidth: 40.0,
             progressBarWidthPercent: 30.0,
             showGDevelopSplash: false,
-            showProgressBar: false,
+            showProgressBar: true,
         },
         watermark: { placement: "bottom-left", showWatermark: false },
         authorIds: ["TZf6qe4D8AUceYNVrj5ORrJedV42"],
@@ -5373,7 +5373,7 @@ gdjs.projectData = {
             stopSoundsOnStartup: false,
             title: "",
             v: 4,
-            uiSettings: { grid: false, gridType: "rectangular", gridWidth: 32.0, gridHeight: 32.0, gridOffsetX: 0.0, gridOffsetY: 0.0, gridColor: 10401023.0, gridAlpha: 0.8, snap: false, zoomFactor: 0.7619362677197874, windowMask: false },
+            uiSettings: { grid: false, gridType: "rectangular", gridWidth: 32.0, gridHeight: 32.0, gridOffsetX: 0.0, gridOffsetY: 0.0, gridColor: 10401023.0, gridAlpha: 0.8, snap: false, zoomFactor: 0.49508400737490695, windowMask: false },
             objectsGroups: [],
             variables: [
                 { folded: true, name: "WIN", type: "boolean", value: false },
